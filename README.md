@@ -48,7 +48,7 @@ Los datos del primer año de DESI (2024) crean un **escenario restrictivo críti
 ### La Propuesta Radical: Cambio Ontológico
 Este trabajo propone que las tensiones de Hubble y $S_8$ son manifestaciones de un **mecanismo físico único** que emerge de la estructura discreta del vacío cuántico: el **aliasing informacional topológico**.
 
-
+```mermaid
 graph TD
     T["Paradoja Cosmológica<br>CMB H₀=67.4 vs Local H₀=73.04"] --> DESI["Cuello de Botella DESI 2024<br>BAO z>0.5 compatible con ΛCDM"]
     DESI --> NCG["Geometría No Conmutativa<br>KO-dimensión 6 necesaria para Modelo Estándar"]
@@ -64,7 +64,7 @@ graph TD
     style NCG fill:#9f9,stroke:#333,stroke-width:2px
     style Z6 fill:#bbf,stroke:#333,stroke-width:3px
     style Rfund fill:#ff9,stroke:#333,stroke-width:2px
-
+```
 
 **Diagrama de Flujo:** La estructura lógica del modelo muestra cómo múltiples anomalías observacionales convergen en un único mecanismo físico derivado de principios geométricos fundamentales.
 
