@@ -48,22 +48,38 @@ Los datos del primer año de DESI (2024) crean un **escenario restrictivo críti
 ### La Propuesta Radical: Cambio Ontológico
 Este trabajo propone que las tensiones de Hubble y $S_8$ son manifestaciones de un **mecanismo físico único** que emerge de la estructura discreta del vacío cuántico: el **aliasing informacional topológico**.
 
-```mermaid
-graph TD
-    A[Tensiones Cosmológicas<br>H₀ + S₈] --> B[Estructura Discreta<br>Vacío Cuántico]
-    B --> C[Geometría No Conmutativa<br>KO-dimensión 6]
-    C --> D[Estructura Modular<br>ℤ/6ℤ ≅ ℤ/2ℤ × ℤ/3ℤ]
-    D --> E[Aliasing Topológico<br>Ternario vs Binario]
-    E --> F[Fricción Informativa<br>µ = -3H R_fund Θ(z)]
-    F --> G[Ecuaciones Modificadas<br>Formalismo de Herglotz]
-    G --> H[Activación Tardía<br>Percolación z≈0.12]
-    H --> I[Predicciones Unificadas<br>H₀≈74.49, ∆S₈≈-9%]
-    
-    style A fill:#ff9999,stroke:#333
-    style D fill:#99ff99,stroke:#333
-    style F fill:#9999ff,stroke:#333
-    style I fill:#ffff99,stroke:#333,stroke-width:2px
 ```
+FLUJO LÓGICO DEL MODELO:
+┌─────────────────────────────────────────────────────────────┐
+│  Tensiones Cosmológicas (H₀ + S₈)                           │
+│                    ↓                                         │
+│  Estructura Discreta del Vacío Cuántico                     │
+│                    ↓                                         │
+│  Geometría No Conmutativa (KO-dimensión 6)                  │
+│                    ↓                                         │
+│  Estructura Modular: ℤ/6ℤ ≅ ℤ/2ℤ × ℤ/3ℤ                    │
+│                    ↓                                         │
+│  Aliasing Topológico: Ternario vs Binario                   │
+│                    ↓                                         │
+│  Fricción Informativa: µ = -3H R_fund Θ(z)                  │
+│                    ↓                                         │
+│  Ecuaciones Modificadas (Formalismo de Herglotz)            │
+│                    ↓                                         │
+│  Activación Tardía (Percolación z ≈ 0.12)                   │
+│                    ↓                                         │
+│  Predicciones Unificadas: H₀ ≈ 74.49, ΔS₈ ≈ -9%            │
+└─────────────────────────────────────────────────────────────┘
+
+COLORES CONCEPTUALES:
+• 🔴 Rojo: Problema Observacional (Tensiones)
+• 🟢 Verde: Fundamentación Geométrica (ℤ/6ℤ)
+• 🔵 Azul: Mecanismo Físico (Fricción Informativa)
+• 🟡 Amarillo: Predicciones Cuantitativas
+```
+
+**Diagrama de Flujo:** La estructura lógica del modelo muestra cómo múltiples anomalías observacionales convergen en un único mecanismo físico derivado de principios geométricos fundamentales.
+```
+
 
 ---
 
