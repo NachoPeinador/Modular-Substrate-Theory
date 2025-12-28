@@ -48,37 +48,25 @@ Los datos del primer año de DESI (2024) crean un **escenario restrictivo críti
 ### La Propuesta Radical: Cambio Ontológico
 Este trabajo propone que las tensiones de Hubble y $S_8$ son manifestaciones de un **mecanismo físico único** que emerge de la estructura discreta del vacío cuántico: el **aliasing informacional topológico**.
 
-```
-FLUJO LÓGICO DEL MODELO:
-┌─────────────────────────────────────────────────────────────┐
-│  Tensiones Cosmológicas (H₀ + S₈)                           │
-│                    ↓                                         │
-│  Estructura Discreta del Vacío Cuántico                     │
-│                    ↓                                         │
-│  Geometría No Conmutativa (KO-dimensión 6)                  │
-│                    ↓                                         │
-│  Estructura Modular: ℤ/6ℤ ≅ ℤ/2ℤ × ℤ/3ℤ                    │
-│                    ↓                                         │
-│  Aliasing Topológico: Ternario vs Binario                   │
-│                    ↓                                         │
-│  Fricción Informativa: µ = -3H R_fund Θ(z)                  │
-│                    ↓                                         │
-│  Ecuaciones Modificadas (Formalismo de Herglotz)            │
-│                    ↓                                         │
-│  Activación Tardía (Percolación z ≈ 0.12)                   │
-│                    ↓                                         │
-│  Predicciones Unificadas: H₀ ≈ 74.49, ΔS₈ ≈ -9%            │
-└─────────────────────────────────────────────────────────────┘
 
-COLORES CONCEPTUALES:
-• 🔴 Rojo: Problema Observacional (Tensiones)
-• 🟢 Verde: Fundamentación Geométrica (ℤ/6ℤ)
-• 🔵 Azul: Mecanismo Físico (Fricción Informativa)
-• 🟡 Amarillo: Predicciones Cuantitativas
-```
+graph TD
+    T["Paradoja Cosmológica<br>CMB H₀=67.4 vs Local H₀=73.04"] --> DESI["Cuello de Botella DESI 2024<br>BAO z>0.5 compatible con ΛCDM"]
+    DESI --> NCG["Geometría No Conmutativa<br>KO-dimensión 6 necesaria para Modelo Estándar"]
+    NCG --> Z6["Estructura Óptima<br>ℤ/6ℤ ≅ ℤ/2ℤ × ℤ/3ℤ<br>Eficiencia: EF = 1.00"]
+    Z6 --> Rfund["Factor de Aliasing<br>R_fund = 1/(6 log₂3) ≈ 0.105155"]
+    Rfund --> Herglotz["Formalismo de Herglotz<br>µ = -3H R_fund Θ(z) (anti-fricción)"]
+    Herglotz --> Perc["Activación Tardía<br>Percolación vacíos en z ≈ 0.12"]
+    Perc --> H0["Predicción H₀ Local<br>H₀ = 67.4 × (1+R_fund) ≈ 74.49 km/s/Mpc"]
+    Perc --> S8["Supresión Crecimiento<br>Δf/f ≈ -9% → Alivio tensión S₈"]
+    Perc --> BGS["Firma DESI BGS<br>Transición H(z) en z≈0.12 (8% ΔH)"]
+    
+    style T fill:#f9f,stroke:#333,stroke-width:2px
+    style NCG fill:#9f9,stroke:#333,stroke-width:2px
+    style Z6 fill:#bbf,stroke:#333,stroke-width:3px
+    style Rfund fill:#ff9,stroke:#333,stroke-width:2px
+
 
 **Diagrama de Flujo:** La estructura lógica del modelo muestra cómo múltiples anomalías observacionales convergen en un único mecanismo físico derivado de principios geométricos fundamentales.
-```
 
 
 ---
