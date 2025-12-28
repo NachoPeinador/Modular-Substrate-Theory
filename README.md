@@ -66,7 +66,7 @@ graph TD
     style Rfund fill:#ff9,stroke:#333,stroke-width:2px
 ```
 
-**Diagrama de Flujo:** La estructura lógica del modelo muestra cómo múltiples anomalías observacionales convergen en un único mecanismo físico derivado de principios geométricos fundamentales.
+**Explicación del Diagrama de Flujo**: Esta visualización muestra la arquitectura lógica del modelo de Aliasing Topológico, desde el problema observacional inicial hasta las predicciones cuantitativas verificables. Destaca cómo tensiones cosmológicas aparentemente independientes (H₀, S₈, compatibilidad DESI) emergen de un único mecanismo físico fundamentado en la estructura modular ℤ/6ℤ del vacío discreto, derivada rigurosamente de la KO-dimensión 6 en Geometría No Conmutativa. La ramificación final ilustra las predicciones específicas y falsables para diferentes observables.
 
 
 ---
