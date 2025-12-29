@@ -259,13 +259,48 @@ donde:
 
 El signo negativo es crucial: $\mu < 0$ corresponde a una \textit{anti-fricción} que acelera la expansión.
 
-\subsection{Función de Activación $\Theta(\mathcal{W})$ y Percolación de Vacíos}
-La función $\Theta(\mathcal{W})$ tiene una interpretación física profunda: representa la \textbf{probabilidad de percolación} de la red de vacíos cósmicos. Esta interpretación proporciona una justificación rigurosa para su forma:
+\subsection{Origen de la Fricción en la Anomalía Conforme}
+La dependencia del coeficiente de fricción $\mu$ respecto al invariante de Weyl $\mathcal{W}$ surge naturalmente de la estructura de la Acción Espectral en presencia de anomalías conformes.
+
+En el formalismo de Herglotz, la disipación $\mu$ cuantifica la violación de la invariancia de reparametrización temporal adiabática. En una Teoría de Campos Conforme (CFT) dual al espacio-tiempo, la acción es invariante de escala salvo por la anomalía de traza del tensor energía-momento:
 \begin{equation}
-\Theta(z) = \frac{1}{1 + \exp\left(\frac{z - z_c}{\Delta z}\right)}, \quad z_c \approx 0.12, \quad \Delta z \approx 0.03.
-\label{eq:theta_function}
+    \langle T^\mu_\mu \rangle = c \cdot C_{\mu\nu\rho\sigma}C^{\mu\nu\rho\sigma} - a \cdot E_4,
 \end{equation}
-El valor $z_c \approx 0.12$ emerge de la teoría de percolación aplicada a la red cósmica: es el redshift donde la fracción de volumen de vacíos alcanza el umbral crítico $p_c \approx 0.26$.
+donde $C^2 = \mathcal{W}$ es el cuadrado del tensor de Weyl.
+
+Nuestro modelo postula que la fricción informacional es el trabajo termodinámico realizado por el vacío para mantener la coherencia cuántica frente a esta anomalía.
+\begin{itemize}
+    \item En un fondo FLRW perfectamente homogéneo (Universo Temprano), el tensor de Weyl se anula idénticamente ($\mathcal{W}=0$). La simetría conforme es exacta, la anomalía desaparece y $\mu \to 0$.
+    \item Cuando se forman estructuras no lineales, $\mathcal{W} \neq 0$. La anomalía de traza se "enciende", generando un costo energético proporcional a la curvatura conforme local.
+\end{itemize}
+Por tanto, la forma $\mu \propto \Theta(\mathcal{W})$ no es una hipótesis ad-hoc, sino la expresión efectiva de la anomalía de traza en el Lagrangiano macroscópico:
+\begin{equation}
+    \mathcal{L}_{\text{diss}} \propto \int \sqrt{-g} \, \mathcal{W} \, d^4x.
+\end{equation}
+
+\subsection{Derivación de $\Theta(z)$ mediante Escala de Tamaño Finito}
+La forma funcional sigmoidal de $\Theta(z)$ no es una elección fenomenológica, sino una consecuencia necesaria de tratar la percolación de vacíos como una transición de fase geométrica en un sistema de volumen finito.
+
+Sea $p(z)$ la fracción de volumen ocupada por vacíos cósmicos. En el límite termodinámico ($V \to \infty$), la probabilidad de pertenencia al clúster infinito, $P_\infty$, se comporta como una función no analítica cerca del umbral crítico $p_c$:
+\begin{equation}
+    P_\infty(p) \propto (p - p_c)^\beta \cdot H(p - p_c),
+\end{equation}
+donde $\beta \approx 0.41$ es el exponente crítico universal para percolación en 3D.
+
+Sin embargo, el universo observable posee un radio causal finito $L_H = c/H_0$. La teoría de Escala de Tamaño Finito (Finite Size Scaling) establece que, en sistemas acotados, las singularidades críticas se suavizan. El parámetro de orden se convierte en una función de escala universal $\tilde{P}$:
+\begin{equation}
+    \Theta(z) \equiv P_\infty(z, L_H) \approx \tilde{P}\left( L_H^{1/\nu} (p(z) - p_c) \right),
+\end{equation}
+donde $\nu \approx 0.88$ es el exponente de la longitud de correlación. La expansión de Taylor de orden más bajo de esta función de escala universal reproduce la función logística:
+\begin{equation}
+    \Theta(z) \approx \frac{1}{1 + \exp\left(\frac{z - z_c}{\Delta z}\right)}.
+    \label{eq:theta_derived}
+\end{equation}
+Por tanto, los parámetros no son libres:
+\begin{itemize}
+    \item $z_c \approx 0.12$: Determinado por la dinámica de formación de estructuras ($\Lambda$CDM) cuando la fracción de vacíos cruza $p_c \approx 0.22$.
+    \item $\Delta z \approx 0.03$: Determinado por el radio del horizonte $L_H$ y el exponente crítico $\nu$, cuantificando la "borrosidad" termodinámica de la transición.
+\end{itemize}
 
 \subsection{Ecuaciones de Friedmann Modificadas}
 Variando la acción de Herglotz, obtenemos las ecuaciones de campo semicláscicas:
@@ -301,18 +336,22 @@ S_{\text{BH}} = \frac{A}{4G} + \frac{R_{\text{fund}}}{2\pi} \ln\left(\frac{A}{A_
 \end{equation}
 El coeficiente positivo $R_{\text{fund}}/(2\pi) \approx 0.01674$ contrasta con el valor $-1/2$ obtenido en algunos cálculos de LQG canónica \cite{Kaul2000}, indicando un \textit{ensamble termodinámico diferente}.
 
-\subsection{Predicción del Parámetro de Immirzi $\gamma$}
-En LQG, la corrección logarítmica a la entropía se relaciona con $\gamma$ y el espín mínimo $j_{\min}$ mediante \cite{Meissner2004}:
-\[
-S_{\text{LQG}} = \frac{A}{4G} + \frac{\ln(2j_{\min}+1)}{2\pi\gamma\sqrt{j_{\min}(j_{\min}+1)}} \ln\left(\frac{A}{A_{\text{Pl}}}\right) + \cdots.
-\]
-Igualando el coeficiente con el de nuestra Ec. (\ref{eq:entropy_corrected}) para $j_{\min}=1/2$:
+\subsection{Renormalización del Parámetro de Immirzi}
+La discrepancia entre nuestra predicción $\gamma \approx 2.10$ y el valor canónico de LQG ($\gamma_0 \approx 0.273$) se resuelve interpretando $\gamma$ como un acoplamiento dependiente de la escala (running coupling).
 
-\begin{teorema}[Conexión $R_{\text{fund}}-\gamma$]
-La teoría del aliasing topológico predice un valor único para el parámetro de Immirzi de LQG:
-\[
-\gamma = \frac{\ln 2}{\pi R_{\text{fund}}} \approx \frac{0.693147}{\pi \cdot 0.105155} \approx 2.098 \quad (\text{aproximadamente } 2.10).
-\end{teorema}
+El cálculo estándar de la entropía asume que el horizonte puede excitar cualquier estado en el espacio de Hilbert cinemático completo de $SU(2)$. Sin embargo, nuestra teoría establece que el vacío físico posee una simetría modular $\mathbb{Z}/6\mathbb{Z}$ (KO-dimensión 6), lo que impone una restricción de selección sobre los microestados permitidos. El espacio de Hilbert físico es un subespacio $\mathcal{H}_{\text{phys}} \subset \mathcal{H}_{SU(2)}$.
+
+La condición de consistencia termodinámica exige que la entropía macroscópica de Bekenstein-Hawking sea invariante bajo la descripción microscópica (invariancia de reparametrización del contador de estados). Si el número de estados accesibles se reduce ($\dim \mathcal{H}_{\text{phys}} \ll \dim \mathcal{H}_{SU(2)}$), el "área por bit" elemental debe aumentar para compensar y recuperar el área macroscópica total.
+
+Esto define una ecuación de flujo de renormalización para $\gamma$:
+\begin{equation}
+    \gamma_{\text{eff}} = \gamma_0 \cdot \frac{\ln(\dim \mathcal{H}_{SU(2)})}{\ln(\dim \mathcal{H}_{\text{phys}})} \approx \gamma_0 \cdot \mathcal{R}^{-1},
+\end{equation}
+donde $\mathcal{R}$ es la tasa de compresión informacional inducida por la simetría modular. Identificando $\mathcal{R} \sim R_{\text{fund}}$, obtenemos:
+\begin{equation}
+    \gamma_{\text{IR}} \approx \frac{\ln 2}{\pi R_{\text{fund}}} \approx 2.10.
+\end{equation}
+En este marco, $\gamma \approx 0.27$ es el valor ultravioleta (UV) desnudo, mientras que $\gamma \approx 2.10$ es el valor infrarrojo (IR) efectivo que gobierna la termodinámica macroscópica del horizonte.
 
 \begin{observacion}[Interpretación: Espuma de Espín Gruesa]
 Este valor $\gamma \approx 2.10$ es significativamente mayor que el valor canónico de LQG ($\sim 0.237-0.274$). Interpretamos esto como señal de una \textbf{espuma de espín gruesa (coarse-grained)}. La estructura $\mathbb{Z}/6\mathbb{Z}$ restringe severamente el espacio de Hilbert accesible en el horizonte comparado con la LQG basada en $SU(2)$ completa. Para reproducir la entropía macroscópica $A/4G$, cada cuanto de área debe contener más entropía microestados efectivos, lo que se traduce en un área mínima mayor: $A_{\min} \approx 52.7\, l_{\text{Pl}}^2$ (vs. $\sim 5\, l_{\text{Pl}}^2$ en LQG estándar).
