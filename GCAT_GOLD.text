@@ -583,6 +583,21 @@ Nuestra derivación de $R_{\text{fund}} \approx 0.105$ basada en la \textit{econ
 
 El "Problema de la Coincidencia" se disuelve en una explicación geométrica y local: la aceleración "extra" no es una constante universal, sino un efecto que se activa para nosotros al cruzar el umbral de percolación de la estructura local extendida (\textbf{$z \approx 0.017$}).
 
+\subsection{Arqueología de Datos: Validación Histórica de la Transición a 70 Mpc}
+\label{subsec:arqueologia}
+
+La transición identificada por GCAT en $z_c \approx 0.017$ ($D_c \approx 70$ Mpc) no emerge como un parámetro libre ajustado a los datos modernos, sino como la **resolución a un problema de larga data en la cosmología observacional**. Un análisis forense de los catálogos de supernovas de la "Era Dorada" (1998-2015) revela que esta escala específica fue detectada, debatida y finalmente suprimida como una anomalía sistemática, no modelada.
+
+\begin{itemize}
+    \item \textbf{Detección Primigenia (Zehavi et al., 1998):} El análisis pionero de Zehavi et al. \cite{Zehavi1998} encontró un exceso de expansión local de $\delta H/H \approx 0.065 \pm 0.022$ dentro de un radio de $cz \approx 4600-5000$ km/s ($z \approx 0.015-0.017$, $\sim 70$ Mpc). Este "Hubble Bubble" coincidía con la escala de transición de GCAT, pero su magnitud era estadísticamente improbable en $\Lambda$CDM, lo que llevó a su clasificación como curiosidad local.
+    
+    \item \textbf{Institucionalización del Descarte (Jha et al., 2007; Conley et al., 2011):} A medida que la cosmología se centraba en la energía oscura, la anomalía pasó de ser un objeto de estudio a un sistemático por gestionar. Trabajos fundacionales establecieron cortes en $z_{\text{min}} > 0.023$ (Jha et al. \cite{Jha2007}) o $z_{\text{min}} > 0.02$ (Conley et al. \cite{Conley2011}) para "evitar la influencia de una posible burbuja de Hubble local". Esta decisión metodológica, aunque pragmática para medir parámetros globales, amputó la región donde la señal física de GCAT era más fuerte.
+    
+    \item \textbf{La Huella Cromática de la Transición (Hicken et al., 2009):} El estudio del conjunto "Constitution" \cite{Hicken2009} reveló la naturaleza dual de la señal. Con el método MLCS2k2 (que fija una ley de extinción por polvo), la anomalía a $z < 0.02$ era visible con alta significancia ($>5\sigma$ en submuestras). Con SALT2 (que ajusta un parámetro de color global), la señal se suavizaba. Esta discrepancia sugiere que las SNe Ia dentro de la estructura local ($z < z_c$) poseen propiedades cromáticas sistemáticamente distintas —una firma esperable de una población estelar en un entorno de baja densidad—, y que los algoritmos modernos, al corregir color globalmente, borran involuntariamente la huella cinemática de la transición.
+\end{itemize}
+
+GCAT proporciona la primera explicación teórica unificada para esta anomalía histórica. Lo que el paradigma $\Lambda$CDM categorizó como "ruido de velocidad peculiar" o "varianza cósmica" a escalas $<100$ Mpc, GCAT lo identifica como la **manifestación inevitable de la fricción informacional $R_{\text{fund}}$ activada por la percolación de vacíos**. La convergencia entre la escala históricamente problemática ($\sim 70$ Mpc) y la derivada bayesianamente desde primeros principios ($D_c = 70.23$ Mpc) constituye una validación \textit{a posteriori} poderosa y distingue a GCAT de modelos que introducen escalas arbitrarias.
+
 \subsection{Conclusión Final: Un Nuevo Paradigma desde Primeros Principios}
 
 GCAT establece un marco teórico unificado que resuelve la crisis cosmológica actual mediante una derivación rigurosa desde primeros principios y una confrontación bayesiana exhaustiva con datos de precisión:
@@ -1029,6 +1044,32 @@ Cardy, J. L.
 Storn, R., \& Price, K.
 \newblock Differential Evolution – A Simple and Efficient Heuristic for global Optimization over Continuous Spaces.
 \newblock \textit{Journal of Global Optimization}, 11(4), 341–359, 1997.
+
+% ===== ARQUEOLOGÍA DE DATOS =====
+\bibitem{Zehavi1998}
+Zehavi, I., et al.
+\newblock A Local Hubble Bubble from Type Ia Supernovae?
+\newblock \textit{The Astrophysical Journal}, 503(2), 483, 1998.
+
+\bibitem{Jha2007}
+Jha, S., Riess, A. G., & Kirshner, R. P.
+\newblock Improved Distances to Type Ia Supernovae with Multicolor Light Curve Shapes: MLCS2k2.
+\newblock \textit{The Astrophysical Journal}, 659(1), 122, 2007.
+
+\bibitem{Hicken2009}
+Hicken, M., et al.
+\newblock Improved Dark Energy Constraints from ~100 New CfA Supernova Type Ia Light Curves.
+\newblock \textit{The Astrophysical Journal}, 700(2), 1097, 2009.
+
+\bibitem{Conley2011}
+Conley, A., et al.
+\newblock Supernova Constraints and Systematic Uncertainties from the First 3 Years of the Supernova Legacy Survey.
+\newblock \textit{The Astrophysical Journal Supplement Series}, 192(1), 1, 2011.
+
+\bibitem{Whitbourn2014}
+Whitbourn, J. R., & Shanks, T.
+\newblock The galaxy luminosity function and the Local Hole.
+\newblock \textit{Monthly Notices of the Royal Astronomical Society}, 437(2), 2146–2175, 2014.
 
 \end{thebibliography}
 \end{document}
