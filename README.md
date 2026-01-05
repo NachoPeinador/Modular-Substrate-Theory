@@ -97,18 +97,18 @@ $$R_{\text{fund}} = \frac{\text{Acoplamiento Topológico}}{\text{Coste de Conver
 
 ---
 
-## 💡 Conclusión: Un Nuevo Paradigma Físico
+## 💡 Conclusión: Un Nuevo Paradigma Cosmológico
 
-El análisis bayesiano presentado en este repositorio sugiere que estamos ante un cambio ontológico en la cosmología:
+La evidencia estadística presentada ($\Delta\chi^2 \approx -18.6$ vs $\Lambda$CDM) sugiere que las tensiones actuales no requieren "nueva física" exótica, sino una **nueva ontología** del espacio-tiempo.
 
-| Concepto | Paradigma $\Lambda$CDM (Actual) | Paradigma GCAT (Propuesto) |
+| Concepto | Paradigma Estándar ($\Lambda$CDM) | Paradigma GCAT (Informacional) |
 | :--- | :--- | :--- |
-| **Origen Aceleración** | Fluido desconocido (Energía Oscura) con presión negativa. | **Fricción Informacional** por desajuste topológico (Aliasing). |
-| **Naturaleza del Espacio** | Continuo, Geometría Riemanniana suave. | **Discreto**, Modular $\mathbb{Z}/6\mathbb{Z}$ (Geometría No Conmutativa). |
-| **Tensiones ($H_0, S_8$)** | "Errores sistemáticos" o "Nueva Física" ad-hoc. | **Manifestaciones esperadas** de la transición de fase local. |
-| **Datos Locales** | A menudo descartados o recortados ($z>0.02$). | **Fundamentales**: Validan la saturación del límite cinemático. |
+| **Origen Aceleración** | Fluido desconocido (Energía Oscura) con presión negativa constante. | **Coste Termodinámico** por procesar información en la frontera (Fricción). |
+| **Naturaleza del Espacio** | Geometría Riemanniana continua y suave a cualquier escala. | **Estructura Discreta y Modular** ($\mathbb{Z}/6\mathbb{Z}$) derivada de la NCG. |
+| **Tensión de Hubble ($H_0$)** | Anomalía estadística o error sistemático local a descartar. | **Aliasing Topológico**: Un efecto de muestreo inevitable al saturar el límite cinemático ($D_c$). |
+| **Estatus de Datos Locales** | "Ruidosos" o contaminados por flujos peculiares (se recortan $z < 0.02$). | **Señal Fundamental**: La saturación a 70 Mpc (*CosmicFlows-4*) revela la transición de fase. |
 
-> **En resumen:** El universo no se expande más rápido localmente porque haya una "energía extra", sino porque el espacio-tiempo discreto tiene un coste de computación más alto en la frontera holográfica que en el volumen.
+> **En resumen:** El universo no se expande más rápido localmente debido a una "energía extra", sino porque el espacio-tiempo discreto impone un **peaje informacional** al traducir el volumen (base 3) a la superficie (base 2). La tensión de Hubble es, simplemente, la factura de ese peaje.
 
 ---
 
