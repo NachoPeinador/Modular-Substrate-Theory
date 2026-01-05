@@ -16,6 +16,33 @@
 
 Este repositorio contiene el **pipeline de validación bayesiana** que demuestra cómo este efecto se activa al saturar el límite cinemático local ($D_c \approx 70$ Mpc), resolviendo las tensiones cosmológicas actuales sin parámetros libres ajustables.
 
+---
+
+## 📐 Las Fórmulas Maestras (Derivación Ab Initio)
+
+La potencia de GCAT reside en que las tensiones cosmológicas no se "ajustan", sino que se **predicen** analíticamente a partir de constantes topológicas universales, sin parámetros libres dinámicos.
+
+### 1. La Constante de Información ($\kappa_{\text{info}}$)
+Surge de la incompatibilidad entre la codificación óptima del volumen (base 3) y la frontera holográfica (base 2), modulada por la geometría no conmutativa ($\xi = 1/6$):
+
+$$\kappa_{\text{info}} \equiv \frac{\xi_{\text{NCG}}}{\mathcal{S}_{\text{conv}}} = \frac{1/6}{\log_2(3)} \approx 0.10515$$
+
+### 2. Unificación de Tensiones
+Esta única constante $\kappa_{\text{info}}$ genera simultáneamente la aceleración aparente ($H_0$) y la supresión de estructura ($S_8$) al activarse la transición $\Theta(z)$:
+
+$$\underbrace{\frac{H_{\text{Local}}}{H_{\text{CMB}}} \approx (1 - \kappa_{\text{info}})^{-1/2}}_{\text{Solución Tensión } H_0} \quad \text{y} \quad \underbrace{S_8^{\text{Local}} \approx S_8^{\text{Planck}} (1 - \beta \kappa_{\text{info}})}_{\text{Solución Tensión } S_8}$$
+
+Donde $\beta = 0.75$ es el factor de proyección dimensional ($d=3$ vs $d=4$).
+
+---
+
+### 3. Predicción Numérica Pura
+Sustituyendo las constantes fundamentales:
+
+$$\frac{H_{\text{Local}}}{H_{\text{CMB}}} \approx \frac{1}{\sqrt{1 - 0.10515}} \approx 1.057 \implies \Delta H_0 \sim 5.7\%$$
+
+> **Nota:** El análisis bayesiano completo refina este valor base incorporando la anchura de la transición y la dinámica de vacíos, convergiendo exactamente al valor observado de $\sim 73.5$ km/s/Mpc.
+
 ### 📊 Resultados Principales (V9)
 
 | Métrica | Valor ΛCDM (Planck) | Valor Observado (SH0ES/KiDS) | **Predicción GCAT** | **Estado** |
@@ -39,25 +66,6 @@ La teoría se construye sobre tres pilares derivados desde primeros principios:
 A diferencia de modelos anteriores, GCAT identifica que este efecto se activa globalmente cuando la red de vacíos cósmicos **percola y satura la estructura local**.
 * **Límite Cinemático:** Datos de *CosmicFlows-4* (Mazurenko et al., 2024) imponen un límite de $\sim 70$ Mpc a las estructuras locales.
 * **Hallazgo V9:** Nuestro análisis bayesiano converge a $D_c = 70.23$ Mpc, saturando este límite físico y explicando el "escalón" en los datos de supernovas (Pantheon+).
-
----
-
-## 📐 La Ecuación Maestra (Derivación Ab Initio)
-
-El corazón de GCAT es que la aceleración cósmica no requiere parámetros libres ($w, \Omega_\Lambda$), sino que es una constante fundamental derivada de la topología:
-
-$$R_{\text{fund}} = \frac{\xi_{\text{NCG}}}{\mathcal{S}_{\text{Info}}} = \frac{1/6}{\log_2 3} \approx 0.105155$$
-
-Donde:
-* **$\xi_{\text{NCG}} = 1/6$:** Es el acoplamiento conforme dictado por la KO-dimensión 6 del Modelo Estándar en Geometría No Conmutativa.
-* **$\mathcal{S}_{\text{Info}} = \log_2 3$:** Es el coste entrópico de traducir un volumen ternario (óptimo) a una frontera binaria (holográfica).
-
-### Predicción Analítica de la Tensión
-Sin necesidad de simulaciones, esta constante predice la discrepancia de Hubble como un efecto de aliasing geométrico:
-
-$$H_0^{\text{Local}} \approx H_0^{\text{CMB}} \times \sqrt{1 + 2R_{\text{fund}}} \approx 67.4 \times 1.099 \approx 74.1 \text{ km/s/Mpc}$$
-
-*(Nota: La solución numérica exacta del paper, $73.52$, incluye los efectos de la transición suave $\Theta(z)$ modelados en el código).*
 
 ---
 
