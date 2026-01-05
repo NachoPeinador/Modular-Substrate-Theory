@@ -12,10 +12,14 @@
 
 ## 🎯 Resumen Ejecutivo (TL;DR)
 
-**GCAT (Quantum Gravity as Topological Aliasing)** propone que la energía oscura no es un fluido, sino un **coste termodinámico** de procesar información. El desajuste entre la codificación óptima del volumen (base ternaria, $\mathbb{Z}/3\mathbb{Z}$) y la frontera holográfica (base binaria, $\mathbb{Z}/2\mathbb{Z}$) genera un "aliasing" o fricción informacional.
+**GCAT (Gravedad Cuántica como Aliasing Topológico)** propone un cambio de paradigma: la energía oscura no es un fluido desconocido, sino el **coste termodinámico** de procesar información en un espacio-tiempo discreto.
 
-Este repositorio contiene el **pipeline de validación bayesiana** que demuestra cómo este efecto se activa al saturar el límite cinemático local ($D_c \approx 70$ Mpc), resolviendo las tensiones cosmológicas actuales sin parámetros libres ajustables.
+La expansión acelerada surge de una **fricción informacional**: el desajuste entre la codificación óptima del volumen (base ternaria, $\mathbb{Z}/3\mathbb{Z}$) y la codificación forzada de la frontera holográfica (base binaria, $\mathbb{Z}/2\mathbb{Z}$).
 
+Este repositorio contiene el **pipeline de validación bayesiana** que demuestra que:
+1.  Este efecto se activa al saturar el límite cinemático local ($D_c \approx 70$ Mpc).
+2.  Resuelve las tensiones de Hubble y $S_8$ simultáneamente.
+3.  Lo hace **desde primeros principios**, sin parámetros libres ad-hoc.
 ---
 
 ## 📐 Las Fórmulas Maestras: Del Bit al Cosmos
