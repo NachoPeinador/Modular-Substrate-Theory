@@ -22,7 +22,7 @@ Este repositorio contiene el **pipeline de validación bayesiana** que demuestra
 |:---|:---:|:---:|:---:|:---:|
 | **Hubble ($H_0$)** | $67.4 \pm 0.5$ | $73.04 \pm 1.04$ | **$73.52 \pm 1.04$** | ✅ **Resuelta ($0.46\sigma$)** |
 | **Estructura ($S_8$)** | $0.834 \pm 0.01$ | $0.766 \pm 0.02$ | **$0.782 \pm 0.01$** | ✅ **Resuelta ($0.74\sigma$)** |
-| **Evidencia Bayesiana** | Ref (0) | -- | **$\Delta$BIC < -10** | 🏆 **Muy Fuerte** |
+| **Evidencia Bayesiana** | Ref (0) | -- | **ΔBIC < -10** | 🏆 **Muy Fuerte** |
 
 ---
 
