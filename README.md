@@ -1,4 +1,4 @@
-# 🌌 GCAT V9: Gravedad Cuántica como Aliasing Topológico
+# 🌌 GCAT: Gravedad Cuántica como Aliasing Topológico
 ### Fricción Informacional y Saturación del Límite Cinemático Local
 
 > **Una solución unificada a las tensiones de Hubble ($H_0$) y $S_8$ basada en la Geometría No Conmutativa y la percolación de vacíos.**
