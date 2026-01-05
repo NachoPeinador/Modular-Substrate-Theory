@@ -8,8 +8,9 @@
 % --- Formato y Estilo ---
 \usepackage{geometry}
 \geometry{margin=2.5cm}
-\usepackage{xcolor}
+\usepackage[table]{xcolor}
 \usepackage{listings}
+
 
 % Configuración para mostrar código (Pseudocódigo)
 \lstset{
@@ -38,7 +39,8 @@
 
 % --- Hipervínculos y Bibliografía ---
 \usepackage[colorlinks=true, linkcolor=blue, citecolor=teal, urlcolor=cyan]{hyperref}
-\usepackage[numbers]{natbib} 
+\usepackage[numbers]{natbib}
+\usepackage{orcidlink}
 
 % --- Configuración de Teoremas ---
 \theoremstyle{plain}
@@ -57,8 +59,12 @@
 % ==============================================================================
 % METADATOS DEL DOCUMENTO
 % ==============================================================================
-\title{\textbf{Gravedad Cuántica como Aliasing Topológico:} \\ Unificación de la Dinámica de Percolación y la Geometría No Conmutativa \\ en la Resolución de Tensiones Cosmológicas}
-\author{\textbf{José Ignacio Peinador Sala} \\ \small{Equipo de Investigación Avanzada en Física Teórica (ATPG)} \\ \small{\texttt{Enero 2026}}}
+\title{\textbf{Gravedad Cuántica como Aliasing Topológico:} \\ Fricción Informacional y la Saturación del Límite Cinemático Local}
+\author{
+  \textbf{José Ignacio Peinador Sala}\,\orcidlink{0009-0008-1822-3452} \\
+  Investigador Independiente \\[2pt]
+  \small\href{mailto:joseignacio.peinador@gmail.com}{joseignacio.peinador@gmail.com}
+}
 \date{}
 
 \begin{document}
@@ -211,7 +217,7 @@ Por lo tanto, definimos teóricamente:
 \label{eq:beta_final}
 \end{equation}
 
-\subsubsection{Cálculo de la Supresión de $S_8$}
+\subsubsection{Cálculo de la Supresión de \texorpdfstring{$S_8$}{S8}}
 
 Con $R_{\text{fund}}$ y $\beta$ derivados, podemos predecir la magnitud de la supresión del crecimiento de estructuras. El factor de supresión $f_{\text{supp}}$ en la amplitud de fluctuaciones es:
 
@@ -242,7 +248,7 @@ Este valor predicho teóricamente coincide con las mediciones de lentes débiles
     \item DES Y3: $S_8 = 0.776 \pm 0.017$ \cite{DES2022}
 \end{itemize}
 
-La validación numérica en nuestro código (Apéndice B) confirma que el optimizador converge a un valor final de $S_8^{\text{GCAT}} = 0.782 \pm 0.014$, resolviendo la tensión a un nivel de $0.74\sigma$ sin necesidad de ajuste fino, simplemente aplicando la geometría fundamental derivada.
+La validación numérica en nuestro código (Apéndice \ref{app:codigo}) confirma que el optimizador converge a un valor final de $S_8^{\text{GCAT}} = 0.782 \pm 0.014$, resolviendo la tensión a un nivel de $0.74\sigma$ sin necesidad de ajuste fino, simplemente aplicando la geometría fundamental derivada. \label{app:codigo}
 
 % ============================================
 % SECCIÓN 3: MECANISMO DE ACTIVACIÓN
@@ -274,7 +280,7 @@ Sin embargo, el universo observable es un sistema físico acotado por el horizon
 \end{equation}
 donde $\nu \approx 0.88$ es el exponente crítico universal para percolación en 3D. Esta consideración física justifica rigurosamente la forma funcional de la función de activación $\Theta(z)$ utilizada en nuestro modelo.
 
-\subsection{La Física del Borde Local: Saturación del Límite de CosmicFlows-4}
+\subsection[La Física del Borde Local: Saturación del Límite de CosmicFlows-4]{La Física del Borde Local: \\ Saturación del Límite de CosmicFlows-4}
 
 El análisis numérico de los datos más recientes, restringido por priors cinemáticos estrictos, sitúa la transición en un redshift crítico de \textbf{$z_c \approx 0.017$}. Este valor corresponde a una distancia comóvil de aproximadamente \textbf{70 Mpc}.
 
@@ -367,7 +373,7 @@ Esta ecuación encapsula la fenomenología del modelo:
 \section{Resultados: Inferencia Bayesiana en la Era de Precisión}
 \label{sec:resultados}
 
-La validez de una teoría física se mide por su capacidad para explicar anomalías que el modelo estándar no puede, con incertidumbres cuantificadas rigurosamente. En esta sección, presentamos los resultados de la inferencia bayesiana completa de GCAT V9, confrontando la teoría con los conjuntos de datos más recientes: las sistemáticas de bajo redshift de Pantheon+, los mapas cinemáticos de \textit{CosmicFlows-4}, y los datos de BAO de DESI 2024. Utilizamos priors físicos formales en lugar de penalizaciones ad-hoc, estableciendo un nuevo estándar de rigor estadístico para modelos de gravedad modificada.
+La validez de una teoría física se mide por su capacidad para explicar anomalías que el modelo estándar no puede, con incertidumbres cuantificadas rigurosamente. En esta sección, presentamos los resultados de la inferencia bayesiana completa de GCAT, confrontando la teoría con los conjuntos de datos más recientes: las sistemáticas de bajo redshift de Pantheon+, los mapas cinemáticos de \textit{CosmicFlows-4}, y los datos de BAO de DESI 2024. Utilizamos priors físicos formales en lugar de penalizaciones ad-hoc, estableciendo un nuevo estándar de rigor estadístico para modelos de gravedad modificada.
 
 \subsection{Resolución Bayesiana de la Tensión de Hubble}
 
@@ -378,52 +384,62 @@ Evaluando la ecuación maestra (\ref{eq:master_equation}) en $z=0$:
 H_0^{\text{GCAT}} = \frac{H_0^{\text{Planck}}}{\sqrt{1 - 2R_{\text{fund}} \Theta(0)}} = 73.52 \text{ km/s/Mpc}.
 \end{equation}
 
-La tensión con SH0ES se reduce a \textbf{$0.46\sigma$} ($73.52$ vs $73.04 \pm 1.04$ km/s/Mpc), estadísticamente insignificante. La robustez de esta solución está confirmada por: (1) tasa de aceptación MCMC del $69.7\%$, (2) éxito del $100\%$ en bootstrap (30 iteraciones), y (3) consistencia entre métodos de inferencia.
+La tensión con SH0ES se reduce a \textbf{$0.46\sigma$} ($73.52$ vs $73.04 \pm 1.04$ km/s/Mpc), estadísticamente insignificante. La robustez de esta solución está confirmada por:
+
+\begin{enumerate}
+    \item Tasa de aceptación MCMC del $69.7\%$.
+    \item Éxito del $100\%$ en bootstrap (30 iteraciones).
+    \item Consistencia entre métodos de inferencia.
+\end{enumerate}
 
 % ============================================
-% TABLA DE RESULTADOS NUMÉRICOS (V9 BAYESIANA)
+% TABLA DE RESULTADOS NUMÉRICOS (BAYESIANA)
 % ============================================
 \begin{table}[h!]
 \centering
-\caption{Resultados bayesianos de GCAT V9 con análisis de robustez}
-\begin{tabular}{lccc}
-\toprule
-\textbf{Parámetro} & \textbf{Valor Óptimo} & \textbf{Incertidumbre (95\% CI)} & \textbf{Método} \\
-\midrule
-Redshift de transición, $z_c$ & $0.01703$ & $[0.0148, 0.0194]$ & Bootstrap \\
-Ancho de transición, $\Delta z$ & $0.01453$ & $[0.0128, 0.0157]$ & Bootstrap \\
-Distancia comóvil, $D_c$ & $70.23$ Mpc & $[61.0, 79.6]$ Mpc & Bootstrap \\
-\addlinespace
-$H_0$ (predicción GCAT) & $73.52$ km/s/Mpc & $\pm 1.04$ & SH0ES comparación \\
-$S_8$ (predicción GCAT) & $0.782$ & $\pm 0.020$ & KiDS/DES comparación \\
-\addlinespace
-Tensión $H_0$ ($\Delta\sigma$) & $0.46$ & -- & vs SH0ES \\
-Tensión $S_8$ ($\Delta\sigma$) & $0.74$ & -- & vs KiDS/DES \\
-\addlinespace
-Factor de aliasing, $R_{\text{fund}}$ & $0.105155$ & (fijo) & Derivado de GNC \\
-Acoplamiento $\beta$ & $0.75$ & (fijo) & Proyección dimensional \\
-Frecuencia resonante GW & $1.38 \times 10^{-16}$ Hz & $[1.22, 1.59] \times 10^{-16}$ Hz & Propagación CI \\
-\bottomrule
-\end{tabular}
+\caption{Resultados bayesianos de GCAT con análisis de robustez}
+% El comando resizebox escala la tabla al ancho del texto
+\resizebox{\textwidth}{!}{%
+    \begin{tabular}{lccc}
+    \toprule
+    \textbf{Parámetro} & \textbf{Valor Óptimo} & \textbf{Incertidumbre (95\% CI)} & \textbf{Método} \\
+    \midrule
+    Redshift de transición, $z_c$ & $0.01703$ & $[0.0148, 0.0194]$ & Bootstrap \\
+    Ancho de transición, $\Delta z$ & $0.01453$ & $[0.0128, 0.0157]$ & Bootstrap \\
+    Distancia comóvil, $D_c$ & $70.23$ Mpc & $[61.0, 79.6]$ Mpc & Bootstrap \\
+    \addlinespace
+    $H_0$ (predicción GCAT) & $73.52$ km/s/Mpc & $\pm 1.04$ & SH0ES comp. \\
+    $S_8$ (predicción GCAT) & $0.782$ & $\pm 0.020$ & KiDS/DES comp. \\
+    \addlinespace
+    Tensión $H_0$ ($\Delta\sigma$) & $0.46$ & -- & vs SH0ES \\
+    Tensión $S_8$ ($\Delta\sigma$) & $0.74$ & -- & vs KiDS/DES \\
+    \addlinespace
+    Factor de aliasing, $R_{\text{fund}}$ & $0.105155$ & (fijo) & Derivado de GNC \\
+    Acoplamiento $\beta$ & $0.75$ & (fijo) & Proyección dim. \\
+    Frecuencia resonante GW & $1.38 \times 10^{-16}$ Hz & $[1.22, 1.59] \times 10^{-16}$ Hz & Propagación CI \\
+    \bottomrule
+    \end{tabular}%
+}
 \label{tab:results_v9}
 \end{table}
 
 \textbf{Interpretación bayesiana:} La optimización con prior físico de \textit{CosmicFlows-4} converge a $D_c = 70.23$ Mpc, dentro del intervalo de credibilidad del 95\% $[61.0, 79.6]$ Mpc. Este intervalo contiene el límite superior de Mazurenko et al. (70 Mpc), confirmando que GCAT \textbf{satura pero no viola} la restricción cinemática. La solución es robusta: análisis bootstrap (30 iteraciones, éxito 100\%) y MCMC (tasa aceptación 69.7\%) producen distribuciones consistentes.
 
 % ============================================
-% FIGURA: RESUMEN DE RESULTADOS (GCAT V9)
+% FIGURA: RESUMEN DE RESULTADOS (GCAT)
 % ============================================
-\begin{figure}[t!]
+\begin{figure}[h!]
     \centering
     % Asegúrate de que el nombre del archivo coincida con el que subiste
-    \includegraphics[width=1.0\textwidth]{gcat_hubble_evolution.png} 
-    \caption{\textbf{Resumen de la validación bayesiana de GCAT V9.} 
+    \includegraphics[width=1.0\textwidth]{gcat_results_summary.png} 
+    \caption{\textbf{Resumen de la validación bayesiana de GCAT.} 
     \textit{Panel Superior Izq:} Resolución de la tensión de Hubble; la predicción de GCAT (barra azul) cierra la brecha entre Planck (rojo) y SH0ES (amarillo).
     \textit{Panel Superior Der:} Supresión de $S_8$; GCAT (azul) reduce la amplitud de fluctuaciones, alineándose con los sondeos de lentes débiles KiDS/DES (verde).
     \textit{Panel Inferior Izq:} Distancia de transición $D_c$. La barra azul muestra cómo el modelo satura el límite cinemático de 70 Mpc (línea roja discontinua) impuesto por \textit{CosmicFlows-4}, sin violarlo (zona roja sombreada).
     \textit{Panel Inferior Der:} Predicción falsable de la frecuencia de resonancia para ondas gravitacionales en $\sim 1.38 \times 10^{-16}$ Hz.}
     \label{fig:results_summary}
 \end{figure}
+\newpage
 
 
 
@@ -431,18 +447,6 @@ Frecuencia resonante GW & $1.38 \times 10^{-16}$ Hz & $[1.22, 1.59] \times 10^{-
 \subsection{El "Escalón" de Pantheon+: De Ruido a Señal Física}
 
 Una validación independiente de la escala $z_c \approx 0.017$ proviene del análisis de residuos de supernovas. Los análisis estándar (como SH0ES) aplican un corte en $z_{\text{min}} > 0.023$ para evitar la contaminación por flujos peculiares, descartando así datos potencialmente informativos. Sin embargo, al observar los datos "crudos" de Pantheon+ \cite{Brout2022}, aparece un "escalón" sistemático en las magnitudes a $z < 0.02$ que normalmente se clasifica como ruido.
-
-% ============================================
-% FIGURA: HISTORIA DE EXPANSIÓN
-% ============================================
-\begin{figure}[t!]
-    \centering
-    \includegraphics[width=0.95\textwidth]{gcat_history_summary.png} 
-    \caption{\textbf{Historia de expansión local (H(z)) a bajo redshift.} 
-    \textit{Panel Superior:} La curva azul sólida (GCAT) muestra una aceleración tardía que se aparta de la predicción estándar $\Lambda$CDM (línea roja discontinua) a $z < 0.05$. Esta desviación permite ajustar el dato local de Pantheon+ (punto verde) y converge al valor de SH0ES (línea naranja discontinua) en $z=0$. La línea vertical punteada marca el redshift de transición $z_c \approx 0.017$.
-    \textit{Panel Inferior:} Evolución de la función de activación $\Theta(z)$ (línea verde sólida) que modula la fricción informacional. El área sombreada gris representa el intervalo de confianza del 95\% obtenido mediante análisis bootstrap, confirmando la robustez de la localización de la transición.}
-    \label{fig:expansion_history}
-\end{figure}
 
 GCAT reinterpreta esta anomalía como señal física:
 \begin{itemize}
@@ -452,6 +456,18 @@ GCAT reinterpreta esta anomalía como señal física:
     
     \item \textbf{Consistencia con BAO locales:} Los datos de DESI 2024 a muy bajo redshift ($z < 0.1$) muestran desviaciones sutiles de $\Lambda$CDM que GCAT ajusta naturalmente mediante la función de activación $\Theta(z)$ centrada en $z_c \approx 0.017$.
 \end{itemize}
+
+% ============================================
+% FIGURA: HISTORIA DE EXPANSIÓN
+% ============================================
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.95\textwidth]{gcat_hubble_evolution.png} 
+    \caption{\textbf{Historia de expansión local (H(z)) a bajo redshift.} 
+    \textit{Panel Superior:} La curva azul sólida (GCAT) muestra una aceleración tardía que se aparta de la predicción estándar $\Lambda$CDM (línea roja discontinua) a $z < 0.05$. Esta desviación permite ajustar el dato local de Pantheon+ (punto verde) y converge al valor de SH0ES (línea naranja discontinua) en $z=0$. La línea vertical punteada marca el redshift de transición $z_c \approx 0.017$.
+    \textit{Panel Inferior:} Evolución de la función de activación $\Theta(z)$ (línea verde sólida) que modula la fricción informacional. El área sombreada gris representa el intervalo de confianza del 95\% obtenido mediante análisis bootstrap, confirmando la robustez de la localización de la transición.}
+    \label{fig:expansion_history}
+\end{figure}
 
 \subsection{Supresión de \texorpdfstring{$S_8$}{S8}: Validación del Acoplamiento Dimensional}
 
@@ -533,7 +549,12 @@ La eficiencia del acoplamiento está modulada por la función de resonancia $\ma
     
     \textbf{Predicción cuantitativa:} Una supresión de amplitud $\mathcal{A}(f) \approx \exp[-\Gamma \mathcal{R}(f)]$ en el fondo estocástico de ondas gravitacionales, con atenuación máxima $\mathcal{A}_{\min} \sim 0.92$ (supresión del $\sim 8\%$) centrada en la banda $[1.22, 1.59] \times 10^{-16}$ Hz. Esta banda coincide con la sensibilidad óptima de los arreglos de temporización de púlsares (PTA) de próxima generación (IPTA, SKA) y podría dejar una huella detectable en la polarización modo-B del CMB a grandes escalas angulares ($\ell \lesssim 10$).
     
-    \item \textbf{Implicación cosmológica:} La atenuación resonante ofrece un mecanismo físico natural para explicar: (1) la aparente baja potencia cuadrupolar en el CMB (efecto Sachs-Wolfe integrado), tradicionalmente atribuida a cortes de escala inflacionarios ad-hoc; (2) posibles anomalías en los límites superiores del fondo estocástico de GW reportados por colaboraciones PTA; (3) la supresión de potencia a grandes escalas en mapas de lentes débiles de campo completo.
+    \item \textbf{Implicación cosmológica:} La atenuación resonante ofrece un mecanismo físico natural para explicar:
+    \begin{enumerate}
+        \item La aparente baja potencia cuadrupolar en el CMB (efecto Sachs-Wolfe integrado), tradicionalmente atribuida a cortes de escala inflacionarios ad-hoc.
+        \item Posibles anomalías en los límites superiores del fondo estocástico de GW reportados por colaboraciones PTA.
+        \item La supresión de potencia a grandes escalas en mapas de lentes débiles de campo completo.
+    \end{enumerate}
 \end{itemize}
 
 \textbf{Falsabilidad específica:} GCAT hace una predicción \textbf{cuantitativa y estrecha} para la frecuencia de resonancia ($1.38 \times 10^{-16}$ Hz, CI: $[1.22, 1.59] \times 10^{-16}$ Hz), distinguible de predicciones genéricas de gravedad modificada. La detección (o exclusión) de una supresión en esta banda específica por IPTA (2026+) o SKA (2030+) constituiría una prueba definitiva. Simultáneamente, la \textbf{ausencia} de atenuación a frecuencias de LIGO/Virgo ($10-10^3$ Hz) y LISA ($10^{-4}-10^{-1}$ Hz) es una predicción igualmente importante que ya está verificada por observaciones existentes.
@@ -553,7 +574,7 @@ La fricción informacional frena el crecimiento de estructuras, pero este efecto
 
 Dado que la transición satura el límite en $z_c \approx 0.017$ (70 Mpc), GCAT hace una predicción cinemática única que difiere de modelos anteriores.
 
-\textbf{Predicción:} Los análisis de "Bulk Flow" (flujo de volumen) en catálogos como \textit{CosmicFlows-4} deberían mostrar una discontinuidad o cambio de tensión en la cáscara esférica de \textbf{70 Mpc}. Dentro de este radio, la dinámica está dominada por la expansión local de la Hoja; fuera de este radio, la métrica efectiva cambia al activarse globalmente el aliasing. Esto debería manifestarse como una anomalía en la convergencia de los flujos hacia el Atractor de Laniakea exactamente al cruzar esta frontera.
+\textbf{Predicción:} Los análisis de "Bulk Flow" (flujo de volumen) en catálogos como \textit{Cosmic\-Flows-4} deberían mostrar una discontinuidad o cambio de tensión en la cáscara esférica de \textbf{70 Mpc}. Dentro de este radio, la dinámica está dominada por la expansión local de la Hoja; fuera de este radio, la métrica efectiva cambia al activarse globalmente el aliasing. Esto debería manifestarse como una anomalía en la convergencia de los flujos hacia el Atractor de Laniakea exactamente al cruzar esta frontera.
 
 \subsection{Test Nulo: Ausencia de Quinta Fuerza}
 
@@ -607,7 +628,12 @@ GCAT establece un marco teórico unificado que resuelve la crisis cosmológica a
     
     \item \textbf{Resolución Simultánea de la Tensión $S_8$:} La fricción informacional, modulada por el acoplamiento $\beta = 0.75$ derivado geométricamente, suprime el crecimiento de estructuras a $S_8 = 0.782 \pm 0.014$, reduciendo la tensión con KiDS/DES a $0.74\sigma$. A diferencia de modelos como EDE que exacerban $S_8$ al resolver $H_0$, GCAT predice ambas correcciones con el mismo mecanismo físico.
     
-    \item \textbf{Unificación de Anomalías Locales:} La transición en $z_c = 0.01703 \pm 0.00124$ (CI 95\%: $[0.0148, 0.0194]$) explica simultáneamente: (i) el "escalón" sistemático en residuos de Pantheon+ a $z < 0.02$, (ii) las desviaciones en BAO de DESI a muy bajo redshift, y (iii) satura el límite superior de estructura local impuesto por \textit{CosmicFlows-4}, transformando restricciones observacionales negativas en confirmaciones positivas.
+    \item \textbf{Unificación de Anomalías Locales:} La transición en $z_c = 0.01703 \pm 0.00124$ (CI 95\%: $[0.0148, 0.0194]$) explica simultáneamente:
+    \begin{enumerate}
+        \item El "escalón" sistemático en residuos de Pantheon+ a $z < 0.02$.
+        \item Las desviaciones en BAO de DESI a muy bajo redshift.
+        \item La saturación del límite superior de estructura local impuesto por \textit{CosmicFlows-4}, transformando restricciones observacionales negativas en confirmaciones positivas.
+    \end{enumerate}
     
     \item \textbf{Derivación \textit{Ab Initio} de Parámetros:} Los dos parámetros fundamentales del modelo están fijados teóricamente:
     \begin{itemize}
@@ -627,7 +653,7 @@ GCAT establece un marco teórico unificado que resuelve la crisis cosmológica a
     \end{itemize}
 \end{enumerate}
 
-\textbf{Implicación Paradigmática:} GCAT trasciende la búsqueda de fluidos oscuros exóticos para proponer que la aceleración cósmica es la manifestación macroscópica de una tensión termodinámica fundamental: la incompatibilidad entre la codificación óptima de información en el volumen (ternaria, $E(3)=2.73$) y las restricciones holográficas en la frontera (binaria). En esta visión, el universo es un procesador de información cuántica cuya dinámica emerge de restricciones topológicas en la estructura del espacio-tiempo discreto.
+\textbf{Implicación Paradigmática:} GCAT trasciende la búsqueda de fluidos oscuros exóticos para proponer que la aceleración cósmica es la manifestación macroscópica de una tensión termodinámica fundamental: la incompatibilidad entre la codificación óptima de información en el volumen (ternaria, $E(3) \approx 2.73$) y las restricciones holográficas en la frontera (binaria, $E(2) \approx 2.89$). En esta visión, el universo es un procesador de información cuántica cuya dinámica emerge de restricciones topológicas en la estructura del espacio-tiempo discreto.
 
 \textbf{Programa Observacional:} La próxima generación de experimentos tiene capacidad única para falsar GCAT:
 \begin{itemize}
@@ -637,7 +663,7 @@ GCAT establece un marco teórico unificado que resuelve la crisis cosmológica a
     \item \textbf{DESI Year 5+:} Caracterización precisa de BAO a muy bajo redshift
 \end{itemize}
 
-\subsection{Unificación Algebraica: La Equivalencia Expansión-Información}
+\subsection[Unificación Algebraica: La Equivalencia Expansión-Información]{Unificación Algebraica: \\ La Equivalencia Expansión-Información}
 
 Más allá de la resolución numérica de tensiones, GCAT revela una estructura algebraica profunda. Al combinar el factor de aliasing derivado de la teoría de la información ($R_{\text{fund}}$) con el acoplamiento geométrico ($\beta=3/4$), todos los parámetros del modelo colapsan en una única \textbf{Constante de Estructura Informacional} adimensional, $\kappa_{\text{info}}$:
 
@@ -661,7 +687,7 @@ Lejos de ser un ajuste numérico post-hoc, GCAT establece un programa de investi
 \appendix
 
 % ============================================
-% APÉNDICE A: DERIVACIONES TÉCNICAS (VALIDADO V9)
+% APÉNDICE A: DERIVACIONES TÉCNICAS (VALIDADO)
 % ============================================
 \section{Derivaciones Técnicas Detalladas}
 \label{app:derivaciones}
@@ -752,7 +778,7 @@ Sustituyendo los valores optimizados en el análisis final, \textbf{$\Delta z \a
 % APÉNDICE A.3: DERIVACIÓN FORMAL DE β = 3/4
 % ============================================
 
-\subsection{Derivación Formal del Acoplamiento β desde la Acción Espectral}
+\subsection{Derivación Formal del Acoplamiento \texorpdfstring{$\beta$}{beta} desde la Acción Espectral}
 \label{app:beta_spectral}
 
 El factor de acoplamiento $\beta = 3/4$ emerge naturalmente de la estructura 
@@ -811,7 +837,7 @@ contribuciones del volumen y la frontera difieren por factores $d/(d-1)$.
 
 La derivación de $\beta = 3/4$ permite simplificar la fenomenología de GCAT en un conjunto de ecuaciones maestras gobernadas por la constante $\kappa_{\text{info}}$.
 
-\subsubsection{La Constante Universal \texorpdfstring{$\kappa_{\text{info}}$}{kappa_info}}
+\subsubsection{La Constante Universal \texorpdfstring{$\kappa_{\text{info}}$}{kappa-info}}
 El término de modificación en la métrica FLRW es $2\beta R_{\text{fund}}$. Sustituyendo las derivaciones de primeros principios:
 \begin{equation}
 2\beta R_{\text{fund}} = 2 \cdot \frac{3}{4} \cdot \frac{1}{6\log_2 3} = \frac{1}{4\log_2 3} = \frac{\ln 2}{4\ln 3}.
@@ -861,16 +887,19 @@ El valor medio efectivo de esta estructura es $\langle \delta H \rangle \approx 
 \begin{table}[h!]
 \centering
 \caption{Predicciones analíticas de GCAT derivadas de la constante universal $\kappa_{\text{info}}$}
-\begin{tabular}{lccc}
-\toprule
-\textbf{Cantidad} & \textbf{Expresión Analítica} & \textbf{Valor Teórico} & \textbf{Observación} \\
-\midrule
-Constante de información & $\kappa = \frac{\ln 2}{4\ln 3}$ & $0.1578$ & Universal, sin parámetros libres \\
-Exceso expansión local & $(1-\kappa\Theta)^{-1/2}-1$ & $4.2\% \to 8.9\%$ & Media: $6.55\%$ (Zehavi: $6.5\%$) \\
-$H_0^{\text{GCAT}}/H_0^{\text{Planck}}$ & $(1-0.92\kappa)^{-1/2}$ & $1.081$ & Predice $73.0$ km/s/Mpc \\
-Supresión de $S_8$ & $1 - \beta R_{\text{fund}} \Theta(0)$ & $0.921$ & Predice $S_8 \approx 0.766$ \\
-\bottomrule
-\end{tabular}
+% Ajustamos la tabla al ancho del texto
+\resizebox{\textwidth}{!}{%
+    \begin{tabular}{lccc}
+    \toprule
+    \textbf{Cantidad} & \textbf{Expresión Analítica} & \textbf{Valor Teórico} & \textbf{Observación} \\
+    \midrule
+    Constante de información & $\kappa = \frac{\ln 2}{4\ln 3}$ & $0.1578$ & Universal, sin parámetros libres \\
+    Exceso expansión local & $(1-\kappa\Theta)^{-1/2}-1$ & $4.2\% \to 8.9\%$ & Media: $6.55\%$ (Zehavi: $6.5\%$) \\
+    $H_0^{\text{GCAT}}/H_0^{\text{Planck}}$ & $(1-0.92\kappa)^{-1/2}$ & $1.081$ & Predice $73.0$ km/s/Mpc \\
+    Supresión de $S_8$ & $1 - \beta R_{\text{fund}} \Theta(0)$ & $0.921$ & Predice $S_8 \approx 0.766$ \\
+    \bottomrule
+    \end{tabular}%
+}
 \label{tab:kappa_predictions}
 \end{table}
 
@@ -976,13 +1005,7 @@ El módulo de predicción calcula la atenuación resonante basada en la escala d
 \label{alg:gw}
 \end{algorithm}
 
-\subsection{B.4 Disponibilidad y Ciencia Abierta}
-
-El repositorio incluye los cuadernos de Jupyter (\texttt{.ipynb}) con la implementación completa del pipeline bayesiano: optimización global (\texttt{scipy.differential\_evolution}), muestreo MCMC (\texttt{emcee}) y análisis de robustez bootstrap.
-
-Repositorio oficial: \url{https://github.com/[usuario]/GCAT-Cosmology-Validation}
-
-\subsection{B.5 Análisis Bayesiano y Robustez Estadística}
+\subsection{B.4 Análisis Bayesiano y Robustez Estadística}
 
 Los resultados reportados en la Tabla \ref{tab:results_v9} provienen de una inferencia bayesiana completa implementada en GCAT V9. La metodología incluye:
 
@@ -1029,6 +1052,7 @@ IDE (Interacting DE) & 8 & 2850.2 & -0.8 & Inconclusa \\
 \end{tabular}
 \label{tab:model_comparison}
 \end{table}
+
 
 
 % ============================================
@@ -1140,7 +1164,7 @@ Zehavi, I., et al.
 \newblock \textit{The Astrophysical Journal}, 503(2), 483, 1998.
 
 \bibitem{Jha2007}
-Jha, S., Riess, A. G., & Kirshner, R. P.
+Jha, S., Riess, A. G., \& Kirshner, R. P.
 \newblock Improved Distances to Type Ia Supernovae with Multicolor Light Curve Shapes: MLCS2k2.
 \newblock \textit{The Astrophysical Journal}, 659(1), 122, 2007.
 
@@ -1155,9 +1179,57 @@ Conley, A., et al.
 \newblock \textit{The Astrophysical Journal Supplement Series}, 192(1), 1, 2011.
 
 \bibitem{Whitbourn2014}
-Whitbourn, J. R., & Shanks, T.
+Whitbourn, J. R., \& Shanks, T.
 \newblock The galaxy luminosity function and the Local Hole.
 \newblock \textit{Monthly Notices of the Royal Astronomical Society}, 437(2), 2146–2175, 2014.
 
 \end{thebibliography}
+
+% ==============================================================================
+% AGRADECIMIENTOS Y DECLARACIONES
+% ==============================================================================
+\section*{Agradecimientos y Declaración de Uso de IA}
+
+El autor agradece profundamente a la comunidad de código abierto, herramientas sin las cuales este análisis no habría sido posible. Se reconoce especialmente a los desarrolladores de \textsc{Python}, \textsc{NumPy}, \textsc{SciPy} y \textsc{Matplotlib}. Mención especial merecen los equipos detrás de \textsc{emcee} (Foreman-Mackey et al.) por su implementación del muestreo MCMC, y a Google Colab por facilitar el acceso a recursos de computación de alto rendimiento.
+
+Asimismo, se declara transparencia en el uso de modelos de lenguaje avanzados (LLMs). Estas tecnologías fueron utilizadas estrictamente como herramientas auxiliares para la revisión de estilo, la refactorización de scripts de visualización y la verificación de la coherencia lógica del argumento. La concepción teórica del modelo GCAT, la derivación de la constante $\kappa_{\text{info}}$, la interpretación física de la saturación cinemática y las conclusiones son autoría íntegra y exclusiva del investigador.
+
+\section*{Declaración de Intereses y Financiación}
+
+Esta investigación se realizó en su totalidad con recursos propios, sin financiación externa pública ni privada. El autor declara no tener conflictos de interés financieros o personales. Este trabajo no fue motivado por el beneficio comercial ni por la carrera académica institucional, sino únicamente por la búsqueda de comprensión y la convicción de que el conocimiento fundamental sobre la estructura del universo debe ser un bien común.
+
+Este trabajo se fundamenta en la premisa de que las anomalías observacionales no son ruido a descartar, sino señales a comprender. En este espíritu, nos inspira la entereza de Cecilia Payne-Gaposchkin quien, tras enfrentarse al consenso científico establecido de su época, nos recordó que la evidencia está por encima de la jerarquía:
+
+\begin{quote}
+\textit{``Cedí ante la Autoridad cuando creía tener la razón... Si estás seguro de tus hechos, debes defender tu posición.''}
+\end{quote}
+
+\section*{Disponibilidad de Datos, Código y Licenciamiento}
+
+En consonancia con el espíritu de la ciencia abierta y reproducible, el código fuente completo, incluyendo el pipeline de inferencia bayesiana, los algoritmos de percolación topológica y los scripts de generación de figuras, está disponible en el repositorio público:
+
+\begin{center}
+\url{https://github.com/NachoPeinador/GCAT-Cosmology-Validation}
+\end{center}
+
+El material se distribuye bajo la licencia \textbf{MIT} (\textit{Massachusetts Institute of Technology License}). Se autoriza y fomenta el uso libre, la modificación, la distribución y el uso privado o comercial del software, con la única condición de mantener el aviso de derechos de autor original.
+
+\paragraph{Entorno de Reproducibilidad:}
+Para garantizar la estricta replicabilidad de los resultados numéricos presentados, se documentan las versiones exactas de las librerías críticas utilizadas en el entorno de validación (Google Colab, Enero 2026). Se recomienda utilizar estas versiones específicas para evitar discrepancias en la aritmética de punto flotante o conflictos de dependencias:
+\begin{itemize}
+    \item \textbf{Kernel:} Python 3.12.12
+    \item \textbf{Cálculo Numérico:} NumPy 2.0.2, SciPy 1.14.1
+    \item \textbf{Inferencia y Visualización:} emcee, corner, matplotlib
+    \item \textbf{Compatibilidad:} Se requiere explícitamente \texttt{pillow<12.0} para evitar conflictos con el entorno base.
+\end{itemize}
+
+\paragraph{Procedencia de los Datos:}
+Este estudio hizo uso de datos públicos de las siguientes colaboraciones, referenciados en la bibliografía:
+\begin{itemize}
+    \item \textbf{Pantheon+ Analysis:} Datos de supernovas y matrices de covarianza \cite{Brout2022} \\ (\url{https://pantheonplussh0es.github.io/}).
+    \item \textbf{CosmicFlows-4:} Catálogos de distancias y velocidades peculiares, incluyendo las restricciones de flujo de volumen \cite{Tully2023, Mazurenko2024}.
+    \item \textbf{DESI/Planck/SH0ES:} Valores medios y cadenas de error públicas utilizadas para la comparación de tensiones y calibración \cite{DESI2024, Planck2018, Riess2022}.
+\end{itemize}
+
+
 \end{document}
