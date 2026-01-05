@@ -24,6 +24,7 @@ GCAT deriva la aceleración cósmica mediante una cadena lógica sin parámetros
 
 ### Paso 1: El Aliasing Microscópico ($R_{\text{fund}}$)
 Surge de la fricción entre la codificación de volumen (base 3) y frontera (base 2), modulada por la topología ($\xi=1/6$):
+
 $$R_{\text{fund}} = \frac{1/6}{\log_2 3} \approx 0.10515$$
 
 ### Paso 2: La Constante Dinámica Universal ($\kappa$)
