@@ -42,6 +42,40 @@ A diferencia de modelos anteriores, GCAT identifica que este efecto se activa gl
 
 ---
 
+## 📐 La Ecuación Maestra (Derivación Ab Initio)
+
+El corazón de GCAT es que la aceleración cósmica no requiere parámetros libres ($w, \Omega_\Lambda$), sino que es una constante fundamental derivada de la topología:
+
+$$R_{\text{fund}} = \frac{\xi_{\text{NCG}}}{\mathcal{S}_{\text{Info}}} = \frac{1/6}{\log_2 3} \approx 0.105155$$
+
+Donde:
+* **$\xi_{\text{NCG}} = 1/6$:** Es el acoplamiento conforme dictado por la KO-dimensión 6 del Modelo Estándar en Geometría No Conmutativa.
+* **$\mathcal{S}_{\text{Info}} = \log_2 3$:** Es el coste entrópico de traducir un volumen ternario (óptimo) a una frontera binaria (holográfica).
+
+### Predicción Analítica de la Tensión
+Sin necesidad de simulaciones, esta constante predice la discrepancia de Hubble como un efecto de aliasing geométrico:
+
+$$H_0^{\text{Local}} \approx H_0^{\text{CMB}} \times \sqrt{1 + 2R_{\text{fund}}} \approx 67.4 \times 1.099 \approx 74.1 \text{ km/s/Mpc}$$
+
+*(Nota: La solución numérica exacta del paper, $73.52$, incluye los efectos de la transición suave $\Theta(z)$ modelados en el código).*
+
+---
+
+## 💡 Conclusión: Un Nuevo Paradigma Físico
+
+El análisis bayesiano presentado en este repositorio sugiere que estamos ante un cambio ontológico en la cosmología:
+
+| Concepto | Paradigma $\Lambda$CDM (Actual) | Paradigma GCAT (Propuesto) |
+| :--- | :--- | :--- |
+| **Origen Aceleración** | Fluido desconocido (Energía Oscura) con presión negativa. | **Fricción Informacional** por desajuste topológico (Aliasing). |
+| **Naturaleza del Espacio** | Continuo, Geometría Riemanniana suave. | **Discreto**, Modular $\mathbb{Z}/6\mathbb{Z}$ (Geometría No Conmutativa). |
+| **Tensiones ($H_0, S_8$)** | "Errores sistemáticos" o "Nueva Física" ad-hoc. | **Manifestaciones esperadas** de la transición de fase local. |
+| **Datos Locales** | A menudo descartados o recortados ($z>0.02$). | **Fundamentales**: Validan la saturación del límite cinemático. |
+
+> **En resumen:** El universo no se expande más rápido localmente porque haya una "energía extra", sino porque el espacio-tiempo discreto tiene un coste de computación más alto en la frontera holográfica que en el volumen.
+
+---
+
 ## 🛠️ Instalación y Uso
 
 Este código está diseñado para ser reproducible en **Google Colab** o en un entorno local Linux/Mac.
