@@ -24,29 +24,44 @@ Este repositorio contiene el **pipeline de validación bayesiana** que demuestra
 
 ## 📐 Las Fórmulas Maestras: Del Bit al Cosmos
 
-GCAT deriva la aceleración cósmica mediante una cadena lógica sin parámetros libres.
+GCAT deriva la aceleración cósmica mediante una cadena lógica estricta, sin ajustar parámetros libres.
 
 ### Paso 1: El Aliasing Microscópico ($R_{\text{fund}}$)
-Surge de la fricción entre la codificación de volumen (base 3) y frontera (base 2), modulada por la topología ($\xi=1/6$):
+Representa la "fricción" informacional pura. Surge de la incompatibilidad entre bases numéricas, fijada por la topología del vacío:
+* **$\xi = 1/6$**: Acoplamiento conforme (dictado por la KO-dimensión 6).
+* **$\mathcal{S} = \log_2 3$**: Coste de traducir trits (volumen) a bits (frontera).
 
-$$R_{\text{fund}} = \frac{1/6}{\log_2 3} \approx 0.10515$$
+$$R_{\text{fund}} = \frac{\xi}{\log_2 3} = \frac{1/6}{\log_2 3} \approx 0.10515$$
 
 ### Paso 2: La Constante Dinámica Universal ($\kappa$)
-Para manifestarse en el espacio-tiempo 4D, este aliasing se proyecta dimensionalmente ($\beta=3/4$) generando la constante efectiva que rige la expansión:
+Para que este efecto microscópico actúe sobre la expansión del universo (4D), debe proyectarse dimensionalmente. Usamos el factor de proyección **$\beta = 3/4$** (volumen espacial $d=3$ sobre variedad espacio-temporal $d=4$):
 
 $$\kappa \equiv 2\beta R_{\text{fund}} = 2 \cdot \frac{3}{4} \cdot R_{\text{fund}} = \frac{\ln 2}{4 \ln 3} \approx 0.1578$$
 
-Esta constante $\kappa \approx 15.78\%$ es la que aparece en las ecuaciones de Friedmann modificadas, prediciendo la magnitud exacta de las tensiones observadas.
+> **Resultado:** Esta constante $\kappa \approx 15.78\%$ sustituye a la Energía Oscura arbitraria. Es un valor geométrico fijo que, al introducirse en las ecuaciones de Friedmann, reproduce exactamente la aceleración observada.
 
 ---
 
 ### 📊 Resultados Principales (V9)
 
-| Métrica | Valor ΛCDM (Planck) | Valor Observado (SH0ES/KiDS) | **Predicción GCAT** | **Estado** |
+#### 1. Resolución de Tensiones
+El modelo elimina las discrepancias estadísticas entre el universo temprano y el tardío:
+
+| Métrica | Valor ΛCDM (Planck) | Valor Observado | **Predicción GCAT** | **Estado** |
 |:---|:---:|:---:|:---:|:---:|
 | **Hubble (H₀)** | 67.4 ± 0.5 | 73.04 ± 1.04 | **73.52 ± 1.04** | ✅ **Resuelta (0.46σ)** |
 | **Estructura (S₈)** | 0.834 ± 0.01 | 0.766 ± 0.02 | **0.782 ± 0.01** | ✅ **Resuelta (0.74σ)** |
-| **Evidencia Bayesiana** | Ref (0) | -- | **ΔBIC < -10** | 🏆 **Muy Fuerte** |
+| **Ajuste Global** | χ² = 1601.3 | -- | **Δχ² = -18.6** | 📉 **Mejor Ajuste** |
+| **Evidencia** | Ref (0) | -- | **ΔBIC < -10** | 🏆 **Muy Fuerte** |
+
+#### 2. Parámetros Físicos Inferidos
+El análisis MCMC no solo ajusta curvas, sino que revela la estructura física de la transición:
+
+| Parámetro | Valor Inferido (Mediana) | Interpretación Física |
+|:---|:---:|:---|
+| **Transición ($z_c$)** | **0.0170 ± 0.001** | Inicio de la percolación de vacíos (muy reciente). |
+| **Escala ($D_c$)** | **70.23 Mpc** | Saturación del límite cinemático (*CosmicFlows-4*). |
+| **Masa ($m_{info}$)** | **~10⁻³³ eV** | Masa efectiva del campo de información. |
 
 ---
 
