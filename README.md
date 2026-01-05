@@ -81,11 +81,13 @@ python run_analysis.py
 GCAT V9 hace predicciones cuantitativas que permitirán confirmar o descartar la teoría en la próxima década:
 
 1. **Ondas Gravitacionales (Resonancia):**
-Predice una atenuación resonante del fondo estocástico de GW centrada en ** Hz**, detectable por IPTA/SKA.
+   Predice una atenuación resonante del fondo estocástico de GW centrada en **f ≈ 1.38 × 10⁻¹⁶ Hz**, detectable por IPTA/SKA.
+
 2. **Tomografía con Euclid:**
-Predice una caída abrupta en la amplitud de fluctuaciones () exclusivamente a muy bajo redshift ().
+   Predice una caída abrupta en la amplitud de fluctuaciones (**σ₈**) exclusivamente a muy bajo redshift (**z < 0.05**).
+
 3. **Transparencia a Alta Frecuencia:**
-A diferencia de otras teorías de gravedad modificada, GCAT predice **cero** atenuación para eventos tipo LIGO ( Hz), consistente con GW170817.
+   A diferencia de otras teorías de gravedad modificada, GCAT predice **cero** atenuación para eventos tipo LIGO (**~100 Hz**), consistente con GW170817.
 
 ---
 
