@@ -148,16 +148,19 @@ python run_analysis.py
 
 ## 🔮 Predicciones Falsables
 
-GCAT V9 hace predicciones cuantitativas que permitirán confirmar o descartar la teoría en la próxima década:
+GCAT V9 realiza predicciones cuantitativas específicas que la diferencian de $\Lambda$CDM y permiten su verificación experimental a corto plazo:
 
-1. **Ondas Gravitacionales (Resonancia):**
-   Predice una atenuación resonante del fondo estocástico de GW centrada en **f ≈ 1.38 × 10⁻¹⁶ Hz**, detectable por IPTA/SKA.
+1. **Ondas Gravitacionales (Resonancia de Cavidad):**
+   Debido a la estructura modular de la red de vacíos, se predice una atenuación característica en el espectro de fondo estocástico de GW (SGWB) centrada en la frecuencia fundamental de la cavidad local:
+   **f ≈ 1.38 × 10⁻¹⁶ Hz** (Correspondiente a $\lambda \approx 70$ Mpc).
 
-2. **Tomografía con Euclid:**
-   Predice una caída abrupta en la amplitud de fluctuaciones (**σ₈**) exclusivamente a muy bajo redshift (**z < 0.05**).
+2. **Crecimiento de Estructuras (Euclid/DESI):**
+   Predice una caída abrupta en la tasa de crecimiento de estructuras (**fσ₈**) y en la amplitud de fluctuaciones, desviándose de la Relatividad General exclusivamente dentro de la burbuja local:
+   **z < 0.05**.
 
-3. **Transparencia a Alta Frecuencia:**
-   A diferencia de otras teorías de gravedad modificada, GCAT predice **cero** atenuación para eventos tipo LIGO (**~100 Hz**), consistente con GW170817.
+3. **Transparencia a Alta Frecuencia (LIGO/Virgo):**
+   A diferencia de las teorías de gravedad masiva que dispersan las ondas, GCAT preserva la invariancia Lorentz local a pequeñas escalas. Predice **cero atenuación** y velocidad $c_g = c$ para eventos astrofísicos compactos:
+   **f ~ 100 Hz** (Consistente con GW170817).
 
 ---
 
