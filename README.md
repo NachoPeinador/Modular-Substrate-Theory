@@ -65,19 +65,35 @@ El análisis MCMC no solo ajusta curvas, sino que revela la estructura física d
 
 ---
 
-## ⚛️ Fundamentos Teóricos
+## ⚛️ Fundamentos Teóricos: De lo Cuántico a lo Cósmico
 
-La teoría se construye sobre tres pilares derivados desde primeros principios:
+GCAT no añade "fluidos oscuros" al universo. En su lugar, identifica una propiedad emergente del espacio-tiempo discreto que actúa como una fuerza entrópica.
 
-1.  **Geometría No Conmutativa (NCG):** El Modelo Estándar requiere una KO-dimensión interna de 6, imponiendo una estructura modular $\mathbb{Z}/6\mathbb{Z}$.
-2.  **Economía de Radix:** La base 3 es termodinámicamente más eficiente ($E \approx 2.73$) que la base 2 ($E \approx 2.89$). El volumen del universo adopta la base 3, mientras que el horizonte está forzado a ser binario (holografía).
-3.  **Factor de Aliasing ($R_{\text{fund}}$):** El coste de traducir información entre el volumen y la frontera genera una presión efectiva (aceleración).
-    $$R_{\text{fund}} = \frac{1}{6 \log_2 3} \approx 0.105155$$
+### 1. La Estructura del Vacío (Geometría No Conmutativa)
+Para acomodar el Modelo Estándar de partículas, la geometría interna del espacio-tiempo requiere una **KO-dimensión 6**. Esto impone una estructura modular cíclica ($\mathbb{Z}/6\mathbb{Z}$) en el tejido microscópico del vacío, definiendo su "pixelación" fundamental.
 
-### El Mecanismo de Activación: Saturación a 70 Mpc
-A diferencia de modelos anteriores, GCAT identifica que este efecto se activa globalmente cuando la red de vacíos cósmicos **percola y satura la estructura local**.
-* **Límite Cinemático:** Datos de *CosmicFlows-4* (Mazurenko et al., 2024) imponen un límite de $\sim 70$ Mpc a las estructuras locales.
-* **Hallazgo V9:** Nuestro análisis bayesiano converge a $D_c = 70.23$ Mpc, saturando este límite físico y explicando el "escalón" en los datos de supernovas (Pantheon+).
+### 2. El Conflicto Termodinámico (Bulk vs Frontera)
+Existe una tensión fundamental en cómo el universo almacena información:
+* **El Volumen (Bulk):** Maximiza su eficiencia termodinámica operando en **Base 3** (Radix óptimo $e \approx 2.718 \to 3$).
+* **La Frontera (Horizonte):** Está obligada por el Principio Holográfico a codificar información en **Base 2** (Bits, Área).
+
+### 3. Fricción Informacional (Aliasing)
+La traducción constante entre el volumen ternario y la frontera binaria no es perfecta. Genera un "ruido de cuantización" o aliasing topológico.
+> **La Energía Oscura es la manifestación macroscópica de este coste de traducción.**
+
+$$R_{\text{fund}} = \frac{\text{Acoplamiento Topológico}}{\text{Coste de Conversión}} = \frac{1/6}{\log_2 3} \approx 0.10515$$
+
+---
+
+### 🌊 El Mecanismo de Activación: Percolación y Saturación
+¿Por qué vemos esto ahora y no en el universo temprano? GCAT introduce la dinámica de **Percolación de Vacíos**.
+
+1.  **Fase Temprana:** El universo es denso. El efecto está suprimido.
+2.  **Transición de Fase ($z_c \approx 0.017$):** Los vacíos cósmicos crecen y se tocan (percolan). La red de vacíos se vuelve global.
+3.  **Saturación Cinemática (70 Mpc):**
+    El análisis bayesiano confirma que la transición ocurre exactamente cuando la estructura local satura los límites observados por **CosmicFlows-4** (Mazurenko et al., 2024).
+
+> **Resultado:** La aceleración cósmica no es suave, sino que se "enciende" al alcanzar la escala de saturación de $D_c \approx 70$ Mpc, explicando la tensión de Hubble como un efecto de muestreo local.
 
 ---
 
