@@ -129,7 +129,7 @@ Si utilizas este código o la teoría GCAT en tu investigación, por favor cita 
 
 > *"Considero muy posible que la física no pueda basarse en el concepto de campo, es decir, en estructuras continuas. En ese caso, no quedaría nada de todo mi castillo en el aire, incluida la teoría de la gravitación, y del resto de la física moderna."* — **Albert Einstein**, Carta a Michele Besso (1954)
 
-Este proyecto materializa la intuición final de Einstein: propone que las tensiones cosmológicas actuales no son errores de medida, sino la evidencia de una **estructura discreta del vacío** que el modelo continuo ($\Lambda$CDM) ya no es capaz de describir.
+Este proyecto materializa la intuición final de Einstein: propone que las tensiones cosmológicas actuales no son errores de medida, sino la evidencia de una **estructura discreta del vacío** que el modelo continuo (ΛCDM) ya no es capaz de describir.
 
 ---
 
