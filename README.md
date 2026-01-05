@@ -1,20 +1,3 @@
-¡Excelente iniciativa! Es vital que el `README.md` refleje la enorme evolución que ha tenido el proyecto (de una idea general a una teoría rigurosa validada con datos de *CosmicFlows-4*).
-
-He reescrito el README por completo para alinearlo con el **Paper GCAT V9**.
-
-### Cambios Clave respecto al anterior:
-
-1. **Actualización de Física:** He cambiado el redshift de transición de  (antiguo) a ** (70 Mpc)**, que es el hallazgo clave de la V9.
-2. **Rigor Bayesiano:** He incluido las métricas exactas (-tensions, BIC) que calculamos.
-3. **Nuevos Mecanismos:** He añadido la explicación de la **Saturación Cinemática** y la **Fricción Informacional**.
-4. **Predicciones Nuevas:** He añadido la sección de ondas gravitacionales (GW) resonantes.
-5. **Licencia y Reproducibilidad:** Cambiado a MIT e incluido el bloque de versiones exactas.
-
-Aquí tienes el código Markdown listo para copiar y pegar en tu archivo `README.md`:
-
----
-
-```markdown
 # 🌌 GCAT V9: Gravedad Cuántica como Aliasing Topológico
 ### Fricción Informacional y Saturación del Límite Cinemático Local
 
