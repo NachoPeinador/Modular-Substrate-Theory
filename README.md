@@ -18,39 +18,20 @@ Este repositorio contiene el **pipeline de validación bayesiana** que demuestra
 
 ---
 
-## 📐 Las Fórmulas Maestras (Derivación Ab Initio)
+## 📐 Las Fórmulas Maestras: Del Bit al Cosmos
 
-La potencia de GCAT reside en que las tensiones cosmológicas no se "ajustan", sino que se **predicen** analíticamente a partir de constantes topológicas universales, sin parámetros libres dinámicos.
+GCAT deriva la aceleración cósmica mediante una cadena lógica sin parámetros libres.
 
-### 1. La Constante de Información ($\kappa_{\text{info}}$)
-Surge de la incompatibilidad entre la codificación óptima del volumen (base 3) y la frontera holográfica (base 2), modulada por la geometría no conmutativa ($\xi = 1/6$):
+### Paso 1: El Aliasing Microscópico ($R_{\text{fund}}$)
+Surge de la fricción entre la codificación de volumen (base 3) y frontera (base 2), modulada por la topología ($\xi=1/6$):
+$$R_{\text{fund}} = \frac{1/6}{\log_2 3} \approx 0.10515$$
 
-$$\kappa_{\text{info}} \equiv \frac{\xi_{\text{NCG}}}{\mathcal{S}_{\text{conv}}} = \frac{1/6}{\log_2(3)} \approx 0.10515$$
+### Paso 2: La Constante Dinámica Universal ($\kappa$)
+Para manifestarse en el espacio-tiempo 4D, este aliasing se proyecta dimensionalmente ($\beta=3/4$) generando la constante efectiva que rige la expansión:
 
-### 2. Unificación de Tensiones
-Esta única constante $\kappa_{\text{info}}$ genera simultáneamente la aceleración aparente ($H_0$) y la supresión de estructura ($S_8$) al activarse la transición $\Theta(z)$:
+$$\kappa \equiv 2\beta R_{\text{fund}} = 2 \cdot \frac{3}{4} \cdot R_{\text{fund}} = \frac{\ln 2}{4 \ln 3} \approx 0.1578$$
 
-$$\underbrace{\frac{H_{\text{Local}}}{H_{\text{CMB}}} \approx (1 - \kappa_{\text{info}})^{-1/2}}_{\text{Solución Tensión } H_0} \quad \text{y} \quad \underbrace{S_8^{\text{Local}} \approx S_8^{\text{Planck}} (1 - \beta \kappa_{\text{info}})}_{\text{Solución Tensión } S_8}$$
-
-Donde $\beta = 0.75$ es el factor de proyección dimensional ($d=3$ vs $d=4$).
-
-### 3. Predicción Numérica Pura
-Sustituyendo las constantes fundamentales:
-
-$$\frac{H_{\text{Local}}}{H_{\text{CMB}}} \approx \frac{1}{\sqrt{1 - 0.10515}} \approx 1.057 \implies \Delta H_0 \sim 5.7\%$$
-
-> **Nota:** El análisis bayesiano completo refina este valor base incorporando la anchura de la transición y la dinámica de vacíos, convergiendo exactamente al valor observado de $\sim 73.5$ km/s/Mpc.
-
-### 🌟 La Ecuación de Estado Informacional (A.5.1)
-
-Más allá de cualquier simulación, GCAT deriva una constante universal adimensional que cuantifica la "fricción" del espacio-tiempo. Al combinar la proyección dimensional ($\beta=3/4$) con el aliasing topológico, obtenemos un resultado puramente analítico:
-
-$$\kappa_{\text{info}} \equiv 2\beta R_{\text{fund}} = \frac{\ln 2}{4 \ln 3} \approx 0.1578$$
-
-**Interpretación Física:**
-Esta constante $\kappa_{\text{info}} \approx 15.78\%$ representa la **ineficiencia intrínseca** de proyectar un volumen de información ternaria (bulk) sobre una frontera de información binaria (holográfica) en 4 dimensiones.
-
-Esta simple relación logarítmica predice la magnitud de las tensiones observadas sin necesidad de componentes oscuros arbitrarios.
+Esta constante $\kappa \approx 15.78\%$ es la que aparece en las ecuaciones de Friedmann modificadas, prediciendo la magnitud exacta de las tensiones observadas.
 
 ---
 
