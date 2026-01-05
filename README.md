@@ -99,9 +99,9 @@ $$R_{\text{fund}} = \frac{\text{Acoplamiento Topológico}}{\text{Coste de Conver
 
 ## 💡 Conclusión: Un Nuevo Paradigma Cosmológico
 
-La evidencia estadística presentada ($\Delta\chi^2 \approx -18.6$ vs $\Lambda$CDM) sugiere que las tensiones actuales no requieren "nueva física" exótica, sino una **nueva ontología** del espacio-tiempo.
+La evidencia estadística presentada ($\Delta\chi^2 \approx -18.6$ vs ΛCDM) sugiere que las tensiones actuales no requieren "nueva física" exótica, sino una **nueva ontología** del espacio-tiempo.
 
-| Concepto | Paradigma Estándar ($\Lambda$CDM) | Paradigma GCAT (Informacional) |
+| Concepto | Paradigma Estándar (ΛCDM) | Paradigma GCAT (Informacional) |
 | :--- | :--- | :--- |
 | **Origen Aceleración** | Fluido desconocido (Energía Oscura) con presión negativa constante. | **Coste Termodinámico** por procesar información en la frontera (Fricción). |
 | **Naturaleza del Espacio** | Geometría Riemanniana continua y suave a cualquier escala. | **Estructura Discreta y Modular** ($\mathbb{Z}/6\mathbb{Z}$) derivada de la NCG. |
