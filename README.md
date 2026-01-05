@@ -9,7 +9,7 @@
 [![arXiv](https://img.shields.io/badge/Status-Draft_V9-b31b1b?style=flat&logo=arxiv&logoColor=white)]()
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NachoPeinador/GCAT-Cosmology-Validation/main/Images/Aliasing.png" alt="Representación conceptual del Aliasing Topológico y la Burbuja Local" width="100%">
+  <img src="/Images/Aliasing.png" alt="Representación conceptual del Aliasing Topológico y la Burbuja Local" width="100%">
 </p>
 ---
 
