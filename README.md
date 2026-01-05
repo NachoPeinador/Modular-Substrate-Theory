@@ -148,7 +148,7 @@ python run_analysis.py
 
 ## 🔮 Predicciones Falsables
 
-GCAT V9 realiza predicciones cuantitativas específicas que la diferencian de $\Lambda$CDM y permiten su verificación experimental a corto plazo:
+GCAT V9 realiza predicciones cuantitativas específicas que la diferencian de ΛCDM y permiten su verificación experimental a corto plazo:
 
 1. **Ondas Gravitacionales (Resonancia de Cavidad):**
    Debido a la estructura modular de la red de vacíos, se predice una atenuación característica en el espectro de fondo estocástico de GW (SGWB) centrada en la frecuencia fundamental de la cavidad local:
