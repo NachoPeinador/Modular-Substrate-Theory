@@ -34,14 +34,25 @@ $$\underbrace{\frac{H_{\text{Local}}}{H_{\text{CMB}}} \approx (1 - \kappa_{\text
 
 Donde $\beta = 0.75$ es el factor de proyección dimensional ($d=3$ vs $d=4$).
 
----
-
 ### 3. Predicción Numérica Pura
 Sustituyendo las constantes fundamentales:
 
 $$\frac{H_{\text{Local}}}{H_{\text{CMB}}} \approx \frac{1}{\sqrt{1 - 0.10515}} \approx 1.057 \implies \Delta H_0 \sim 5.7\%$$
 
 > **Nota:** El análisis bayesiano completo refina este valor base incorporando la anchura de la transición y la dinámica de vacíos, convergiendo exactamente al valor observado de $\sim 73.5$ km/s/Mpc.
+
+### 🌟 La Ecuación de Estado Informacional (A.5.1)
+
+Más allá de cualquier simulación, GCAT deriva una constante universal adimensional que cuantifica la "fricción" del espacio-tiempo. Al combinar la proyección dimensional ($\beta=3/4$) con el aliasing topológico, obtenemos un resultado puramente analítico:
+
+$$\kappa_{\text{info}} \equiv 2\beta R_{\text{fund}} = \frac{\ln 2}{4 \ln 3} \approx 0.1578$$
+
+**Interpretación Física:**
+Esta constante $\kappa_{\text{info}} \approx 15.78\%$ representa la **ineficiencia intrínseca** de proyectar un volumen de información ternaria (bulk) sobre una frontera de información binaria (holográfica) en 4 dimensiones.
+
+Esta simple relación logarítmica predice la magnitud de las tensiones observadas sin necesidad de componentes oscuros arbitrarios.
+
+---
 
 ### 📊 Resultados Principales (V9)
 
