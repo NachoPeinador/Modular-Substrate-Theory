@@ -189,6 +189,53 @@ This project materializes Einstein's final intuition: it proposes that current c
 
 ---
 
+## 📜 License & Intellectual Property
+<details>
+<summary><strong>👇 Click to view terms of use</strong></summary>
+
+This project promotes **Open Science**. A dual licensing model is adopted to distinguish between the software (tool) and the theory (scientific intellectual property).
+
+### 💻 1. Code & Software (MIT License)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat&logo=open-source-initiative&logoColor=white)](./LICENSE)
+
+All source code in the `/Notebooks` folder, analysis scripts, and percolation algorithms are free to use.
+* ✅ **Permitted:** Commercial use, modification, distribution, and private use.
+* ℹ️ **Requirement:** You must include the original copyright notice and the license file in any copy.
+
+---
+
+### ⚛️ 2. Theory & Paper (Creative Commons)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg?style=flat&logo=creative-commons&logoColor=white)](./COPYRIGHT.md)
+
+The scientific paper (`GCAT_V9_Paper.pdf`), theoretical documentation, and conceptual images are protected under **CC BY 4.0**.
+* ✅ **Permitted:** Share and adapt the material for any purpose.
+* ℹ️ **Requirement:** You must give **appropriate credit** (academic citation), provide a link to the license, and indicate if changes were made. You may not suggest that the author endorses you or your use.
+
+> [!NOTE]
+> For more details on scientific authorship protection, please consult the **[COPYRIGHT.md](./COPYRIGHT.md)** file.
+</details>
+
+---
+
+## 📝 Citation
+<details>
+<summary><strong>👇 Click to view how to cite this work</strong></summary>
+
+If you use the **GCAT** theory, the Bayesian validation pipeline, or the derived $H_0$ and $S_8$ values in your research, please cite the original work:
+
+**BibTeX (LaTeX):**
+```bibtex
+@article{PeinadorSala2026,
+  title = {Quantum Gravity as Topological Aliasing: Unifying Percolation Dynamics and Non-Commutative Geometry},
+  author = {Peinador Sala, José Ignacio},
+  year = {2026},
+  publisher = {Zenodo},
+  journal = {Zenodo Repository},
+  url = {[https://github.com/NachoPeinador/GCAT-Cosmology-Validation](https://github.com/NachoPeinador/GCAT-Cosmology-Validation)}
+}
+
+---
+
 ## 📂 Repository Structure
 <details>
 <summary><strong>👇 Click to view repository structure</strong></summary>
