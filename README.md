@@ -5,7 +5,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![Open in Colab](https://img.shields.io/badge/Jupyter-Open_in_Colab-F37626?style=flat&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/NachoPeinador/GCAT-Cosmology-Validation/blob/main/GCAT_V9_Analysis.ipynb)
+[![Open in Colab](https://img.shields.io/badge/Jupyter-Open_in_Colab-F37626?style=flat&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/NachoPeinador/GCAT-Cosmology-Validation/blob/main/Notebooks/GCAT_PLATINUM.ipynb)
 [![arXiv](https://img.shields.io/badge/Status-Draft_V9-b31b1b?style=flat&logo=arxiv&logoColor=white)]()
 
 <p align="center">
@@ -126,40 +126,38 @@ La evidencia estadística presentada ($\Delta\chi^2 \approx -18.6$ vs ΛCDM) sug
 
 ---
 
-## 🛠️ Instalación y Uso
+## 🚀 Reproducción de Resultados
 
-Este código está diseñado para ser reproducible en **Google Colab** o en un entorno local Linux/Mac.
+Para garantizar la transparencia y la **reproducibilidad numérica exacta** de los resultados bayesianos (MCMC), el código completo se ha unificado en un único Cuaderno de Jupyter (Notebook).
 
 ### Opción 1: Google Colab (Recomendada)
-Haz clic en el botón "Open in Colab" arriba para ejecutar el análisis completo con un solo clic.
+Es la forma más rápida y fiable. El cuaderno gestiona automáticamente la instalación de dependencias en el entorno efímero.
 
-### Opción 2: Instalación Local
+1.  Haz clic en el botón **"Open in Colab"** en la parte superior de este README.
+2.  En el menú de Colab, selecciona **"Entorno de ejecución"** > **"Ejecutar todas"**.
+3.  El sistema realizará el análisis completo (aprox. 5-10 minutos) y generará los gráficos al final.
 
-```bash
-# 1. Clonar el repositorio
-git clone [https://github.com/NachoPeinador/GCAT-Cosmology-Validation.git](https://github.com/NachoPeinador/GCAT-Cosmology-Validation.git)
-cd GCAT-Cosmology-Validation
+### Opción 2: Ejecución Local (Jupyter)
+Si prefieres ejecutar el análisis en tu propia máquina:
 
-# 2. Crear entorno virtual (opcional pero recomendado)
-python -m venv venv
-source venv/bin/activate
+1.  **Clonar el repositorio:**
+    ```bash
+    git clone [https://github.com/NachoPeinador/GCAT-Cosmology-Validation.git](https://github.com/NachoPeinador/GCAT-Cosmology-Validation.git)
+    cd GCAT-Cosmology-Validation/Notebooks
+    ```
 
-# 3. Instalar dependencias exactas (CRÍTICO para reproducibilidad numérica)
-pip install numpy==2.0.0 scipy==1.14.1 emcee corner matplotlib "pillow<12.0"
+2.  **Instalar dependencias:**
+    Se recomienda usar un entorno virtual. Las librerías críticas son:
+    ```bash
+    pip install numpy==2.0.0 scipy==1.14.1 emcee corner matplotlib "pillow<12.0" jupyterlab
+    ```
 
-```
-
-### Ejecutar el Pipeline
-
-```bash
-python run_analysis.py
-
-```
-
-*Esto ejecutará la optimización bayesiana (Differential Evolution + MCMC) y generará los gráficos en la carpeta `/output`.*
-
+3.  **Ejecutar:**
+    Lanza Jupyter y abre el archivo `GCAT_V9_Analysis.ipynb`:
+    ```bash
+    jupyter lab GCAT_V9_Analysis.ipynb
+    ```
 ---
-
 ## 🔮 Predicciones Falsables
 
 GCAT V9 realiza predicciones cuantitativas específicas que la diferencian de ΛCDM y permiten su verificación experimental a corto plazo:
