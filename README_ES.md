@@ -127,6 +127,24 @@ La evidencia estadística presentada ($\Delta\chi^2 \approx -18.6$ vs ΛCDM) sug
 
 ---
 
+## 🔮 Predicciones Falsables
+
+GCAT V9 realiza predicciones cuantitativas específicas que la diferencian de ΛCDM y permiten su verificación experimental a corto plazo:
+
+1. **Ondas Gravitacionales (Resonancia de Cavidad):**
+   Debido a la estructura modular de la red de vacíos, se predice una atenuación característica en el espectro de fondo estocástico de GW (SGWB) centrada en la frecuencia fundamental de la cavidad local:
+   **f ≈ 1.38 × 10⁻¹⁶ Hz** (Correspondiente a $\lambda \approx 70$ Mpc).
+
+2. **Crecimiento de Estructuras (Euclid/DESI):**
+   Predice una caída abrupta en la tasa de crecimiento de estructuras (**fσ₈**) y en la amplitud de fluctuaciones, desviándose de la Relatividad General exclusivamente dentro de la burbuja local:
+   **z < 0.05**.
+
+3. **Transparencia a Alta Frecuencia (LIGO/Virgo):**
+   A diferencia de las teorías de gravedad masiva que dispersan las ondas, GCAT preserva la invariancia Lorentz local a pequeñas escalas. Predice **cero atenuación** y velocidad $c_g = c$ para eventos astrofísicos compactos:
+   **f ~ 100 Hz** (Consistente con GW170817).
+
+---
+
 ## 🚀 Reproducción de Resultados
 
 Para garantizar la transparencia y la **reproducibilidad numérica exacta** de los resultados bayesianos (MCMC), el código completo se ha unificado en un único Cuaderno de Jupyter (Notebook).
@@ -160,24 +178,6 @@ Es la forma más rápida y fiable. El cuaderno gestiona automáticamente la inst
     jupyter lab GCAT_Analysis_es.ipynb
     ```
 </details>
-
----
-
-## 🔮 Predicciones Falsables
-
-GCAT V9 realiza predicciones cuantitativas específicas que la diferencian de ΛCDM y permiten su verificación experimental a corto plazo:
-
-1. **Ondas Gravitacionales (Resonancia de Cavidad):**
-   Debido a la estructura modular de la red de vacíos, se predice una atenuación característica en el espectro de fondo estocástico de GW (SGWB) centrada en la frecuencia fundamental de la cavidad local:
-   **f ≈ 1.38 × 10⁻¹⁶ Hz** (Correspondiente a $\lambda \approx 70$ Mpc).
-
-2. **Crecimiento de Estructuras (Euclid/DESI):**
-   Predice una caída abrupta en la tasa de crecimiento de estructuras (**fσ₈**) y en la amplitud de fluctuaciones, desviándose de la Relatividad General exclusivamente dentro de la burbuja local:
-   **z < 0.05**.
-
-3. **Transparencia a Alta Frecuencia (LIGO/Virgo):**
-   A diferencia de las teorías de gravedad masiva que dispersan las ondas, GCAT preserva la invariancia Lorentz local a pequeñas escalas. Predice **cero atenuación** y velocidad $c_g = c$ para eventos astrofísicos compactos:
-   **f ~ 100 Hz** (Consistente con GW170817).
 
 ---
 
