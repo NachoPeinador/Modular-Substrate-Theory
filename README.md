@@ -181,6 +181,14 @@ GCAT V9 realiza predicciones cuantitativas específicas que la diferencian de Λ
 
 ---
 
+### 💡 Inspiración
+
+> *"Considero muy posible que la física no pueda basarse en el concepto de campo, es decir, en estructuras continuas. En ese caso, no quedaría nada de todo mi castillo en el aire, incluida la teoría de la gravitación, y del resto de la física moderna."* — **Albert Einstein**, Carta a Michele Besso (1954)
+
+Este proyecto materializa la intuición final de Einstein: propone que las tensiones cosmológicas actuales no son errores de medida, sino la evidencia de una **estructura discreta del vacío** que el modelo continuo (ΛCDM) ya no es capaz de describir.
+
+---
+
 ## 📂 Estructura del Repositorio
 <details>
 <summary><strong>👇 Clic para ver la estructura del repositorio</strong></summary>
@@ -206,39 +214,6 @@ GCAT-Cosmology-Validation/
 ```
 </details>
 
----
-
-## 📜 Citación y Reconocimientos
-
-Si utilizas este código o la teoría GCAT en tu investigación, por favor cita el repositorio y el preprint asociado:
-
-```bibtex
-@article{PeinadorSala2026,
-  title = {Gravedad Cuántica como Aliasing Topológico: Unificación de la Dinámica de Percolación y la Geometría No Conmutativa},
-  author = {Peinador Sala, José Ignacio},
-  year = {2026},
-  publisher = {GitHub},
-  journal = {GitHub Repository},
-  url = {[https://github.com/NachoPeinador/GCAT-Cosmology-Validation](https://github.com/NachoPeinador/GCAT-Cosmology-Validation)}
-}
-
-```
-
-### Inspiración
-
-> *"Considero muy posible que la física no pueda basarse en el concepto de campo, es decir, en estructuras continuas. En ese caso, no quedaría nada de todo mi castillo en el aire, incluida la teoría de la gravitación, y del resto de la física moderna."* — **Albert Einstein**, Carta a Michele Besso (1954)
-
-Este proyecto materializa la intuición final de Einstein: propone que las tensiones cosmológicas actuales no son errores de medida, sino la evidencia de una **estructura discreta del vacío** que el modelo continuo (ΛCDM) ya no es capaz de describir.
-
----
-
-## ⚖️ Licencia
-
-Distribuido bajo la licencia **MIT**. Ver `LICENSE` para más información.
-
-```
-
-```
 ---
 
 <div align="center">
