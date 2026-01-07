@@ -196,7 +196,7 @@ This project materializes Einstein's final intuition: it proposes that current c
 ```text
 GCAT-Cosmology-Validation/
 ├── 📂 Papers/
-│   └── 📄 GCAT_V9_Paper.pdf           # Scientific paper preprint (Full Theory)
+│   └── 📄 GCAT_Paper_en.pdf           # Scientific paper preprint (Full Theory)
 │
 ├── 📂 Notebooks/
 │   └── 📓 GCAT_Analysis_en.ipynb      # Main Code: Bayesian Validation Pipeline
