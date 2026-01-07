@@ -218,6 +218,6 @@ GCAT-Cosmology-Validation/
 
 <div align="center">
 <br>
-<b>Last Update:</b> December 2025 | <b>Status:</b> Research Complete | Made with ⚛️ & 🐍
+<b>Última actualización:</b> Enero 2026 | <b>Status:</b> Research Complete | Made with ⚛️ & 🐍
 <br><br>
 </div>
