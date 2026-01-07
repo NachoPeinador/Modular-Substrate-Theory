@@ -210,3 +210,14 @@ GCAT-Cosmology-Validation/
 ├── 📜 FUNDING.yml                     # Funding Information
 ├── 📄 README.md                       # Documentation in English (This file)
 └── 📄 README_ES.md                    # Documentation in Spanish
+
+</details>
+
+---
+
+<div align="center">
+<br>
+<b>Last updated:</b> Enero 2026 | <b>Status:</b> Research Complete | Made with ⚛️ & 🐍
+<br><br>
+</div>
+
