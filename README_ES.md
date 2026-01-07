@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Open in Colab](https://img.shields.io/badge/Jupyter-Open_in_Colab-F37626?style=flat&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/NachoPeinador/GCAT-Cosmology-Validation/blob/main/Notebooks/GCAT_Analisys_es.ipynb)
-[![arXiv](https://img.shields.io/badge/Status-Draft_V9-b31b1b?style=flat&logo=arxiv&logoColor=white)]()
+[![Papers](https://img.shields.io/badge/Paper-Leer_PDF-B31B1B?style=flat&logo=latex&logoColor=white)](https://github.com/NachoPeinador/GCAT-Cosmology-Validation/blob/main/Papers/GCAT_Paper_es.pdf) [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.PLACEHOLDER-0099CC?style=flat&logo=zenodo&logoColor=white)](https://doi.org/)
 [![Read in English](https://img.shields.io/badge/Language-Read_in_English-012169?style=flat&logo=google-translate&logoColor=white)](https://github.com/NachoPeinador/GCAT-Cosmology-Validation/blob/main/README.md)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--1822--3452-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-1822-3452) [![X](https://img.shields.io/badge/-%40todos__lumpen-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/todos_lumpen)
 
