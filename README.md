@@ -138,7 +138,7 @@ Es la forma más rápida y fiable. El cuaderno gestiona automáticamente la inst
 3.  El sistema realizará el análisis completo (aprox. 5-10 minutos) y generará los gráficos al final.
 
 ### Opción 2: Ejecución Local (Jupyter)
-Si prefieres ejecutar el análisis en tu propia máquina:
+<summary><strong>👇 Clic para si prefieres ejecutar el análisis en tu propia máquina:</strong></summary>
 
 1.  **Clonar el repositorio:**
     ```bash
@@ -157,7 +157,10 @@ Si prefieres ejecutar el análisis en tu propia máquina:
     ```bash
     jupyter lab GCAT_V9_Analysis.ipynb
     ```
+</details>
+
 ---
+
 ## 🔮 Predicciones Falsables
 
 GCAT V9 realiza predicciones cuantitativas específicas que la diferencian de ΛCDM y permiten su verificación experimental a corto plazo:
@@ -177,6 +180,8 @@ GCAT V9 realiza predicciones cuantitativas específicas que la diferencian de Λ
 ---
 
 ## 📂 Estructura del Repositorio
+<details>
+<summary><strong>👇 Clic para ver la estructura del repositorio</strong></summary>
 
 ```
 GCAT-Cosmology-Validation/
@@ -197,6 +202,7 @@ GCAT-Cosmology-Validation/
 └── 📄 README_ES.md                    # Documentación en Español (Este archivo)
 
 ```
+</details>
 
 ---
 
