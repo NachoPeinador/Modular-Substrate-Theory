@@ -182,15 +182,21 @@ GCAT V9 realiza predicciones cuantitativas específicas que la diferencian de Λ
 
 ```
 GCAT-Cosmology-Validation/
-├── 📄 GCAT_V9_Paper.pdf           # Paper completo (Preprint)
-├── 📄 run_analysis.py             # Script principal de ejecución
-├── 📓 GCAT_V9_Analysis.ipynb      # Notebook interactivo (Paso a paso)
-├── 📂 modules/
-│   ├── physics.py                 # Ecuaciones de Friedmann modificadas
-│   ├── likelihood.py              # Priors (CosmicFlows-4) y Log-Prob
-│   └── visualizer.py              # Generador de gráficos del paper
-├── 📂 output/                     # Resultados generados (Imágenes/JSON)
-└── 📜 LICENSE                     # Licencia MIT
+├── 📂 Papers/
+│   └── 📄 GCAT_V9_Paper.pdf           # Preprint del artículo científico (Teoría completa)
+│
+├── 📂 Notebooks/
+│   └── 📓 GCAT_V9_Analysis.ipynb      # Código principal: Pipeline de validación bayesiana
+│
+├── 📂 Images/
+│   ├── 🖼️ Aliasing.png                # Representación conceptual (Banner)
+│   └── 📊 plots/                      # Gráficos generados por el análisis
+│
+├── 📜 LICENSE                         # Licencia MIT (Código abierto)
+├── 📜 COPYRIGHT.md                    # Declaración de derechos de autor
+├── 📜 FUNDING.yml                     # Información de financiación
+├── 📄 README.md                       # Documentación en Inglés (English)
+└── 📄 README_ES.md                    # Documentación en Español (Este archivo)
 
 ```
 
