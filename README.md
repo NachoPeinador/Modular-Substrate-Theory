@@ -127,6 +127,24 @@ The statistical evidence presented ($\Delta\chi^2 \approx -18.6$ vs ΛCDM) sugge
 
 ---
 
+## 🔮 Falsifiable Predictions
+
+**GCAT** makes specific quantitative predictions that distinguish it from ΛCDM and allow for short-term experimental verification:
+
+1. **Gravitational Waves (Cavity Resonance):**
+   Due to the modular structure of the void network, a characteristic attenuation is predicted in the Stochastic Gravitational Wave Background (SGWB) spectrum, centered at the local cavity's fundamental frequency:
+   **f ≈ 1.38 × 10⁻¹⁶ Hz** (Corresponding to $\lambda \approx 70$ Mpc).
+
+2. **Structure Growth (Euclid/DESI):**
+   Predicts an abrupt drop in the structure growth rate (**fσ₈**) and fluctuation amplitude, deviating from General Relativity exclusively within the local bubble:
+   **z < 0.05**.
+
+3. **High-Frequency Transparency (LIGO/Virgo):**
+   Unlike massive gravity theories that disperse waves, GCAT preserves local Lorentz invariance at small scales. It predicts **zero attenuation** and speed $c_g = c$ for compact astrophysical events:
+   **f ~ 100 Hz** (Consistent with GW170817).
+
+---
+
 ## 🚀 Reproducing Results
 
 To ensure transparency and **exact numerical reproducibility** of the Bayesian (MCMC) results, the entire code has been unified into a single Jupyter Notebook.
@@ -160,24 +178,6 @@ This is the fastest and most reliable method. The notebook automatically handles
     jupyter lab GCAT_Analysis_en.ipynb
     ```
 </details>
-
----
-
-## 🔮 Falsifiable Predictions
-
-GCAT V9 makes specific quantitative predictions that distinguish it from ΛCDM and allow for short-term experimental verification:
-
-1. **Gravitational Waves (Cavity Resonance):**
-   Due to the modular structure of the void network, a characteristic attenuation is predicted in the Stochastic Gravitational Wave Background (SGWB) spectrum, centered at the local cavity's fundamental frequency:
-   **f ≈ 1.38 × 10⁻¹⁶ Hz** (Corresponding to $\lambda \approx 70$ Mpc).
-
-2. **Structure Growth (Euclid/DESI):**
-   Predicts an abrupt drop in the structure growth rate (**fσ₈**) and fluctuation amplitude, deviating from General Relativity exclusively within the local bubble:
-   **z < 0.05**.
-
-3. **High-Frequency Transparency (LIGO/Virgo):**
-   Unlike massive gravity theories that disperse waves, GCAT preserves local Lorentz invariance at small scales. It predicts **zero attenuation** and speed $c_g = c$ for compact astrophysical events:
-   **f ~ 100 Hz** (Consistent with GW170817).
 
 ---
 
