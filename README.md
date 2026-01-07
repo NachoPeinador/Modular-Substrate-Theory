@@ -133,9 +133,10 @@ Para garantizar la transparencia y la **reproducibilidad numérica exacta** de l
 ### Opción 1: Google Colab (Recomendada)
 Es la forma más rápida y fiable. El cuaderno gestiona automáticamente la instalación de dependencias en el entorno efímero.
 
-1.  Haz clic en el botón **"Open in Colab"** en la parte superior de este README.
+1.  Haz clic en el botón **"Open in Colab"**.
 2.  En el menú de Colab, selecciona **"Entorno de ejecución"** > **"Ejecutar todas"**.
 3.  El sistema realizará el análisis completo (aprox. 5-10 minutos) y generará los gráficos al final.
+   [![Open in Colab](https://img.shields.io/badge/Jupyter-Open_in_Colab-F37626?style=flat&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/NachoPeinador/GCAT-Cosmology-Validation/blob/main/Notebooks/GCAT_PLATINUM.ipynb)
 
 ### Opción 2: Ejecución Local (Jupyter)
 <details>
