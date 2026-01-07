@@ -5,7 +5,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![Open in Colab](https://img.shields.io/badge/Jupyter-Open_in_Colab-F37626?style=flat&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/NachoPeinador/GCAT-Cosmology-Validation/blob/main/Notebooks/GCAT_V9_Analysis.ipynb)
+[![Open in Colab](https://img.shields.io/badge/Jupyter-Open_in_Colab-F37626?style=flat&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/NachoPeinador/GCAT-Cosmology-Validation/blob/main/Notebooks/GCAT_Analysis_en.ipynb)
 [![arXiv](https://img.shields.io/badge/Status-Draft_V9-b31b1b?style=flat&logo=arxiv&logoColor=white)]()
 [![Leer en Español](https://img.shields.io/badge/Language-Leer_en_Español-c62828?style=flat&logo=google-translate&logoColor=white)](https://github.com/NachoPeinador/GCAT-Cosmology-Validation/blob/main/README_ES.md)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--1822--3452-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-1822-3452) [![X](https://img.shields.io/badge/-%40todos__lumpen-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/todos_lumpen)
@@ -134,7 +134,7 @@ To ensure transparency and **exact numerical reproducibility** of the Bayesian (
 ### Option 1: Google Colab (Recommended)
 This is the fastest and most reliable method. The notebook automatically handles dependency installation in the ephemeral environment.
 
-1.  Click the **"Open in Colab"** button.[![Open in Colab](https://img.shields.io/badge/Jupyter-Open_in_Colab-F37626?style=flat&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/NachoPeinador/GCAT-Cosmology-Validation/blob/main/Notebooks/GCAT_V9_Analysis.ipynb)
+1.  Click the **"Open in Colab"** button.[![Open in Colab](https://img.shields.io/badge/Jupyter-Open_in_Colab-F37626?style=flat&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/NachoPeinador/GCAT-Cosmology-Validation/blob/main/Notebooks/GCAT_Analysis_en.ipynb)
 2.  In the Colab menu, select **"Runtime"** > **"Run all"**.
 3.  The system will perform the full analysis (approx. 1-2 minutes) and generate plots at the end.
 
@@ -155,9 +155,9 @@ This is the fastest and most reliable method. The notebook automatically handles
     ```
 
 3.  **Run:**
-    Launch Jupyter and open the file `GCAT_V9_Analysis.ipynb`:
+    Launch Jupyter and open the file `GCAT_Analysis_en.ipynb`:
     ```bash
-    jupyter lab GCAT_V9_Analysis.ipynb
+    jupyter lab GCAT_Analysis_en.ipynb
     ```
 </details>
 
@@ -199,7 +199,7 @@ GCAT-Cosmology-Validation/
 │   └── 📄 GCAT_V9_Paper.pdf           # Scientific paper preprint (Full Theory)
 │
 ├── 📂 Notebooks/
-│   └── 📓 GCAT_V9_Analysis.ipynb      # Main Code: Bayesian Validation Pipeline
+│   └── 📓 GCAT_Analysis_en.ipynb      # Main Code: Bayesian Validation Pipeline
 │
 ├── 📂 Images/
 │   ├── 🖼️ Aliasing.png                # Conceptual representation (Banner)
