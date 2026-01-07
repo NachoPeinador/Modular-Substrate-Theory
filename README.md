@@ -80,11 +80,22 @@ Existe una tensión fundamental en cómo el universo almacena información:
 * **El Volumen (Bulk):** Maximiza su eficiencia termodinámica operando en **Base 3** (Radix óptimo $e \approx 2.718 \to 3$).
 * **La Frontera (Horizonte):** Está obligada por el Principio Holográfico a codificar información en **Base 2** (Bits, Área).
 
-### 3. Fricción Informacional (Aliasing)
-La traducción constante entre el volumen ternario y la frontera binaria no es perfecta. Genera un "ruido de cuantización" o aliasing topológico.
-> **La Energía Oscura es la manifestación macroscópica de este coste de traducción.**
+### 3. Fricción Informacional y Dinámica Efectiva
+
+GCAT sustituye la Energía Oscura por un mecanismo de dos pasos: una causa topológica y un efecto dinámico.
+
+#### A. La Causa: Aliasing Topológico ($R_{\text{fund}}$)
+A nivel microscópico, la traducción entre el volumen (base 3) y la frontera (base 2) genera un "ruido" o coste informacional fundamental.
+> **Este es el origen termodinámico de la energía oscura.**
 
 $$R_{\text{fund}} = \frac{\text{Acoplamiento Topológico}}{\text{Coste de Conversión}} = \frac{1/6}{\log_2 3} \approx 0.10515$$
+
+#### B. El Efecto: Constante Dinámica Universal ($\kappa$)
+Para que este coste microscópico acelere el universo, debe proyectarse en la geometría 4D del espacio-tiempo. Aplicando el factor de proyección dimensional ($\beta = 3/4$) y el acoplamiento métrico ($2$), obtenemos la constante efectiva que entra en las ecuaciones:
+
+$$\kappa \equiv \underbrace{2}_{\text{Métrica}} \cdot \underbrace{\beta}_{\text{Proyección } 3D \to 4D} \cdot R_{\text{fund}} = \frac{\ln 2}{4 \ln 3} \approx 0.1578$$
+
+> **Resultado:** No ajustamos la Energía Oscura. Calculamos $\kappa \approx 15.78\%$ desde primeros principios y este valor fijo reproduce la aceleración observada.
 
 ---
 
