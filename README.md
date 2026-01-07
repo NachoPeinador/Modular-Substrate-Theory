@@ -7,7 +7,7 @@
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Open in Colab](https://img.shields.io/badge/Jupyter-Open_in_Colab-F37626?style=flat&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/NachoPeinador/GCAT-Cosmology-Validation/blob/main/Notebooks/GCAT_PLATINUM.ipynb)
 [![arXiv](https://img.shields.io/badge/Status-Draft_V9-b31b1b?style=flat&logo=arxiv&logoColor=white)]()
-> **English Version Available** | [![Read in English](https://img.shields.io/badge/Language-Read_in_English-012169?style=flat&logo=google-translate&logoColor=white)](https://github.com/NachoPeinador/GCAT-Cosmology-Validation/blob/main/README.md)
+[![Read in English](https://img.shields.io/badge/Language-Read_in_English-012169?style=flat&logo=google-translate&logoColor=white)](https://github.com/NachoPeinador/GCAT-Cosmology-Validation/blob/main/README.md)
 
 <p align="center">
   <img src="/Images/Aliasing.png" alt="Representación conceptual del Aliasing Topológico y la Burbuja Local" width="100%">
