@@ -138,6 +138,7 @@ Es la forma más rápida y fiable. El cuaderno gestiona automáticamente la inst
 3.  El sistema realizará el análisis completo (aprox. 5-10 minutos) y generará los gráficos al final.
 
 ### Opción 2: Ejecución Local (Jupyter)
+<details>
 <summary><strong>👇 Clic para si prefieres ejecutar el análisis en tu propia máquina:</strong></summary>
 
 1.  **Clonar el repositorio:**
