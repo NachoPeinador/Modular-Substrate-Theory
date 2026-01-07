@@ -238,8 +238,10 @@ Si utilizas la teoría **GCAT**, el pipeline de validación bayesiana o los valo
 **APA:**
 > Peinador Sala, J. I. (2026). *Quantum Gravity as Topological Aliasing: Unifying Percolation Dynamics and Non-Commutative Geometry*GitHub/Zenodo. [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.PLACEHOLDER-0099CC?style=flat&logo=zenodo&logoColor=white)](https://doi.org/)
 
-**Para citar el mecanismo físico:** La fricción informacional derivada del aliasing topológico reduce el crecimiento de estructuras en un ~7.9% (Peinador, 2026, Ec. 12).
-**Para citar los resultados cosmológicos:** El modelo GCAT resuelve la tensión de Hubble saturando el límite cinemático local a $D_c \approx 70$ Mpc (Peinador, 2026, Sección 5.1).
+**Para citar el mecanismo físico:**
+> La fricción informacional derivada del aliasing topológico reduce el crecimiento de estructuras en un ~7.9% (Peinador, 2026, Ec. 12).
+**Para citar los resultados cosmológicos:**
+> El modelo GCAT resuelve la tensión de Hubble saturando el límite cinemático local a $D_c \approx 70$ Mpc (Peinador, 2026, Sección 5.1).
 </details>
 
 ---
