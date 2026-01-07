@@ -196,7 +196,7 @@ Este proyecto materializa la intuición final de Einstein: propone que las tensi
 ```
 GCAT-Cosmology-Validation/
 ├── 📂 Papers/
-│   └── 📄 GCAT_Paper.pdf           # Preprint del artículo científico (Teoría completa)
+│   └── 📄 GCAT_Paper_es.pdf           # Preprint del artículo científico (Teoría completa)
 │
 ├── 📂 Notebooks/
 │   └── 📓 GCAT_Analysis_es.ipynb      # Código principal: Pipeline de validación bayesiana
