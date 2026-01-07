@@ -129,7 +129,7 @@ La evidencia estadística presentada ($\Delta\chi^2 \approx -18.6$ vs ΛCDM) sug
 
 ## 🔮 Predicciones Falsables
 
-GCAT V9 realiza predicciones cuantitativas específicas que la diferencian de ΛCDM y permiten su verificación experimental a corto plazo:
+**GCAT** realiza predicciones cuantitativas específicas que la diferencian de ΛCDM y permiten su verificación experimental a corto plazo:
 
 1. **Ondas Gravitacionales (Resonancia de Cavidad):**
    Debido a la estructura modular de la red de vacíos, se predice una atenuación característica en el espectro de fondo estocástico de GW (SGWB) centrada en la frecuencia fundamental de la cavidad local:
