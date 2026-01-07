@@ -189,6 +189,61 @@ Este proyecto materializa la intuición final de Einstein: propone que las tensi
 
 ---
 
+## 📜 Licencia y Propiedad Intelectual
+<details>
+<summary><strong>👇 Clic para ver los términos de uso</strong></summary>
+
+Este proyecto promueve la **Ciencia Abierta**. Se adopta un modelo de licencia dual para distinguir entre el software (herramienta) y la teoría (propiedad intelectual científica).
+
+### 💻 1. Código y Software (MIT License)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat&logo=open-source-initiative&logoColor=white)](./LICENSE)
+
+Todo el código fuente en la carpeta `/Notebooks`, scripts de análisis y algoritmos de percolación son de libre uso.
+* ✅ **Permitido:** Uso comercial, modificación, distribución y uso privado.
+* ℹ️ **Requisito:** Debes incluir la nota de copyright original y el archivo de licencia en cualquier copia.
+
+---
+
+### ⚛️ 2. Teoría y Paper (Creative Commons)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg?style=flat&logo=creative-commons&logoColor=white)](./COPYRIGHT.md)
+
+El artículo científico (`GCAT_V9_Paper.pdf`), la documentación teórica y las imágenes conceptuales están protegidas bajo **CC BY 4.0**.
+* ✅ **Permitido:** Compartir y adaptar el material para cualquier propósito.
+* ℹ️ **Requisito:** Debes dar **crédito apropiado** (cita académica), proporcionar un enlace a la licencia e indicar si se realizaron cambios. No puedes sugerir que el autor te respalda a ti o a tu uso.
+
+> [!NOTE]
+> Para más detalles sobre la protección de la autoría científica, consulta el archivo **[COPYRIGHT.md](./COPYRIGHT.md)**.
+</details>
+
+---
+
+## 📝 Citación
+<details>
+<summary><strong>👇 Clic para ver cómo citar este trabajo</strong></summary>
+
+Si utilizas la teoría **GCAT**, el pipeline de validación bayesiana o los valores derivados de $H_0$ y $S_8$ en tu investigación, por favor cita el trabajo original:
+
+**BibTeX (LaTeX):**
+```bibtex
+@article{PeinadorSala2026,
+  title = {Quantum Gravity as Topological Aliasing: Unifying Percolation Dynamics and Non-Commutative Geometry},
+  author = {Peinador Sala, José Ignacio},
+  year = {2026},
+  publisher = {Zenodo},
+  journal = {Zenodo Repository},
+  url = {[https://github.com/NachoPeinador/GCAT-Cosmology-Validation](https://github.com/NachoPeinador/GCAT-Cosmology-Validation)}
+}
+
+```
+**APA:**
+> Peinador Sala, J. I. (2026). *Quantum Gravity as Topological Aliasing: Unifying Percolation Dynamics and Non-Commutative Geometry*GitHub/Zenodo. [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.PLACEHOLDER-0099CC?style=flat&logo=zenodo&logoColor=white)](https://doi.org/)
+
+**Para citar el mecanismo físico:** La fricción informacional derivada del aliasing topológico reduce el crecimiento de estructuras en un ~7.9% (Peinador, 2026, Ec. 12).
+**Para citar los resultados cosmológicos:** El modelo GCAT resuelve la tensión de Hubble saturando el límite cinemático local a $D_c \approx 70$ Mpc (Peinador, 2026, Sección 5.1).
+</details>
+
+---
+
 ## 📂 Estructura del Repositorio
 <details>
 <summary><strong>👇 Clic para ver la estructura del repositorio</strong></summary>
