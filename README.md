@@ -234,6 +234,9 @@ If you use the **GCAT** theory, the Bayesian validation pipeline, or the derived
   url = {[https://github.com/NachoPeinador/GCAT-Cosmology-Validation](https://github.com/NachoPeinador/GCAT-Cosmology-Validation)}
 }
 
+
+</details>
+
 ---
 
 ## 📂 Repository Structure
