@@ -135,7 +135,7 @@ Es la forma más rápida y fiable. El cuaderno gestiona automáticamente la inst
 
 1.  Haz clic en el botón **"Open in Colab"**.[![Open in Colab](https://img.shields.io/badge/Jupyter-Open_in_Colab-F37626?style=flat&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/NachoPeinador/GCAT-Cosmology-Validation/blob/main/Notebooks/GCAT_PLATINUM.ipynb)
 2.  En el menú de Colab, selecciona **"Entorno de ejecución"** > **"Ejecutar todas"**.
-3.  El sistema realizará el análisis completo (aprox. 5-10 minutos) y generará los gráficos al final.
+3.  El sistema realizará el análisis completo (aprox. 1-2 minutos) y generará los gráficos al final.
 
 ### Opción 2: Ejecución Local (Jupyter)
 <details>
