@@ -13,7 +13,6 @@
 <p align="center">
   <img src="/Images/Aliasing.png" alt="Representación conceptual del Aliasing Topológico y la Burbuja Local" width="100%">
 </p>
----
 
 ## 🎯 Resumen Ejecutivo (TL;DR)
 
