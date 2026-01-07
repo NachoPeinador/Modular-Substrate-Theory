@@ -46,7 +46,7 @@ $$\kappa \equiv 2\beta R_{\text{fund}} = 2 \cdot \frac{3}{4} \cdot R_{\text{fund
 
 ---
 
-### 📊 Resultados Principales (V9)
+### 📊 Resultados Principales
 
 #### 1. Resolución de Tensiones
 El modelo elimina las discrepancias estadísticas entre el universo temprano y el tardío:
