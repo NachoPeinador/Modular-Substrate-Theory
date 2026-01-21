@@ -52,7 +52,7 @@ El modelo predice la expansión basándose en la percolación de vacíos (activa
 
 | Métrica | Valor ΛCDM (Planck) | Valor Observado | **Predicción TSM** | **Tensión TSM** |
 |:---|:---:|:---:|:---:|:---:|
-| **Hubble ($H_0$)** | $67.4 \pm 0.5$ | $73.04 \pm 1.04$ | **$73.44$ km/s/Mpc** | ✅ **0.38σ** |
+| **Hubble ($H_0$)** | $67.4 \pm 0.5$ | $73.04 \pm 1.04$ | **$73.52$ km/s/Mpc** | ✅ **0.46σ** |
 | **Estructura ($S_8$)** | $0.832 \pm 0.013$ | $0.766 \pm 0.020$ | **$0.782$** | ✅ **0.74σ** |
 | **Burbuja Local** | -- | $\sim 6.5\%$ (Zehavi) | **$6.55\%$** | ✅ **Exacta** |
 
