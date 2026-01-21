@@ -30,15 +30,18 @@ TSM no ajusta parámetros libres. Deriva sus constantes fundamentales analítica
 
 ### 1. Impedancia Informacional ($R_{\text{fund}}$)
 Es la "fricción" pura debida al conflicto entre la codificación óptima volumétrica (base 3) y la holográfica (base 2), normalizada por el ciclo modular:
-$$R_{\text{fund}} = \frac{1}{|\mathbb{Z}/6\mathbb{Z}| \cdot \log_2 3} = \frac{1}{6 \log_2 3} \approx 0.105155$$
+
+                       $$R_{\text{fund}} = \frac{1}{|\mathbb{Z}/6\mathbb{Z}| \cdot \log_2 3} = \frac{1}{6 \log_2 3} \approx 0.105155$$
 
 ### 2. Proyección Dimensional ($\beta$)
 La relación entre los grados de libertad espaciales ($d=3$) y espacio-temporales ($d=4$):
-$$\beta = \frac{3}{4} = 0.75$$
+
+                                                 $$\beta = \frac{3}{4} = 0.75$$
 
 ### 3. Constante de Estructura Informacional ($\kappa_{\text{info}}$)
 La constante universal que gobierna la expansión cósmica, combinando impedancia y proyección:
-$$\kappa_{\text{info}} \equiv 2\beta R_{\text{fund}} = \frac{\ln 2}{4 \ln 3} \approx 0.1578$$
+
+                                  $$\kappa_{\text{info}} \equiv 2\beta R_{\text{fund}} = \frac{\ln 2}{4 \ln 3} \approx 0.1578$$
 
 ---
 
