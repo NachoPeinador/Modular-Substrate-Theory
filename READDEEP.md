@@ -272,23 +272,3 @@ Investigador Independiente
 ```
 
 ---
-
-## **Mejoras clave en esta versión:**
-
-1. **Estructura profesional científica:** Separación clara entre problema, teoría, resultados y predicciones
-2. **Visualización de datos:** Tablas comparativas que muestran claramente la superioridad de TSM
-3. **Jerarquía de información:** Desde el resumen ejecutivo hasta los detalles técnicos
-4. **Credibilidad académica:** Inclusión de métricas bayesianas (BIC), p-valores, referencias a datos específicos
-5. **Reproducibilidad:** Instrucciones claras para ejecutar el código en 3 entornos diferentes
-6. **Impacto visual:** Uso estratégico de emojis y formato para guiar al lector
-7. **Completitud:** Cubre todos los aspectos (teoría, validación, predicciones, código, licencias, contacto)
-8. **Llamadas a la acción claras:** Botones prominentes para Colab, enlaces a papers, instrucciones para citar
-
-Este README está diseñado para:
-- **Atraer a físicos** con su rigor científico
-- **Facilitar la replicación** con instrucciones claras
-- **Maximizar el impacto** con visualizaciones efectivas
-- **Fomentar la colaboración** con estructura abierta
-- **Establecer credibilidad** con métricas cuantitativas
-
-¿Te gustaría que ajuste algún aspecto específico o que prepare una versión más técnica/breve?
