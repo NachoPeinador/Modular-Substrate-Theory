@@ -75,7 +75,7 @@ Una teoría debe arriesgarse. TSM realiza predicciones cuantitativas verificable
     * Caída abrupta en $\sigma_8(z)$ para $z < 0.05$.
 
 2.  **Física de Partículas (LHCb/J-PARC):**
-    * Existencia de un **Hexaquark Excitado** ($d^{**}$) con masa $3686 \pm 30$ MeV.
+    * Existencia de un **Hexaquark Excitado** ($d^{**}$) con masa $3619 \pm 40$ MeV.
     * Existencia de un **Tetraquark Excitado** ($T_{cc}^{**}$) con masa $\sim 4607$ MeV.
 
 3.  **Ondas Gravitacionales (PTA/SKA):**
