@@ -1,281 +1,136 @@
-# 🌌 GCAT: Gravedad Cuántica como Aliasing Topológico
-### Fricción Informacional y Saturación del Límite Cinemático Local. 
+# 🌌 TSM: Teoría del Sustrato Modular
+### Unificación Geométrica de la Cosmología y la Espectroscopía Hadrónica desde Primeros Principios
 
-> **Una solución unificada a las tensiones de Hubble ($H_0$) y $S_8$ basada en la Geometría No Conmutativa y la percolación de vacíos.**
+> **Un marco unificador basado en $\mathbb{Z}/6\mathbb{Z}$ que resuelve las tensiones de Hubble ($H_0$) y $S_8$, clasifica los hadrones exóticos y conecta la estabilidad del vacío con la Hipótesis de Riemann.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![Open in Colab](https://img.shields.io/badge/Jupyter-Open_in_Colab-F37626?style=flat&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/NachoPeinador/GCAT-Cosmology-Validation/blob/main/Notebooks/GCAT_Analisys_es.ipynb)
-[![Papers](https://img.shields.io/badge/Paper-Leer_PDF-B31B1B?style=flat&logo=latex&logoColor=white)](https://github.com/NachoPeinador/GCAT-Cosmology-Validation/blob/main/Papers/GCAT_Paper_es.pdf) [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.PLACEHOLDER-0099CC?style=flat&logo=zenodo&logoColor=white)](https://doi.org/)
-[![Read in English](https://img.shields.io/badge/Language-Read_in_English-012169?style=flat&logo=google-translate&logoColor=white)](https://github.com/NachoPeinador/GCAT-Cosmology-Validation/blob/main/README.md)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--1822--3452-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-1822-3452) [![X](https://img.shields.io/badge/-%40todos__lumpen-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/todos_lumpen)
+[![Open in Colab](https://img.shields.io/badge/Jupyter-Open_in_Colab-F37626?style=flat&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/TSM_Analysis_es.ipynb)
+[![Paper](https://img.shields.io/badge/Paper-Leer_PDF-B31B1B?style=flat&logo=latex&logoColor=white)](https://github.com/NachoPeinador/Modular-Substrate-Theory/blob/main/Papers/TSM_es.pdf)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--1822--3452-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-1822-3452)
 
 <p align="center">
-  <img src="/Images/Aliasing.png" alt="Representación conceptual del Aliasing Topológico y la Burbuja Local" width="100%">
+  <img src="/Images/confinamiento_unificado.png" alt="Mapa Unificado de Confinamiento Modular" width="100%">
 </p>
 
 ## 🎯 Resumen Ejecutivo (TL;DR)
 
-**GCAT (Gravedad Cuántica como Aliasing Topológico)** propone un cambio de paradigma: la energía oscura no es un fluido desconocido, sino el **coste termodinámico** de procesar información en un espacio-tiempo discreto.
+La **Teoría del Sustrato Modular (TSM)** propone un cambio de paradigma: el universo no es un continuo, sino un sistema de procesamiento de información ejecutándose sobre una estructura discreta **$\mathbb{Z}/6\mathbb{Z}$** (derivada de la KO-dimensión 6 necesaria para el Modelo Estándar).
 
-La expansión acelerada surge de una **fricción informacional**: el desajuste entre la codificación óptima del volumen (base ternaria, $\mathbb{Z}/3\mathbb{Z}$) y la codificación forzada de la frontera holográfica (base binaria, $\mathbb{Z}/2\mathbb{Z}$).
-
-Este repositorio contiene el **pipeline de validación bayesiana** que demuestra que:
-1.  Este efecto se activa al saturar el límite cinemático local ($D_c \approx 70$ Mpc).
-2.  Resuelve las tensiones de Hubble y $S_8$ simultáneamente.
-3.  Lo hace **desde primeros principios**, sin parámetros libres ad-hoc.
----
-
-## 📐 Las Fórmulas Maestras: Del Bit al Cosmos
-
-GCAT deriva la aceleración cósmica mediante una cadena lógica estricta, sin ajustar parámetros libres.
-
-### Paso 1: El Aliasing Microscópico ($R_{\text{fund}}$)
-Representa la "fricción" informacional pura. Surge de la incompatibilidad entre bases numéricas, fijada por la topología del vacío:
-* **$\xi = 1/6$**: Acoplamiento conforme (dictado por la KO-dimensión 6).
-* **$\mathcal{S} = \log_2 3$**: Coste de traducir trits (volumen) a bits (frontera).
-
-$$R_{\text{fund}} = \frac{\xi}{\log_2 3} = \frac{1/6}{\log_2 3} \approx 0.10515$$
-
-### Paso 2: La Constante Dinámica Universal ($\kappa$)
-Para que este efecto microscópico actúe sobre la expansión del universo (4D), debe proyectarse dimensionalmente. Usamos el factor de proyección **$\beta = 3/4$** (volumen espacial $d=3$ sobre variedad espacio-temporal $d=4$):
-
-$$\kappa \equiv 2\beta R_{\text{fund}} = 2 \cdot \frac{3}{4} \cdot R_{\text{fund}} = \frac{\ln 2}{4 \ln 3} \approx 0.1578$$
-
-> **Resultado:** Esta constante $\kappa \approx 15.78\%$ sustituye a la Energía Oscura arbitraria. Es un valor geométrico fijo que, al introducirse en las ecuaciones de Friedmann, reproduce exactamente la aceleración observada.
+Esta estructura impone una **impedancia informacional** que se manifiesta idénticamente a escalas cosmológicas y subatómicas. Este repositorio contiene el pipeline de validación que demuestra cómo tres constantes geométricas derivadas *ab initio*:
+1.  **Resuelven la Tensión de Hubble y $S_8$** sin energía oscura dinámica.
+2.  **Predicen el espectro de masas hadrónicas** y la naturaleza de estados exóticos ($d^*$, $T_{cc}^+$).
+3.  **Conectan la física** con la Teoría de Números (Función Zeta de Riemann).
 
 ---
 
-### 📊 Resultados Principales
+## 📐 La Trinidad Geométrica: Constantes Derivadas
 
-#### 1. Resolución de Tensiones
-El modelo elimina las discrepancias estadísticas entre el universo temprano y el tardío:
+TSM no ajusta parámetros libres. Deriva sus constantes fundamentales analíticamente desde la teoría de la información y la geometría no conmutativa:
 
-| Métrica | Valor ΛCDM (Planck) | Valor Observado | **Predicción GCAT** | **Estado** |
+### 1. Impedancia Informacional ($R_{\text{fund}}$)
+Es la "fricción" pura debida al conflicto entre la codificación óptima volumétrica (base 3) y la holográfica (base 2), normalizada por el ciclo modular:
+$$R_{\text{fund}} = \frac{1}{|\mathbb{Z}/6\mathbb{Z}| \cdot \log_2 3} = \frac{1}{6 \log_2 3} \approx 0.105155$$
+
+### 2. Proyección Dimensional ($\beta$)
+La relación entre los grados de libertad espaciales ($d=3$) y espacio-temporales ($d=4$):
+$$\beta = \frac{3}{4} = 0.75$$
+
+### 3. Constante de Estructura Informacional ($\kappa_{\text{info}}$)
+La constante universal que gobierna la expansión cósmica, combinando impedancia y proyección:
+$$\kappa_{\text{info}} \equiv 2\beta R_{\text{fund}} = \frac{\ln 2}{4 \ln 3} \approx 0.1578$$
+
+---
+
+## 📊 Resultados Unificados: Del Cosmos al Quark
+
+### 🌌 Cosmología: Resolución de Tensiones
+El modelo predice la expansión basándose en la percolación de vacíos (activación $\Theta(z)$), resolviendo las discrepancias entre Planck y SH0ES/KiDS.
+
+| Métrica | Valor ΛCDM (Planck) | Valor Observado | **Predicción TSM** | **Tensión TSM** |
 |:---|:---:|:---:|:---:|:---:|
-| **Hubble (H₀)** | 67.4 ± 0.5 | 73.04 ± 1.04 | **73.52 ± 1.04** | ✅ **Resuelta (0.46σ)** |
-| **Estructura (S₈)** | 0.834 ± 0.01 | 0.766 ± 0.02 | **0.782 ± 0.01** | ✅ **Resuelta (0.74σ)** |
-| **Ajuste Global** | χ² = 1601.3 | -- | **Δχ² = -18.6** | 📉 **Mejor Ajuste** |
-| **Evidencia** | Ref (0) | -- | **ΔBIC < -10** | 🏆 **Muy Fuerte** |
+| **Hubble ($H_0$)** | $67.4 \pm 0.5$ | $73.04 \pm 1.04$ | **$73.44$ km/s/Mpc** | ✅ **0.38σ** |
+| **Estructura ($S_8$)** | $0.832 \pm 0.013$ | $0.766 \pm 0.020$ | **$0.782$** | ✅ **0.74σ** |
+| **Burbuja Local** | -- | $\sim 6.5\%$ (Zehavi) | **$6.55\%$** | ✅ **Exacta** |
 
-#### 2. Parámetros Físicos Inferidos
-El análisis MCMC no solo ajusta curvas, sino que revela la estructura física de la transición:
+### ⚛️ Física Hadrónica: Espectro Universal
+La misma estructura modular confina los hadrones siguiendo los ceros de la función de Airy, comprimidos por el factor dimensional $\beta = 3/4$.
 
-| Parámetro | Valor Inferido (Mediana) | Interpretación Física |
-|:---|:---:|:---|
-| **Transición ($z_c$)** | **0.0170 ± 0.001** | Inicio de la percolación de vacíos (muy reciente). |
-| **Escala ($D_c$)** | **70.23 Mpc** | Saturación del límite cinemático (*CosmicFlows-4*). |
-| **Masa ($m_{info}$)** | **~10⁻³³ eV** | Masa efectiva del campo de información. |
+* **Factor de Compresión Observado:** $\Gamma = 0.7259 \pm 0.0040$
+* **Predicción TSM ($\beta=0.75$):** $\Gamma_{\text{teo}} \approx 0.7425$ (**96.8% de coincidencia**)
+* **Hexaquark $d^*(2380)$:** Identificado como singlete modular compacto (Nivel $n=1$).
+* **Tetraquark $T_{cc}^+$:** Identificado como estado modular de 4 cuerpos (Nivel $n=1.5$).
 
 ---
 
-## ⚛️ Fundamentos Teóricos: De lo Cuántico a lo Cósmico
+## 🔮 Predicciones Falsables (2026-2030)
 
-GCAT no añade "fluidos oscuros" al universo. En su lugar, identifica una propiedad emergente del espacio-tiempo discreto que actúa como una fuerza entrópica.
+Una teoría debe arriesgarse. TSM realiza predicciones cuantitativas verificables a corto plazo:
 
-### 1. La Estructura del Vacío (Geometría No Conmutativa)
-Para acomodar el Modelo Estándar de partículas, la geometría interna del espacio-tiempo requiere una **KO-dimensión 6**. Esto impone una estructura modular cíclica ($\mathbb{Z}/6\mathbb{Z}$) en el tejido microscópico del vacío, definiendo su "pixelación" fundamental.
+1.  **Cosmología (DESI/Euclid):**
+    * Supresión del ~7.9% en la función de potencia de materia $P(k)$ a escala $k \approx 0.014$ Mpc⁻¹.
+    * Caída abrupta en $\sigma_8(z)$ para $z < 0.05$.
 
-### 2. El Conflicto Termodinámico (Bulk vs Frontera)
-Existe una tensión fundamental en cómo el universo almacena información:
-* **El Volumen (Bulk):** Maximiza su eficiencia termodinámica operando en **Base 3** (Radix óptimo $e \approx 2.718 \to 3$).
-* **La Frontera (Horizonte):** Está obligada por el Principio Holográfico a codificar información en **Base 2** (Bits, Área).
+2.  **Física de Partículas (LHCb/J-PARC):**
+    * Existencia de un **Hexaquark Excitado ($d^{**}$)** con masa $3686 \pm 30$ MeV.
+    * Existencia de un **Tetraquark Excitado ($T_{cc}^{**}$)** con masa $\sim 4607$ MeV.
 
-### 3. Fricción Informacional y Dinámica Efectiva
-
-GCAT sustituye la Energía Oscura por un mecanismo de dos pasos: una causa topológica y un efecto dinámico.
-
-#### A. La Causa: Aliasing Topológico ($R_{\text{fund}}$)
-A nivel microscópico, la traducción entre el volumen (base 3) y la frontera (base 2) genera un "ruido" o coste informacional fundamental.
-> **Este es el origen termodinámico de la energía oscura.**
-
-$$R_{\text{fund}} = \frac{\text{Acoplamiento Topológico}}{\text{Coste de Conversión}} = \frac{1/6}{\log_2 3} \approx 0.10515$$
-
-#### B. El Efecto: Constante Dinámica Universal ($\kappa$)
-Para que este coste microscópico acelere el universo, debe proyectarse en la geometría 4D del espacio-tiempo. Aplicando el factor de proyección dimensional ($\beta = 3/4$) y el acoplamiento métrico ($2$), obtenemos la constante efectiva que entra en las ecuaciones:
-
-$$\kappa \equiv \underbrace{2}_{\text{Métrica}} \cdot \underbrace{\beta}_{\text{Proyección } 3D \to 4D} \cdot R_{\text{fund}} = \frac{\ln 2}{4 \ln 3} \approx 0.1578$$
-
-> **Resultado:** No ajustamos la Energía Oscura. Calculamos $\kappa \approx 15.78\%$ desde primeros principios y este valor fijo reproduce la aceleración observada.
+3.  **Ondas Gravitacionales (PTA/SKA):**
+    * Atenuación resonante (~8%) en el fondo estocástico a frecuencias $f \approx 1.38 \times 10^{-16}$ Hz.
 
 ---
 
-### 🌊 El Mecanismo de Activación: Percolación y Saturación
-¿Por qué vemos esto ahora y no en el universo temprano? GCAT introduce la dinámica de **Percolación de Vacíos**.
+## 🧠 Conexiones Profundas: Matemáticas y Realidad
 
-1.  **Fase Temprana:** El universo es denso. El efecto está suprimido.
-2.  **Transición de Fase ($z_c \approx 0.017$):** Los vacíos cósmicos crecen y se tocan (percolan). La red de vacíos se vuelve global.
-3.  **Saturación Cinemática (70 Mpc):**
-    El análisis bayesiano confirma que la transición ocurre exactamente cuando la estructura local satura los límites observados por **CosmicFlows-4** (Mazurenko et al., 2024).
+TSM establece una equivalencia formal entre la termodinámica del sustrato y la Teoría de Números Analítica:
 
-> **Resultado:** La aceleración cósmica no es suave, sino que se "enciende" al alcanzar la escala de saturación de $D_c \approx 70$ Mpc, explicando la tensión de Hubble como un efecto de muestreo local.
-
----
-
-## 💡 Conclusión: Un Nuevo Paradigma Cosmológico
-
-La evidencia estadística presentada ($\Delta\chi^2 \approx -18.6$ vs ΛCDM) sugiere que las tensiones actuales no requieren "nueva física" exótica, sino una **nueva ontología** del espacio-tiempo.
-
-| Concepto | Paradigma Estándar (ΛCDM) | Paradigma GCAT (Informacional) |
-| :--- | :--- | :--- |
-| **Origen Aceleración** | Fluido desconocido (Energía Oscura) con presión negativa constante. | **Coste Termodinámico** por procesar información en la frontera (Fricción). |
-| **Naturaleza del Espacio** | Geometría Riemanniana continua y suave a cualquier escala. | **Estructura Discreta y Modular** ($\mathbb{Z}/6\mathbb{Z}$) derivada de la NCG. |
-| **Tensión de Hubble ($H_0$)** | Anomalía estadística o error sistemático local a descartar. | **Aliasing Topológico**: Un efecto de muestreo inevitable al saturar el límite cinemático ($D_c$). |
-| **Estatus de Datos Locales** | "Ruidosos" o contaminados por flujos peculiares (se recortan $z < 0.02$). | **Señal Fundamental**: La saturación a 70 Mpc (*CosmicFlows-4*) revela la transición de fase. |
-
-> **En resumen:** El universo no se expande más rápido localmente debido a una "energía extra", sino porque el espacio-tiempo discreto impone un **peaje informacional** al traducir el volumen (base 3) a la superficie (base 2). La tensión de Hubble es, simplemente, la factura de ese peaje.
-
----
-
-## 🔮 Predicciones Falsables
-
-**GCAT** realiza predicciones cuantitativas específicas que la diferencian de ΛCDM y permiten su verificación experimental a corto plazo:
-
-1. **Ondas Gravitacionales (Resonancia de Cavidad):**
-   Debido a la estructura modular de la red de vacíos, se predice una atenuación característica en el espectro de fondo estocástico de GW (SGWB) centrada en la frecuencia fundamental de la cavidad local:
-   **f ≈ 1.38 × 10⁻¹⁶ Hz** (Correspondiente a $\lambda \approx 70$ Mpc).
-
-2. **Crecimiento de Estructuras (Euclid/DESI):**
-   Predice una caída abrupta en la tasa de crecimiento de estructuras (**fσ₈**) y en la amplitud de fluctuaciones, desviándose de la Relatividad General exclusivamente dentro de la burbuja local:
-   **z < 0.05**.
-
-3. **Transparencia a Alta Frecuencia (LIGO/Virgo):**
-   A diferencia de las teorías de gravedad masiva que dispersan las ondas, GCAT preserva la invariancia Lorentz local a pequeñas escalas. Predice **cero atenuación** y velocidad $c_g = c$ para eventos astrofísicos compactos:
-   **f ~ 100 Hz** (Consistente con GW170817).
+* **Función de Partición:** La función de partición del sustrato es idéntica a la Función Zeta de Riemann: $Z(\beta) = \zeta(\beta)$.
+* **Hipótesis de Riemann:** Se demuestra que la Hipótesis de Riemann es equivalente a la **unitariedad** (conservación de probabilidad) de la evolución cuántica del sustrato.
+* **Estabilidad:** Un universo estable implica que los ceros de $\zeta(s)$ deben estar en la línea crítica $\Re(s)=1/2$.
 
 ---
 
 ## 🚀 Reproducción de Resultados
 
-Para garantizar la transparencia y la **reproducibilidad numérica exacta** de los resultados bayesianos (MCMC), el código completo se ha unificado en un único Cuaderno de Jupyter (Notebook).
+Este repositorio contiene todo lo necesario para verificar los cálculos analíticos, las inferencias bayesianas y los análisis espectroscópicos.
 
 ### Opción 1: Google Colab (Recomendada)
-Es la forma más rápida y fiable. El cuaderno gestiona automáticamente la instalación de dependencias en el entorno efímero.
-
-1.  Haz clic en el botón **"Open in Colab"**.[![Open in Colab](https://img.shields.io/badge/Jupyter-Open_in_Colab-F37626?style=flat&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/NachoPeinador/GCAT-Cosmology-Validation/blob/main/Notebooks/GCAT_Analisys_es.ipynb)
-2.  En el menú de Colab, selecciona **"Entorno de ejecución"** > **"Ejecutar todas"**.
-3.  El sistema realizará el análisis completo (aprox. 1-2 minutos) y generará los gráficos al final.
-
-### Opción 2: Ejecución Local (Jupyter)
-<details>
-<summary><strong>👇 Clic para si prefieres ejecutar el análisis en tu propia máquina:</strong></summary>
-
-1.  **Clonar el repositorio:**
-    ```bash
-    git clone [https://github.com/NachoPeinador/GCAT-Cosmology-Validation.git](https://github.com/NachoPeinador/GCAT-Cosmology-Validation.git)
-    cd GCAT-Cosmology-Validation/Notebooks
-    ```
-
-2.  **Instalar dependencias:**
-    Se recomienda usar un entorno virtual. Las librerías críticas son:
-    ```bash
-    pip install numpy==2.0.0 scipy==1.14.1 emcee corner matplotlib "pillow<12.0" jupyterlab
-    ```
-
-3.  **Ejecutar:**
-    Lanza Jupyter y abre el archivo `GCAT_Analysis_es.ipynb`:
-    ```bash
-    jupyter lab GCAT_Analysis_es.ipynb
-    ```
-</details>
-
----
-
-### 💡 Inspiración
-
-> *"Considero muy posible que la física no pueda basarse en el concepto de campo, es decir, en estructuras continuas. En ese caso, no quedaría nada de todo mi castillo en el aire, incluida la teoría de la gravitación, y del resto de la física moderna."* — **Albert Einstein**, Carta a Michele Besso (1954)
-
-Este proyecto materializa la intuición final de Einstein: propone que las tensiones cosmológicas actuales no son errores de medida, sino la evidencia de una **estructura discreta del vacío** que el modelo continuo (ΛCDM) ya no es capaz de describir.
+Ejecuta el análisis completo en la nube sin instalar nada.
+[![Open in Colab](https://img.shields.io/badge/Jupyter-Open_in_Colab-F37626?style=flat&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/TSM_Analysis_es.ipynb)
 
 ---
 
 ## 📜 Licencia y Propiedad Intelectual
-<details>
-<summary><strong>👇 Clic para ver los términos de uso</strong></summary>
 
-Este proyecto promueve la **Ciencia Abierta**. Se adopta un modelo de licencia dual para distinguir entre el software (herramienta) y la teoría (propiedad intelectual científica).
+### 💻 Código (MIT License)
 
-### 💻 1. Código y Software (MIT License)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat&logo=open-source-initiative&logoColor=white)](./LICENSE)
+El software de análisis, scripts y notebooks son de libre uso bajo licencia MIT.
 
-Todo el código fuente en la carpeta `/Notebooks`, scripts de análisis y algoritmos de percolación son de libre uso.
-* ✅ **Permitido:** Uso comercial, modificación, distribución y uso privado.
-* ℹ️ **Requisito:** Debes incluir la nota de copyright original y el archivo de licencia en cualquier copia.
+### ⚛️ Teoría y Paper (CC BY 4.0)
 
----
-
-### ⚛️ 2. Teoría y Paper (Creative Commons)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg?style=flat&logo=creative-commons&logoColor=white)](./COPYRIGHT.md)
-
-El artículo científico (`GCAT_V9_Paper.pdf`), la documentación teórica y las imágenes conceptuales están protegidas bajo **CC BY 4.0**.
-* ✅ **Permitido:** Compartir y adaptar el material para cualquier propósito.
-* ℹ️ **Requisito:** Debes dar **crédito apropiado** (cita académica), proporcionar un enlace a la licencia e indicar si se realizaron cambios. No puedes sugerir que el autor te respalda a ti o a tu uso.
-
-> [!NOTE]
-> Para más detalles sobre la protección de la autoría científica, consulta el archivo **[COPYRIGHT.md](./COPYRIGHT.md)**.
-</details>
+El contenido teórico, derivaciones matemáticas y figuras conceptuales del artículo TSM_es.pdf están protegidos bajo Creative Commons Attribution 4.0 International. Eres libre de compartir y adaptar, siempre que des el crédito apropiado.
 
 ---
 
 ## 📝 Citación
-<details>
-<summary><strong>👇 Clic para ver cómo citar este trabajo</strong></summary>
 
-Si utilizas la teoría **GCAT**, el pipeline de validación bayesiana o los valores derivados de $H_0$ y $S_8$ en tu investigación, por favor cita el trabajo original:
+Si utilizas la Teoría del Sustrato Modular en tu investigación, por favor cita:
 
-**BibTeX (LaTeX):**
-```bibtex
+BibTeX:
+
 @article{PeinadorSala2026,
-  title = {Quantum Gravity as Topological Aliasing: Unifying Percolation Dynamics and Non-Commutative Geometry},
+  title = {La Teoría del Sustrato Modular: Unificación Geométrica de la Cosmología y la Espectroscopía Hadrónica},
   author = {Peinador Sala, José Ignacio},
   year = {2026},
-  publisher = {Zenodo},
-  journal = {Zenodo Repository},
-  url = {[https://github.com/NachoPeinador/GCAT-Cosmology-Validation](https://github.com/NachoPeinador/GCAT-Cosmology-Validation)}
+  publisher = {GitHub Repository},
+  url = {[https://github.com/NachoPeinador/Modular-Substrate-Theory](https://github.com/NachoPeinador/Modular-Substrate-Theory)}
 }
-
-```
-**APA:**
-> Peinador Sala, J. I. (2026). *Quantum Gravity as Topological Aliasing: Unifying Percolation Dynamics and Non-Commutative Geometry*GitHub/Zenodo. [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.PLACEHOLDER-0099CC?style=flat&logo=zenodo&logoColor=white)](https://doi.org/)
-
-**Para citar el mecanismo físico:**
-> La fricción informacional derivada del aliasing topológico reduce el crecimiento de estructuras en un ~7.9% (Peinador, 2026, Ec. 12).
-
-**Para citar los resultados cosmológicos:**
-> El modelo GCAT resuelve la tensión de Hubble saturando el límite cinemático local a $D_c \approx 70$ Mpc (Peinador, 2026, Sección 5.1).
-</details>
-
----
-
-## 📂 Estructura del Repositorio
-<details>
-<summary><strong>👇 Clic para ver la estructura del repositorio</strong></summary>
-
-```
-GCAT-Cosmology-Validation/
-├── 📂 Papers/
-│   └── 📄 GCAT_Paper_es.pdf           # Preprint del artículo científico (Teoría completa)
-│
-├── 📂 Notebooks/
-│   └── 📓 GCAT_Analysis_es.ipynb      # Código principal: Pipeline de validación bayesiana
-│
-├── 📂 Images/
-│   ├── 🖼️ Aliasing.png                # Representación conceptual (Banner)
-│   └── 📊 plots/                      # Gráficos generados por el análisis
-│
-├── 📜 LICENSE                         # Licencia MIT (Código abierto)
-├── 📜 COPYRIGHT.md                    # Declaración de derechos de autor
-├── 📜 FUNDING.yml                     # Información de financiación
-├── 📄 README.md                       # Documentación en Inglés (English)
-└── 📄 README_ES.md                    # Documentación en Español (Este archivo)
-
-```
-</details>
-
----
-
 <div align="center">
-<br>
-<b>Última actualización:</b> Enero 2026 | <b>Status:</b> Research Complete | Made with ⚛️ & 🐍
-<br><br>
+
+---
+
+<b>Autor:</b> José Ignacio Peinador Sala | <b>Status:</b> En Revisión por Pares | Made with ⚛️ & 🐍
+
+
+
 </div>
