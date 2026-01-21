@@ -117,7 +117,7 @@ El contenido teórico, derivaciones matemáticas y figuras conceptuales del art�
 Si utilizas la Teoría del Sustrato Modular en tu investigación, por favor cita:
 
 BibTeX:
-
+```
 @article{PeinadorSala2026,
   title = {La Teoría del Sustrato Modular: Unificación Geométrica de la Cosmología y la Espectroscopía Hadrónica},
   author = {Peinador Sala, José Ignacio},
@@ -126,6 +126,7 @@ BibTeX:
   url = {[https://github.com/NachoPeinador/Modular-Substrate-Theory](https://github.com/NachoPeinador/Modular-Substrate-Theory)}
 }
 <div align="center">
+```
 
 ---
 
