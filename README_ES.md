@@ -48,7 +48,7 @@ $$\kappa_{\text{info}} \equiv 2\beta R_{\text{fund}} = \frac{\ln 2}{4 \ln 3} \ap
 ## 📊 Resultados Unificados: Del Cosmos al Quark
 
 ### 🌌 Cosmología: Resolución de Tensiones
-El modelo predice la expansión basándose en la percolación de vacíos (activación $\Theta(z)$), resolviendo las discrepancias entre Planck y SH0ES/KiDS.
+El modelo predice la expansión basándose en la percolación de vacíos (activación Θ(z)), resolviendo las discrepancias entre Planck y SH0ES/KiDS.
 
 | Métrica | Valor ΛCDM (Planck) | Valor Observado | **Predicción TSM** | **Tensión TSM** |
 |:---|:---:|:---:|:---:|:---:|
