@@ -99,7 +99,7 @@ TSM deriva **analíticamente** (sin ajuste a datos) tres constantes geométricas
 2. **Clasificación de hadrones exóticos:**
    - $d^*(2380)$: Singlete modular hexaquark (radio ~0.7 fm, compacto)
    - $T_{cc}^+(3875)$: Tetraquark modular (confirmado por LHCb 2025)
-   - $d^{**}$ predicho: $3619 \pm 40$ MeV (*coincide con $\Xi_{cc}^{++}$: $3621.40$ MeV*)
+   - $d^{**}$ predicho: $3619 \pm 40$ MeV (coincide con $\Xi_{cc}^{++}$: $3621.40$ MeV)
 
 3. **Regla de confinamiento modular:**
    $$ \sum_{i=1}^N r_i \equiv 0 \pmod{6} $$
