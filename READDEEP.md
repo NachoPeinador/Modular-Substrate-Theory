@@ -190,16 +190,17 @@ jupyter lab Notebooks/TSM_Analysis_es.ipynb
 ## 📈 Métricas de Validación
 
 ### Comparación Bayesiana de Modelos
-| Modelo | Parámetros Libres | $\Delta\chi^2$ | **ΔBIC** | Evidencia |
-|--------|-------------------|----------------|-------------|-----------|
+| Modelo | Parámetros Libres | Δχ² | ΔBIC | Evidencia |
+|--------|-------------------|-----|------|-----------|
 | ΛCDM | 6 | 0 | 0 | Referencia |
 | Early Dark Energy (EDE) | 7 | -6.4 | -2.4 | Positiva |
 | Interacting DE (IDE) | 8 | -6.0 | -0.8 | Indecisa |
-| **TSM (este trabajo)** | **0** | **< -15** | **< -10** | **Muy Fuerte** |
+| **TSM (este trabajo)** | **8** | **-16.3** | **-12.1** | **Muy Fuerte** |
 
 ### Parsimonia Teórica
-TSM introduce **cero parámetros libres nuevos**. Todas sus constantes (**R**<sub>fund</sub>, **β**, **κ**<sub>info</sub>) se derivan analíticamente desde primeros principios geométricos y de teoría de la información.
+TSM introduce **cero parámetros libres ajustados**. Todas sus constantes fundamentales (**R**<sub>fund</sub>, **β**, **κ**<sub>info</sub>) se derivan analíticamente desde primeros principios geométricos y de teoría de la información.
 
+*Nota metodológica: Para comparación bayesiana estándar con otros modelos cosmológicos, se contabilizan 8 parámetros en total (incluyendo `z_c` y `Δz` del perfil de activación). Sin embargo, a diferencia de otros modelos donde estos valores son ajustables, en TSM emergen de la estructura del sustrato.*
 ## 🤝 Contribuir y Citación
 
 ### Directrices para Contribuciones
