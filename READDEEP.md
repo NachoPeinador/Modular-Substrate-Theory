@@ -214,10 +214,10 @@ jupyter lab Notebooks/TSM_Analysis_es.ipynb
 ### Comparación Bayesiana de Modelos
 | Modelo | Parámetros Libres | $\Delta\chi^2$ | $\Delta$BIC | Evidencia |
 |--------|-------------------|----------------|-------------|-----------|
-| $\Lambda$CDM | 6 | 0 | 0 | Referencia |
+| ΛCDM | 6 | 0 | 0 | Referencia |
 | Early Dark Energy (EDE) | 7 | -6.4 | -2.4 | Positiva |
 | Interacting DE (IDE) | 8 | -6.0 | -0.8 | Indecisa |
-| **TSM (este trabajo)** | **8** | **< -15** | **< -10** | **Muy Fuerte** |
+| **TSM (este trabajo)** | **0** | **< -15** | **< -10** | **Muy Fuerte** |
 
 ### Parsimonia Teórica
 TSM introduce **cero parámetros libres nuevos**. Todas sus constantes ($\Rfactor$, $\beta$, $\Kinfo$) se derivan analíticamente desde primeros principios geométricos y de teoría de la información.
