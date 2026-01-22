@@ -198,7 +198,7 @@ jupyter lab Notebooks/TSM_Analysis_es.ipynb
 | **TSM (este trabajo)** | **0** | **< -15** | **< -10** | **Muy Fuerte** |
 
 ### Parsimonia Teórica
-TSM introduce **cero parámetros libres nuevos**. Todas sus constantes $\Rfactor$, $\beta$, $\Kinfo$ se derivan analíticamente desde primeros principios geométricos y de teoría de la información.
+TSM introduce **cero parámetros libres nuevos**. Todas sus constantes (**R**<sub>fund</sub>, **β**, **κ**<sub>info</sub>) se derivan analíticamente desde primeros principios geométricos y de teoría de la información.
 
 ## 🤝 Contribuir y Citación
 
