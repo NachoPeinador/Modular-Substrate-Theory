@@ -41,7 +41,7 @@ Esta estructura no es meramente matemática: es el **sustrato computacional** so
 
 TSM deriva **analíticamente** (sin ajuste a datos) tres constantes geométricas:
 
-<table align="center">
+<table align="left">
 <tr>
 <th>Constante</th>
 <th>Expresión Analítica</th>
