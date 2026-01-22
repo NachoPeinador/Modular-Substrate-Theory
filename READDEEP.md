@@ -14,7 +14,7 @@
 <p align="center">
   <img src="/Images/tsm_unification_schematic.png" alt="Unificación de escalas en TSM" width="90%">
   <br>
-  <em>Figura 1: La misma estructura $\mathbb{Z}/6\mathbb{Z}$ gobierna fenómenos a lo largo de 60 órdenes de magnitud.</em>
+  <em>Figura 1: La misma estructura ℤ/6ℤ gobierna fenómenos a lo largo de 60 órdenes de magnitud.</em>
 </p>
 
 ---
@@ -86,7 +86,7 @@ TSM deriva **analíticamente** (sin ajuste a datos) tres constantes geométricas
 <p align="center">
   <img src="/Images/confinamiento_unificado.png" alt="Mapa Unificado de Confinamiento" width="85%">
   <br>
-  <em>Figura 2: Estados hadrónicos convencionales y exóticos se alinean en la misma serie espectral de Airy comprimida por $\beta=3/4$.</em>
+  <em>Figura 2: Estados hadrónicos convencionales y exóticos se alinean en la misma serie espectral de Airy comprimida por β = 3/4.</em>
 </p>
 
 #### Validación Experimental (2024-2025):
