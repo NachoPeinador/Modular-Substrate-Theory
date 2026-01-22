@@ -102,7 +102,7 @@ TSM deriva **analíticamente** (sin ajuste a datos) tres constantes geométricas
    - $d^{**}$ predicho: $3619 \pm 40$ MeV (coincide con $\Xi_{cc}^{++}$: $3621.40$ MeV)
 
 3. **Regla de confinamiento modular:**
-   ∑ᵢ₌₁ᴺ rᵢ ≡ 0 (mod 6)
+   - ∑ᵢ₌₁ᴺ rᵢ ≡ 0 (mod 6)   
    Análoga al confinamiento de color SU(3) pero fundamentada en aritmética modular.
 
 ## 🧠 Conexiones Profundas con Matemáticas Fundamentales
