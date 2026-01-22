@@ -41,34 +41,12 @@ Esta estructura no es meramente matemática: es el **sustrato computacional** so
 
 TSM deriva **analíticamente** (sin ajuste a datos) tres constantes geométricas:
 
-<table align="left">
-<tr>
-<th>Constante</th>
-<th>Expresión Analítica</th>
-<th>Valor Numérico</th>
-<th>Origen Físico</th>
-</tr>
-<tr>
-<td><b>Impedancia</b> $\Rfactor$</td>
-<td>$\displaystyle \frac{1}{6\log_2 3}$</td>
-<td>$0.10515501$</td>
-<td>KO-dimensión 6 + economía de radix</td>
-</tr>
-<tr>
-<td><b>Proyección</b> $\beta$</td>
-<td>$\displaystyle \frac{3}{4}$</td>
-<td>$0.75$</td>
-<td>Razón dimensión espacial/espacio-temporal</td>
-</tr>
-<tr>
-<td><b>Acoplamiento</b> $\Kinfo$</td>
-<td>$\displaystyle \frac{\ln 2}{4\ln 3}$</td>
-<td>$0.157772$</td>
-<td>Eficiencia de canal informacional</td>
-</tr>
-</table>
+| Constante | Expresión Analítica | Valor Numérico | Origen Físico |
+|-----------|-------------------|----------------|---------------|
+| **Impedancia** R_fund | 1/(6·log₂3) | 0.10515501 | KO-dimensión 6 + economía de radix |
+| **Proyección** β | 3/4 | 0.75 | Razón dimensión espacial/espacio-temporal |
+| **Acoplamiento** κ_info | ln(2)/(4·ln(3)) | 0.157772 | Eficiencia de canal informacional |
 
----
 
 ## 📊 Resultados: Validación Observacional Multiescala
 
