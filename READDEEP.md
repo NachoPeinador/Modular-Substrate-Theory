@@ -72,7 +72,7 @@ TSM deriva **analíticamente** (sin ajuste a datos) tres constantes geométricas
 
 ### 🌌 Resolución Simultánea de Tensiones Cosmológicas
 
-| Parámetro | $\Lambda$CDM (Planck) | Observación (SH0ES/KiDS) | **Predicción TSM** | **Tensión Residual** |
+| Parámetro | ΛCDM (Planck) | Observación (SH0ES/KiDS) | **Predicción TSM** | **Tensión Residual** |
 |-----------|----------------------|--------------------------|-------------------|---------------------|
 | $H_0$ (km/s/Mpc) | $67.4 \pm 0.5$ | $73.04 \pm 1.04$ | **$73.52 \pm 1.04$** | **$0.46\sigma$** |
 | $S_8$ | $0.832 \pm 0.013$ | $0.766 \pm 0.020$ | **$0.782 \pm 0.014$** | **$0.74\sigma$** |
