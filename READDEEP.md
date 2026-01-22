@@ -214,7 +214,7 @@ jupyter lab Notebooks/TSM_Analysis_es.ipynb
 ## 📈 Métricas de Validación
 
 ### Comparación Bayesiana de Modelos
-| Modelo | Parámetros Libres | $\Delta\chi^2$ | $\Delta$BIC | Evidencia |
+| Modelo | Parámetros Libres | $\Delta\chi^2$ | **ΔBIC** | Evidencia |
 |--------|-------------------|----------------|-------------|-----------|
 | ΛCDM | 6 | 0 | 0 | Referencia |
 | Early Dark Energy (EDE) | 7 | -6.4 | -2.4 | Positiva |
