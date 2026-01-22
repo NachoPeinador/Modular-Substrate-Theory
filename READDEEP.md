@@ -116,7 +116,7 @@ TSM establece una identidad formal entre termodinámica cuántica y teoría anal
 Z(\beta) = \mathrm{Tr}(e^{-\beta \hat{H}_0}) = \zeta(\beta) \quad \text{para } \Re(\beta) > 1
 ```
 
-donde <img src="https://latex.codecogs.com/svg.latex?\hat{H}_0%20=%20\sum_{p\in\mathbb{P}}%20(\ln%20p)%20\hat{a}_p^\dagger%20\hat{a}_p" alt="Ĥ₀ = Σ_p (ln p) a_p† a_p" width="60"/> es el Hamiltoniano modular sobre los números primos.
+donde <img src="https://latex.codecogs.com/svg.latex?\hat{H}_0%20=%20\sum_{p\in\mathbb{P}}%20(\ln%20p)%20\hat{a}_p^\dagger%20\hat{a}_p" alt="Ĥ₀ = Σ_p (ln p) a_p† a_p" width="100"/> es el Hamiltoniano modular sobre los números primos.
 
 ### La Hipótesis de Riemann como Condición Física
 
