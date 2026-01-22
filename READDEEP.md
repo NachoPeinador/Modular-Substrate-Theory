@@ -25,7 +25,7 @@ La física contemporánea enfrenta anomalías observacionales decisivas que desa
 
 | Dominio | Anomalía | Significancia | Modelo Estándar |
 |---------|----------|---------------|-----------------|
-| **Cosmología** | Tensión de Hubble ($H_0$) | $5.0\sigma$ | $\Lambda$CDM (Planck vs SH0ES) |
+| **Cosmología** | Tensión de Hubble ($H_0$) | $5.0\sigma$ | ΛCDM (Planck vs SH0ES) |
 | **Estructura Cósmica** | Tensión $S_8$ | $2.5\sigma$ | Crecimiento de estructuras |
 | **Física de Partículas** | Hadrones exóticos ($d^*, T_{cc}^+$) | $\sim 4\sigma$ | Taxonomía del Modelo Estándar |
 
