@@ -103,13 +103,9 @@ donde <img src="https://latex.codecogs.com/svg.latex?\hat{H}_0%20=%20\sum_{p\in\
 
 **Teorema (TSM):** La Hipótesis de Riemann es equivalente a la unitariedad (conservación de probabilidad) de la evolución cuántica del sustrato.
 
-```math
+**HR verdadera ⇔ Estabilidad del vacío cuántico**
 
-\text{HR verdadera} \Longleftrightarrow \text{Estabilidad del vacío cuántico}
-
-```
-
-La observación de un universo estable durante $>10^{10}$ años proporciona evidencia empírica indirecta para la validez de la Hipótesis de Riemann.
+La observación de un universo estable durante >10¹⁰ años proporciona evidencia empírica indirecta para la validez de la Hipótesis de Riemann.
 
 ## 🔮 Predicciones Falsables Cuantitativas (2026-2035)
 
