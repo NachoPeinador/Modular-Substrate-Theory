@@ -102,10 +102,10 @@ TSM deriva **analíticamente** (sin ajuste a datos) tres constantes geométricas
    - $d^{**}$ predicho: $3619 \pm 40$ MeV (coincide con $\Xi_{cc}^{++}$: $3621.40$ MeV)
 
 3. **Regla de confinamiento modular:**
-   - $$ \sum_{i=1}^N r_i \equiv 0 \pmod{6} $$
-     
-   Análoga al confinamiento de color SU(3) pero fundamentada en aritmética modular.
-
+   
+   <img src="https://latex.codecogs.com/svg.latex?\sum_{i=1}^N%20r_i%20\equiv%200%20\pmod{6}" alt="∑ r_i ≡ 0 mod 6" width="150"/>
+   
+   *Análoga al confinamiento de color SU(3) pero fundamentada en aritmética modular.*
 ## 🧠 Conexiones Profundas con Matemáticas Fundamentales
 
 ### La Correspondencia Zeta
