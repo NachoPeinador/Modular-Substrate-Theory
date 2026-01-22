@@ -68,6 +68,8 @@ TSM deriva **analíticamente** (sin ajuste a datos) tres constantes geométricas
 </tr>
 </table>
 
+---
+
 ## 📊 Resultados: Validación Observacional Multiescala
 
 ### 🌌 Resolución Simultánea de Tensiones Cosmológicas
