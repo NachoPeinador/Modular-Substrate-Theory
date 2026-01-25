@@ -1,7 +1,7 @@
 # 🌌 Teoría del Sustrato Modular (TSM)
 ## Unificación Geométrica de la Cosmología y la Espectroscopía Hadrónica
 
-### *Una teoría fundamental basada en la estructura $\mathbb{Z}/6\mathbb{Z}$ que deriva las constantes del universo desde primeros principios*
+### *Una teoría fundamental basada en la estructura ℤ/6ℤ que deriva las constantes del universo desde primeros principios*
 
 [![License: MIT](https://img.shields.io/badge/Code-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![License: CC BY 4.0](https://img.shields.io/badge/Theory-CC_BY_4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
