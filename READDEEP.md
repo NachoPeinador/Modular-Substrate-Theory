@@ -33,7 +33,7 @@ Estas tensiones no son errores sistemáticos. Son **grietas estructurales** en n
 
 ## 🔬 La Propuesta Revolucionaria
 
-La **Teoría del Sustrato Modular (TSM)** propone que el espacio-tiempo tiene una estructura algebraica discreta fundamental: $\mathbb{Z}/6\mathbb{Z}$, emergente de la **KO-dimensión 6** requerida por la Geometría No Conmutativa para la consistencia del Modelo Estándar con la gravedad.
+La **Teoría del Sustrato Modular (TSM)** propone que el espacio-tiempo tiene una estructura algebraica discreta fundamental: ℤ/6ℤ, emergente de la **KO-dimensión 6** requerida por la Geometría No Conmutativa para la consistencia del Modelo Estándar con la gravedad.
 
 Esta estructura no es meramente matemática: es el **sustrato computacional** sobre el cual se ejecuta la realidad física. El universo es un sistema de procesamiento de información cuántica cuya eficiencia está limitada termodinámicamente.
 
