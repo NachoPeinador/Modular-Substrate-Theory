@@ -34,11 +34,12 @@ If you use the GCAT theory, the provided code, or the derived datasets in your r
 
 **BibTeX:**
 ```bibtex
-@article{PeinadorSala2026,
-  title = {Quantum Gravity as Topological Aliasing: Unifying Percolation Dynamics and Non-Commutative Geometry},
-  author = {Peinador Sala, José Ignacio},
+@article{PeinadorSala2026MST,
+  title = {Modular Substrate Theory: Geometric Unification of Cosmology and Hadronic Spectroscopy from First Principles},
+  author = {Peinador Sala, Jos{\'e} Ignacio},
   year = {2026},
-  publisher = {Zenodo},
   journal = {GitHub Repository},
-  url = {[https://github.com/NachoPeinador/GCAT-Cosmology-Validation](https://github.com/NachoPeinador/GCAT-Cosmology-Validation)}
+  url = {https://github.com/NachoPeinador/Modular-Substrate-Theory},
+  doi = {10.5281/zenodo.XXXXXXX},
+  note = {Version 1.0.0}
 }
