@@ -137,7 +137,7 @@ Todo el análisis computacional es transparente y reproducible. Ejecuta los cál
 | **🧮 Matemáticas** | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/Harmonic_primes.ipynb) | • Resonancia espectral en gaps de primos<br>• Validación de armónicos $m \cdot R_{\text{fund}}$ |
 
 <details>
-<summary><strong>### 👇 Clic para ver la arquitectura del Repositorio</strong></summary>
+<summary><strong>👇 Clic para ver la arquitectura del Repositorio</strong></summary>
 ### Arquitectura del Repositorio
 ```
 Modular-Substrate-Theory/
