@@ -2,7 +2,9 @@
 
 **Project:** GCAT - Quantum Gravity as Topological Aliasing
 **Author:** José Ignacio Peinador Sala
-**Repository:** [https://github.com/NachoPeinador/GCAT-Cosmology-Validation](https://github.com/NachoPeinador/GCAT-Cosmology-Validation)
+**Repository:** [https://github.com/NachoPeinador/
+Modular-Substrate-Theory](https://github.com/NachoPeinador/
+Modular-Substrate-Theory)
 
 ---
 
