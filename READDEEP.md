@@ -3,12 +3,11 @@
 
 ### *Una teoría fundamental basada en la estructura ℤ/6ℤ que deriva las constantes del universo desde primeros principios*
 
-[![License: MIT](https://img.shields.io/badge/Code-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![License: CC BY 4.0](https://img.shields.io/badge/Theory-CC_BY_4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Read in English](https://img.shields.io/badge/Lang-Read%20in%20English-blue?style=flat&logoColor=white&color=012169)](https://github.com/NachoPeinador/Modular-Substrate-Theory/blob/main/README.md)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![arXiv](https://img.shields.io/badge/arXiv-coming_soon-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NachoPeinador/Modular-Substrate-Theory/main?labpath=Notebooks%2FTSM_Demo.ipynb)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--1822--3452-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-1822-3452) [![X](https://img.shields.io/badge/X-%40todos__lumpen-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/todos_lumpen)
+[![Papers](https://img.shields.io/badge/Paper-Leer_PDF-B31B1B?style=flat&logo=latex&logoColor=white)](https://github.com/NachoPeinador/NachoPeinador/Modular-Substrate-Theory/blob/main/Papers/TSM_paper.pdf)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/TSM_Analysis_es.ipynb)
 
 <p align="center">
