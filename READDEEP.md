@@ -137,55 +137,29 @@ Modular-Substrate-Theory/
 │   ├── TSM_en.pdf                   # Main paper (English)
 │   └── Supplementary_Material.pdf   # Material suplementario
 ├── Notebooks/                       # Análisis interactivo
-│   ├── TSM_Analysis_es.ipynb        # Análisis completo (ES)
-│   ├── TSM_Cosmology.ipynb          # Validación cosmológica
-│   ├── TSM_Hadronic_Spectra.ipynb   # Espectroscopía hadrónica
-│   └── TSM_Number_Theory.ipynb      # Conexiones con teoría de números
-├── src/                             # Código fuente Python
-│   ├── tsm/                         # Paquete TSM
-│   │   ├── cosmology.py             # Cálculos cosmológicos
-│   │   ├── hadronic.py              # Espectros hadrónicos
-│   │   ├── numerics.py              # Utilidades numéricas
-│   │   └── inference.py             # Inferencia bayesiana
-│   └── scripts/                     # Scripts de análisis
-├── data/                            # Datos observacionales
-│   ├── cosmology/                   # Datos cosmológicos
-│   ├── hadronic/                    # Datos hadrónicos (PDG)
-│   └── processed/                   # Datos procesados
-├── tests/                           # Tests unitarios
-└── environment.yml                  # Entorno reproducible
+│   ├── TSM_Cosmologia.ipynb         # Validación cosmológica
+│   ├── TSM_Hadronica.ipynb          # Validación hadrónica
+│   └── Harmonic_primes.ipynb    # Validación matemática
+├── images/                          # Gráficas e imágenes generadas en los experimentos.
+├── funding.yml                 
+├── LICENSE
+├── COPYRIGHT.md
+└── README.md
 ```
 
 ### Ejecución Rápida
 
-#### Opción 1: Google Colab (Recomendado para exploración)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/TSM_Analysis_es.ipynb)
+#### Validación cosmológica
 
-#### Opción 2: Entorno Local
-```bash
-# 1. Clonar repositorio
-git clone https://github.com/NachoPeinador/Modular-Substrate-Theory.git
-cd Modular-Substrate-Theory
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/TSM_Cosmologia.ipynb)
 
-# 2. Crear entorno conda (recomendado)
-conda env create -f environment.yml
-conda activate tsm
+#### Validación hadrónica
 
-# 3. Ejecutar validación completa
-python src/scripts/run_full_validation.py
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/TSM_Hadronica.ipynb)
 
-# 4. Explorar notebooks interactivos
-jupyter lab Notebooks/TSM_Analysis_es.ipynb
-```
+#### Validación matemática
 
-#### Opción 3: Binder (Sin instalación)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NachoPeinador/Modular-Substrate-Theory/main?labpath=Notebooks%2FTSM_Demo.ipynb)
-
-### Dependencias Clave
-- **Python 3.10+** con NumPy, SciPy, Matplotlib
-- **emcee 3.1+** para inferencia bayesiana MCMC
-- **Astropy 5.3+** para cálculos cosmológicos
-- **Jupyter Lab** para análisis interactivo
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/Harmonic_primes.ipynb)
 
 ## 📈 Métricas de Validación
 
@@ -210,14 +184,14 @@ TSM introduce **cero parámetros libres ajustados**. Todas sus constantes fundam
 
 ### Citar este Trabajo
 ```bibtex
-@article{PeinadorSala2026TSM,
-  title = {La Teoría del Sustrato Modular: Unificación Geométrica de la Cosmología y la Espectroscopía Hadrónica desde Primeros Principios},
+@article{PeinadorSala2026MST,
+  title = {Modular Substrate Theory: Geometric Unification of Cosmology and Hadronic Spectroscopy from First Principles},
   author = {Peinador Sala, Jos{\'e} Ignacio},
   year = {2026},
   journal = {GitHub Repository},
   url = {https://github.com/NachoPeinador/Modular-Substrate-Theory},
   doi = {10.5281/zenodo.XXXXXXX},
-  note = {Versión 1.0.0}
+  note = {Version 1.0.0}
 }
 ```
 
