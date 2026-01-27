@@ -212,13 +212,9 @@ Investigador Independiente
 
 > *"No desprecies a nadie; un átomo hace sombra."* > — **Pitágoras de Samos**
 
-<div align="center">
-
-*Última actualización: Enero 2026 • Versión 1.0.0 • Estado: En revisión por pares*
-
-[![Star History Chart](https://api.star-history.com/svg?repos=NachoPeinador/Modular-Substrate-Theory&type=Date)](https://star-history.com/#NachoPeinador/Modular-Substrate-Theory&Date)
-
-</div>
-```
-
 ---
+<div align="center">
+<br>
+<b>Last Update:</b> Enero 2026 | <b>Status:</b> Research Complete | Made with ⚛️ & 🐍
+<br><br>
+</div>
