@@ -210,10 +210,9 @@ Investigador Independiente
 
 ---
 
-<div align="center">
-
 > *"No desprecies a nadie; un átomo hace sombra."* > — **Pitágoras de Samos**
 
+<div align="center">
 
 *Última actualización: Enero 2026 • Versión 1.0.0 • Estado: En revisión por pares*
 
