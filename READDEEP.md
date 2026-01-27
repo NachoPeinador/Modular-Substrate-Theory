@@ -211,8 +211,9 @@ Investigador Independiente
 ---
 
 <div align="center">
-  
-**🌐 "Las matemáticas no son meramente el lenguaje de la física; son su arquitectura fundamental."**
+
+> *"No desprecies a nadie; un átomo hace sombra."* > — **Pitágoras de Samos**
+
 
 *Última actualización: Enero 2026 • Versión 1.0.0 • Estado: En revisión por pares*
 
