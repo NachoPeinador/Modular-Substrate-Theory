@@ -133,14 +133,15 @@ La observación de un universo estable durante >10¹⁰ años proporciona eviden
 ```
 Modular-Substrate-Theory/
 ├── Papers/                          # Documentación académica
-│   ├── TSM_es.pdf                   # Artículo principal (Español)
-│   ├── TSM_en.pdf                   # Main paper (English)
-│   └── Supplementary_Material.pdf   # Material suplementario
+│   ├── TSM.tex                      # Artículo principal en Latex (Español)
+│   └── TSM_paper.pdf                # Artículo principal en pdf (Español)
+│   
 ├── Notebooks/                       # Análisis interactivo
 │   ├── TSM_Cosmologia.ipynb         # Validación cosmológica
 │   ├── TSM_Hadronica.ipynb          # Validación hadrónica
-│   └── Harmonic_primes.ipynb    # Validación matemática
+│   └── Harmonic_primes.ipynb        # Validación matemática
 ├── images/                          # Gráficas e imágenes generadas en los experimentos.
+│
 ├── funding.yml                 
 ├── LICENSE
 ├── COPYRIGHT.md
