@@ -8,8 +8,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--1822--3452-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-1822-3452) [![X](https://img.shields.io/badge/X-%40todos__lumpen-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/todos_lumpen)
 [![Papers](https://img.shields.io/badge/Paper-Leer_PDF-B31B1B?style=flat&logo=latex&logoColor=white)](https://github.com/NachoPeinador/NachoPeinador/Modular-Substrate-Theory/blob/main/Papers/TSM_paper.pdf)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/TSM_Analysis_es.ipynb)
-
 <p align="center">
   <img src="/Images/tsm_unification_schematic.png" alt="Unificación de escalas en TSM" width="90%">
   <br>
