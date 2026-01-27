@@ -96,7 +96,7 @@ Z(\beta) = \mathrm{Tr}(e^{-\beta \hat{H}_0}) = \zeta(\beta) \quad \text{for } \R
 
 ```
 
-where <img src="https://latex.codecogs.com/svg.latex?\hat{H}*0%20=%20\sum*{p\in\mathbb{P}}%20(\ln%20p)%20\hat{a}_p^\dagger%20\hat{a}_p" alt="Ĥ₀ = Σ_p (ln p) a_p† a_p" width="120"/> is the modular Hamiltonian over prime numbers.
+where <img src="https://latex.codecogs.com/svg.latex?\hat{H}_0%20=%20\sum_{p\in\mathbb{P}}%20(\ln%20p)%20\hat{a}_p^\dagger%20\hat{a}_p" alt="Ĥ₀ = Σ_p (ln p) a_p† a_p" width="120"/> is the modular Hamiltonian over prime numbers.
 
 ### The Riemann Hypothesis as a Physical Condition
 
