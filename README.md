@@ -119,15 +119,15 @@ The observation of a stable universe for >10¹⁰ years provides indirect empiri
 ### Hadron Physics
 
 | State | Predicted Mass (MeV) | Experiment | Time Window |
-| --- | --- | --- | --- |
-| Hexaquark  |  | J-PARC, NICA, EIC | 2027-2032 |
-| Tetraquark  |  | LHCb Run 4+, Belle II | 2026-2030 |
-| Modular Pentaquark |  | LHCb, GlueX | 2028-2035 |
+|--------|---------------------|-------------|------------------|
+| Hexaquark $d^{**}$ | $3619 \pm 40$ | J-PARC, NICA, EIC | 2027-2032 |
+| Tetraquark $T_{cc}^{**}$ | $\sim 4607$ | LHCb Run 4+, Belle II | 2026-2030 |
+| Pentaquark modular | $\sim 4405$ | LHCb, GlueX | 2028-2035 |
 
 ### Mathematics and Computation
 
-* **Gap Distribution Between Primes:** Peaks at  ()
-* **Quantized Quantum Coherence Times:** 
+* **Gap Distribution Between Primes:** Peaks at $g_{\text{peak}} = m \times 0.105155$ ($m=1,2,3,4$)
+* **Quantized Quantum Coherence Times:** $T_2 = n \times \frac{\hbar}{k_B T} \times \frac{1}{6\log_2 3}$
 
 ## 🛠️ Scientific Reproducibility
 
