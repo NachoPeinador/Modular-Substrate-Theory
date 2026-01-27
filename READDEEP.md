@@ -135,6 +135,9 @@ Todo el análisis computacional es transparente y reproducible. Ejecuta los cál
 | **🌌 Cosmología** | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/TSM_Cosmologia.ipynb) | • Resolución Tensión $H_0$ (73.52 km/s/Mpc)<br>• Cálculo de $S_8$ y Burbuja Local |
 | **⚛️ Hadrones** | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/TSM_Hadronica.ipynb) | • Masa del Hexaquark $d^{**}$ (3619 MeV)<br>• Factor de compresión $\Gamma \approx 0.726$ |
 | **🧮 Matemáticas** | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/Harmonic_primes.ipynb) | • Resonancia espectral en gaps de primos<br>• Validación de armónicos $m \cdot R_{\text{fund}}$ |
+
+<details>
+<summary><strong>### 👇 Clic para ver la arquitectura del Repositorio</strong></summary>
 ### Arquitectura del Repositorio
 ```
 Modular-Substrate-Theory/
@@ -153,7 +156,7 @@ Modular-Substrate-Theory/
 ├── COPYRIGHT.md
 └── README.md
 ```
-
+<\details>
 
 ## 📈 Métricas de Validación
 
