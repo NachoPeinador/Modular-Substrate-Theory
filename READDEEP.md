@@ -156,7 +156,7 @@ Modular-Substrate-Theory/
 ├── COPYRIGHT.md
 └── README.md
 ```
-<\details>
+</details>
 
 ## 📈 Métricas de Validación
 
