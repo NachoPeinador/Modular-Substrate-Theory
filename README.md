@@ -135,15 +135,9 @@ All computational analysis is transparent and reproducible. Run calculations dir
 
 | Domain | Notebook | Key Calculations / Validations |
 | --- | --- | --- |
-| **🌌 Cosmology** | [](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/TSM_Cosmologia.ipynb) | •  Tension Resolution (73.52 km/s/Mpc)<br>
-
-<br>•  Calculation & Local Bubble |
-| **⚛️ Hadrons** | [](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/TSM_Hadronica.ipynb) | • Hexaquark  Mass (3619 MeV)<br>
-
-<br>• Compression Factor  |
-| **🧮 Mathematics** | [](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/Harmonic_primes.ipynb) | • Spectral Resonance in Prime Gaps<br>
-
-<br>• Validation of  Harmonics |
+| **🌌 Cosmology** | [ [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/TSM_Cosmologia.ipynb) | •  Tension Resolution (73.52 km/s/Mpc)<br>•  Calculation & Local Bubble |
+| **⚛️ Hadrons** | [ [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/TSM_Hadronica.ipynb) | • Hexaquark  Mass $d^{**}$ (3619 MeV)<br>• Compression Factor $\Gamma \approx 0.726$ |
+| **🧮 Mathematics** | [ [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/Harmonic_primes.ipynb) | • Spectral Resonance in Prime Gaps<br>• Validation of Harmonics $m \cdot R_{\text{fund}}$ |
 
 <details>
 <summary><strong>👇 Click to view Repository Architecture</strong></summary>
