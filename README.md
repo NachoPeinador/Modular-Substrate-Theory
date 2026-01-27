@@ -7,7 +7,7 @@
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--1822--3452-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-1822-3452) [![X](https://img.shields.io/badge/X-%40todos__lumpen-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/todos_lumpen)
-[![Papers](https://img.shields.io/badge/Paper-Read_PDF-B31B1B?style=flat&logo=latex&logoColor=white)](https://github.com/NachoPeinador/Modular-Substrate-Theory/blob/main/Papers/TSM_paper.pdf)
+[![Papers](https://img.shields.io/badge/Paper-Read_PDF-B31B1B?style=flat&logo=latex&logoColor=white)](https://github.com/NachoPeinador/Modular-Substrate-Theory/blob/main/Papers/MST_paper.pdf)
 
 <p align="center">
   <img src="/Images/tsm_unification_schematic.png" alt="MST Scale Unification" width="90%">
@@ -135,8 +135,8 @@ All computational analysis is transparent and reproducible. Run calculations dir
 
 | Domain | Notebook | Key Calculations / Validations |
 | --- | --- | --- |
-| **🌌 Cosmology** | [ [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/TSM_Cosmologia.ipynb) | •  Tension Resolution (73.52 km/s/Mpc)<br>•  Calculation & Local Bubble |
-| **⚛️ Hadrons** | [ [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/TSM_Hadronica.ipynb) | • Hexaquark  Mass $d^{**}$ (3619 MeV)<br>• Compression Factor $\Gamma \approx 0.726$ |
+| **🌌 Cosmology** | [ [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/MST_Cosmology.ipynb) | •  Tension Resolution (73.52 km/s/Mpc)<br>•  Calculation & Local Bubble |
+| **⚛️ Hadrons** | [ [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/MST_Hadronic.ipynb) | • Hexaquark  Mass $d^{**}$ (3619 MeV)<br>• Compression Factor $\Gamma \approx 0.726$ |
 | **🧮 Mathematics** | [ [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]](https://colab.research.google.com/github/NachoPeinador/Modular-Substrate-Theory/blob/main/Notebooks/Harmonic_primes.ipynb) | • Spectral Resonance in Prime Gaps<br>• Validation of Harmonics $m \cdot R_{\text{fund}}$ |
 
 <details>
