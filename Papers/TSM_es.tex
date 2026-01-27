@@ -1476,10 +1476,13 @@ Mientras que EDE e IDE introducen \textit{nueva física} con parámetros ajustab
 
 La superioridad de TSM se cuantifica rigurosamente mediante el Criterio de Información Bayesiano (BIC), que penaliza modelos con más parámetros. Como muestra la Tabla \ref{tab:comparativa_completa}, TSM obtiene $\Delta\text{BIC} < -10$ frente a $\Lambda$CDM, lo que constituye evidencia ``muy fuerte'' según la escala de Jeffreys \cite{Kass1995}.
 
+% Asegúrate de tener \usepackage{tabularx} en el preámbulo
+
 \begin{table}[H]
 \centering
 \caption{Comparación de modelos frente a tensiones observacionales (2025)}
 \label{tab:comparativa_completa}
+\resizebox{\textwidth}{!}{% <--- AJUSTAR AL ANCHO DE PÁGINA
 \small
 \begin{tabular}{lcccc}
 \toprule
@@ -1493,7 +1496,8 @@ Modelo KBC (vacío gigante) & $\sim 2$ & (Ajustable) & -- & \textbf{No} (Refutad
 \rowcolor{blue!10}
 \textbf{TSM (este trabajo)} & \textbf{0 (todos derivados)} & $\mathbf{0.46\sigma}$ (\textbf{Resuelto}) & $\mathbf{0.74\sigma}$ (\textbf{Resuelto}) & \textbf{Sí (satura límite)} \\
 \bottomrule
-\end{tabular}
+\end{tabular}%
+} % <--- FIN DEL AJUSTE
 \end{table}
 
 El contraste es claro: mientras otros modelos introducen parámetros libres que resuelven una tensión a costa de exacerbar otra o violar restricciones independientes, TSM \textbf{deriva sus constantes desde principios geométricos} ($\Rfactor$, $\beta$, $\Kinfo$) y resuelve simultáneamente todas las anomalías. Esta parsimonia extrema, unida a su poder predictivo a través de escalas, es el sello distintivo de una teoría fundamental, no de un modelo efectivo ajustado.
