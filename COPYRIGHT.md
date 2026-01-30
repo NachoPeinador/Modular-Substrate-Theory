@@ -22,7 +22,7 @@ All software, scripts, and algorithmic implementations (specifically contents wi
 * **Full Text:** [See LICENSE](./LICENSE)
 
 ### B. Scientific Paper, Documentation, and Visuals
-The academic paper (`Papers/GCAT_Paper-en.pdf`), the README documentation, and the conceptual images (e.g., `Images/Aliasing.png`) are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+The academic paper (`Papers/MST_en.pdf`), the README documentation, and the conceptual images (e.g., `Images/Spectrum_primes.png`) are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
 * **You are free to:** Share, copy, and redistribute the material in any medium or format.
 * **Under the following terms:** You must give **appropriate credit**, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
@@ -30,7 +30,7 @@ The academic paper (`Papers/GCAT_Paper-en.pdf`), the README documentation, and t
 
 ## 3. Citation Requirement
 
-If you use the GCAT theory, the provided code, or the derived datasets in your research or public projects, **attribution is required**. Please cite the work as follows:
+If you use the MST theory, the provided code, or the derived datasets in your research or public projects, **attribution is required**. Please cite the work as follows:
 
 **BibTeX:**
 ```bibtex
