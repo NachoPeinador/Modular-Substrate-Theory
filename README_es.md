@@ -44,6 +44,19 @@ TSM deriva **analíticamente** (sin ajuste a datos) tres constantes geométricas
 | **Proyección** β | 3/4 | 0.75 | Razón dimensión espacial/espacio-temporal |
 | **Acoplamiento** κ_info | ln(2)/(4·ln(3)) | 0.157772 | Eficiencia de canal informacional |
 
+### 🧩 La Derivación de Alpha (Precisión: $10^{-14}$)
+
+El poder analítico de la TSM se ejemplifica mejor con su derivación de la Constante de Estructura Fina ($\alpha$). Utilizando la misma impedancia $R_{\text{fund}}$ y principios de proyección geométrica, la TSM predice $\alpha^{-1}$ con una precisión que iguala y supera los límites metrológicos actuales.
+
+> **$\alpha^{-1} = 137.035\,999\,206(0)$** (Predicción Teórica)  
+> *vs CODATA 2022: $137.035\,999\,206(11)$*
+
+Esta derivación cuenta con su propio repositorio dedicado, enfocado en la **aritmética de alta precisión (100 dígitos)** y la **Geometría de la Información** detrás de la constante de acoplamiento.
+
+[![Repo Alpha](https://img.shields.io/badge/Repositorio-Arithmetic__Vacuum__Alpha-blue?style=for-the-badge&logo=github)](https://github.com/NachoPeinador/Arithmetic-Vacuum-Alpha)
+
+*Explora allí la derivación específica, el código Python para precisión arbitraria y el marco de los "Tres Órdenes de Alpha".*
+
 
 ## 📊 Resultados: Validación Observacional Multiescala
 
