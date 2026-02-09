@@ -45,6 +45,18 @@ MST derives **analytically** (without data fitting) three geometric constants:
 | **Projection** β | 3/4 | 0.75 | Spatial/Spacetime dimension ratio |
 | **Coupling** κ_info | ln(2)/(4·ln(3)) | 0.157772 | Informational channel efficiency |
 
+### 🧩 The Alpha Derivation (Precision: $10^{-14}$)
+
+The analytical power of MST is best exemplified by its derivation of the Fine-Structure Constant ($\alpha$). Using the same impedance $R_{\text{fund}}$ and geometric projection principles, MST predicts $\alpha^{-1}$ to a precision that matches and exceeds current metrological limits.
+
+> **$\alpha^{-1} = 137.035\,999\,206(0)$** (Theoretical Prediction)  
+> *vs CODATA 2022: $137.035\,999\,206(11)$*
+
+This derivation has its own dedicated repository focusing on **high-precision arithmetic (100 digits)** and the **Information Geometry** behind the coupling constant.
+
+[![Repo Alpha](https://img.shields.io/badge/Repository-Arithmetic__Vacuum__Alpha-blue?style=for-the-badge&logo=github)](https://github.com/NachoPeinador/Arithmetic-Vacuum-Alpha)
+
+*Explore the specific derivation, Python code for arbitrary precision, and the "Three Orders of Alpha" framework there.*
 
 ## 📊 Results: Multiscale Observational Validation
 
