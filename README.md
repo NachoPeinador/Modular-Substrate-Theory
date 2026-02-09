@@ -248,7 +248,3 @@ Independent Researcher
 
 
 </div>
-
-```
-
-```
