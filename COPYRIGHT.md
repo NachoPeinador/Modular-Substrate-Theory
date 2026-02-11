@@ -40,6 +40,6 @@ If you use the MST theory, the provided code, or the derived datasets in your re
   year = {2026},
   journal = {GitHub Repository},
   url = {https://github.com/NachoPeinador/Modular-Substrate-Theory},
-  doi = {10.5281/zenodo.XXXXXXX},
+  doi = {10.5281/zenodo.18609093},
   note = {Version 1.0.0}
 }
