@@ -9,13 +9,8 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--1822--3452-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-1822-3452) [![X](https://img.shields.io/badge/X-%40todos__lumpen-000000?style=flat&logo=x&logoColor=white)](https://twitter.com/todos_lumpen)
 [![Papers](https://img.shields.io/badge/Paper-Read_PDF-B31B1B?style=flat&logo=latex&logoColor=white)](https://github.com/NachoPeinador/Modular-Substrate-Theory/blob/main/Papers/MST_paper.pdf)
 [![Audio Guide](https://img.shields.io/badge/Audio%20Guide-Listen%20Now-blueviolet?style=flat&logo=google-podcasts)](./Audio/Cosmic_Friction_Solves_the_Hubble_Tension.mp3)
+[![Audio Guide](https://img.shields.io/badge/Audio%20Guide-Listen%20Now-blueviolet?style=flat&logo=google-podcasts)](https://github.com/NachoPeinador/Modular-Substrate-Theory/blob/main/Audio/Cosmic_Friction_Solves_the_Hubble_Tension.mp3?raw=true)
 
-<p align="center">
-  <img src="/Images/tsm_unification_schematic.png" alt="MST Scale Unification" width="90%">[Uploading Cosmic_Friction_Solves_the_Hubble_Tension.mp3…]()
-
-  <br>
-  <em>Figure 1: The same ℤ/6ℤ structure governs phenomena across 60 orders of magnitude.</em>
-</p>
 
 ---
 
