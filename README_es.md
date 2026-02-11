@@ -196,9 +196,9 @@ TSM introduce **cero parámetros libres ajustados**. Todas sus constantes fundam
   title = {Modular Substrate Theory: Geometric Unification of Cosmology and Hadronic Spectroscopy from First Principles},
   author = {Peinador Sala, Jos{\'e} Ignacio},
   year = {2026},
-  journal = {GitHub Repository},
-  url = {https://github.com/NachoPeinador/Modular-Substrate-Theory},
-  doi = {10.5281/zenodo.XXXXXXX},
+  journal = {Zenodo},
+  url = {[https://github.com/NachoPeinador/Modular-Substrate-Theory](https://github.com/NachoPeinador/Modular-Substrate-Theory)},
+  doi = {10.5281/zenodo.18609093},
   note = {Version 1.0.0}
 }
 ```
