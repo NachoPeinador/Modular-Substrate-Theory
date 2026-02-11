@@ -11,7 +11,8 @@
 [![Audio Guide](https://img.shields.io/badge/Audio%20Guide-Listen%20Now-blueviolet?style=flat&logo=google-podcasts)](./Audio/Cosmic_Friction_Solves_the_Hubble_Tension.mp3)
 
 <p align="center">
-  <img src="/Images/tsm_unification_schematic.png" alt="MST Scale Unification" width="90%">
+  <img src="/Images/tsm_unification_schematic.png" alt="MST Scale Unification" width="90%">[Uploading Cosmic_Friction_Solves_the_Hubble_Tension.mp3…]()
+
   <br>
   <em>Figure 1: The same ℤ/6ℤ structure governs phenomena across 60 orders of magnitude.</em>
 </p>
