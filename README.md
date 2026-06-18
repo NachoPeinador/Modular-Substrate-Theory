@@ -34,7 +34,7 @@ MST derives its key cosmological parameters **analytically from first principles
 | Constant | Analytical Expression | Numerical Value | Physical Origin |
 |-----------|-------------------|----------------|---------------|
 | **Vacuum Impedance** $R_{\text{fund}}$ | $\ln 2/(6\ln 3)$ | $0.105155$ | Gauge topology and holographic bound |
-| **Projection Factor** $\beta$ | $3/4$ | $0.75$ | AdS$_5$/CFT$_4$ dimensional ratio |
+| **Projection Factor** $\beta$ | $3/4$ | $0.75$ | AdS<sub>5</sub>/CFT<sub>4</sub> dimensional ratio |
 
 ## 📊 Results: Simultaneous Tension Resolution
 
