@@ -1,7 +1,7 @@
 # 🌌 Modular Substrate Theory (MST)
 ## Resolving the Hubble and $S_8$ Tensions via Informational Friction
 
-### *A cosmological framework based on the discrete $\mathbb{Z}_6^{(1)}$ vacuum symmetry that derives the informational impedance of the universe from first principles.*
+### *A cosmological framework based on the discrete ℤ₆⁽¹⁾ vacuum symmetry that derives the informational impedance of the universe from first principles.*
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18609092.svg)](https://doi.org/10.5281/zenodo.18609092)
