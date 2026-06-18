@@ -12,11 +12,11 @@
 
 ## 🚨 The Cosmological Crisis
 
-Contemporary cosmology faces decisive observational anomalies that challenge the established $\Lambda$CDM theoretical framework:
+Contemporary cosmology faces decisive observational anomalies that challenge the established ΛCDM theoretical framework:
 
 | Domain | Anomaly | Significance | Standard Model Assumption |
 |---------|----------|---------------|-----------------|
-| **Expansion Rate** | Hubble Tension ($H_0$) | $\sim 5.0\sigma$ | Flat $\Lambda$CDM (Planck vs SH0ES) |
+| **Expansion Rate** | Hubble Tension ($H_0$) | $\sim 5.0\sigma$ | Flat ΛCDM (Planck vs SH0ES) |
 | **Cosmic Structure** | $S_8$ Tension | $\sim 2.5\sigma$ | Scale-independent structure growth |
 
 These tensions are increasingly recognized not as mere systematic errors, but as **structural cracks** in our fundamental understanding of spacetime at late cosmic epochs.
