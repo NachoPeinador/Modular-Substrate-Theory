@@ -68,7 +68,7 @@ MST is a highly predictive theory. Upcoming next-generation surveys will test th
 | Interacting DE (IDE) | 8 | -6.0 | -1.8 | Weak |
 | **MST (this work)** | **8** | **-16.3** | **-12.1** | **Very Strong** |
 
-*Note: MST achieves decisive statistical superiority ($\Delta\text{BIC} = -12.1$) without adjusting fundamental constants to fit the data. The percolation parameters emerge naturally constrained by FSS and peculiar velocity catalogs.*
+*Note: MST achieves decisive statistical superiority (ΔBIC = -12.1$) without adjusting fundamental constants to fit the data. The percolation parameters emerge naturally constrained by FSS and peculiar velocity catalogs.*
 
 ## 🛠️ Scientific Reproducibility & Repository Architecture
 
