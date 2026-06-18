@@ -1,6 +1,6 @@
 # Copyright and Licensing Information
 
-**Project:** GCAT - Quantum Gravity as Topological Aliasing
+**Project:** MST 
 **Author:** José Ignacio Peinador Sala
 **Repository:** [https://github.com/NachoPeinador/Modular-Substrate-Theory](https://github.com/NachoPeinador/Modular-Substrate-Theory)
 
@@ -22,7 +22,7 @@ All software, scripts, and algorithmic implementations (specifically contents wi
 * **Full Text:** [See LICENSE](./LICENSE)
 
 ### B. Scientific Paper, Documentation, and Visuals
-The academic paper (`Papers/TSM_paper.pdf`), the README documentation, and the conceptual images (e.g., `Images/Spectrum_primes.png`) are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+The academic paper (`Papers/MST_Cosmological_Tensions_Resolution.pdf`), the README documentation, and the conceptual images (e.g., `Images/MST_Percolation_Schematic.png`) are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
 * **You are free to:** Share, copy, and redistribute the material in any medium or format.
 * **Under the following terms:** You must give **appropriate credit**, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
@@ -35,11 +35,11 @@ If you use the MST theory, the provided code, or the derived datasets in your re
 **BibTeX:**
 ```bibtex
 @article{PeinadorSala2026MST,
-  title = {Modular Substrate Theory: Geometric Unification of Cosmology and Hadronic Spectroscopy from First Principles},
+  title = {Resolving the Hubble and S8 Tensions via Informational Friction in the Modular Substrate Theory},
   author = {Peinador Sala, Jos{\'e} Ignacio},
   year = {2026},
   journal = {GitHub Repository},
   url = {https://github.com/NachoPeinador/Modular-Substrate-Theory},
-  doi = {10.5281/zenodo.18609093},
-  note = {Version 1.0.0}
+  doi = {10.5281/zenodo.18609092},
+  note = {Version 2.0.0}
 }
