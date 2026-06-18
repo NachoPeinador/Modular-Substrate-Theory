@@ -76,12 +76,12 @@ All computational analysis, Monte Carlo error propagation ($n=20,000$), and tens
 
 ```text
 Modular-Substrate-Theory/
-├── MST_Cosmological_Tensions_Resolution.pdf       # Main Manuscript
-├── MST_Cosmological_Tensions_Resolution.tex       # LaTeX Source Code
-├── MST_Cosmological_Tensions_Analysis.ipynb       # Python Executable Notebook
-├── MST_Cosmological_Tensions_Analysis_Colab.pdf   # Static Notebook Export
-├── MST_Percolation_Schematic.png                  # Conceptual Transition Diagram
-└── Visualizations_of_MST_Dynamics.png             # Data Visualizations
+├── Papers/    MST_Cosmological_Tensions_Resolution.pdf       # Main Manuscript
+├              MST_Cosmological_Tensions_Resolution.tex       # LaTeX Source Code
+├── Notebooks/ MST_Cosmological_Tensions_Analysis.ipynb       # Python Executable Notebook
+├              MST_Cosmological_Tensions_Analysis_Colab.pdf   # Static Notebook Export
+├──Images/     MST_Percolation_Schematic.png                  # Conceptual Transition Diagram
+└              Visualizations_of_MST_Dynamics.png             # Data Visualizations
 
 ```
 
