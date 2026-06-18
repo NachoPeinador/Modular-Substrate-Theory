@@ -27,6 +27,12 @@ The **Modular Substrate Theory (MST)** proposes that the quantum vacuum possesse
 
 This impedance governs a dissipative "informational friction" that modifies the Friedmann expansion equation. Crucially, this friction is geometrically activated by the percolation of cosmic voids in the late universe ($z_c \approx 0.017$), creating a perspective effect where local distance ladders probe an activated universe, while the CMB probes an unactivated one.
 
+<p align="center">
+  <img src="Images/MST_Percolation_Schematic.png" alt="Cosmic Void Percolation Schematic" width="90%">
+  <br>
+  <em>Figure 1: Schematic of the geometric phase transition. The void network percolates at the critical redshift, activating the long-range informational friction in the local universe.</em>
+</p>
+
 ### 📐 Derived Fundamental Constants
 
 MST derives its key cosmological parameters **analytically from first principles**, without empirical data fitting:
@@ -45,6 +51,12 @@ By incorporating the informational friction into the evolution of the universe, 
 | $H_0$ (km/s/Mpc) | $67.4 \pm 0.5$ | $73.04 \pm 1.04$ (SH0ES) | **$73.56 \pm 0.58$** | **$0.44\sigma$** (Resolved) |
 | $S_8$ | $0.832 \pm 0.013$ | $0.766 \pm 0.020$ (KiDS-1000) | **$0.782 \pm 0.012$** | **$0.68\sigma$** (Resolved) |
 | Scale $D_c$ (Mpc) | N/A | $\lesssim 70$ (CosmicFlows-4) | **$70.2 \pm 5.0$** | **Saturates limit** |
+
+<p align="center">
+  <img src="Images/Visualizations_of_MST_Dynamics.png" alt="MST Dynamics and Monte Carlo Distribution" width="100%">
+  <br>
+  <em>Figure 2: (Left) Activation of the informational friction via the FSS sigmoid function. (Right) Monte Carlo distribution of the transition scale smoothly saturating the CF4 upper limit.</em>
+</p>
 
 **Crucial Insight:** MST predicts a dynamic geometric phase transition at $D_c \approx 70.2$ Mpc that **exactly saturates** the upper limit imposed by peculiar velocity kinematic analyses (CosmicFlows-4), strictly distinguishing itself from refuted static giant void models (like the 300 Mpc KBC void).
 
